@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>自動車なんでも相談所（試作版）</title>
+<style>
+  :root { --bg:#0B2644; --panel:#123358; --line:#2A4A73; --text:#EAF1FB; --sub:#9FB6D4; --accent:#F2994A; }
+  * { box-sizing: border-box; }
+  body { margin:0; background:var(--bg); color:var(--text); font-family: 'Hiragino Sans','Noto Sans JP',sans-serif; }
+  header { padding: 24px 20px 16px; border-bottom:1px solid var(--line); }
+  h1 { margin:0 0 4px; font-size: 20px; }
+  .sub { color:var(--sub); font-size: 13px; }
+  .search-wrap { padding: 16px 20px; }
+  input[type=search] { width:100%; max-width:480px; padding:10px 14px; border-radius:8px; border:1px solid var(--line); background:var(--panel); color:var(--text); font-size:15px; }
+  .grid { display:grid; grid-template-columns: repeat(auto-fill, minmax(220px,1fr)); gap:12px; padding: 8px 20px 40px; }
+  .card { background:var(--panel); border:1px solid var(--line); border-radius:10px; padding:14px 16px; text-decoration:none; color:var(--text); transition: border-color .15s; }
+  .card:hover { border-color: var(--accent); }
+  .card .maker { font-size:12px; color:var(--sub); }
+  .card .model { font-size:17px; font-weight:700; margin-top:2px; }
+  .card .count { font-size:12px; color:var(--sub); margin-top:8px; }
+  .empty { padding: 40px 20px; color: var(--sub); }
+</style>
+</head>
+<body>
+<header>
+  <h1>🚗 自動車なんでも相談所（試作版）</h1>
+  <div class="sub">公的データ＋AI要約＋わかりやすいUI ー 全車種データベース（現在: マツダ全車種、計 <span id="count">-</span> グレード）</div>
+</header>
+<div class="search-wrap">
+  <input type="search" id="q" placeholder="車種名・メーカー名で検索（例: CX-5, マツダ）" autocomplete="off">
+</div>
+<div class="grid" id="grid"></div>
+<div class="empty" id="empty" style="display:none">一致する車種が見つかりません。</div>
+
+<script>
+let DATA = null;
+
+fetch('data/cars.json').then(r => r.json()).then(d => {
+  DATA = d;
+  document.getElementById('count').textContent = d.gradeCount;
+  render(d.models);
+});
+
+function render(models) {
+  const grid = document.getElementById('grid');
+  const empty = document.getElementById('empty');
+  grid.innerHTML = '';
+  empty.style.display = models.length ? 'none' : 'block';
+  for (const m of models) {
+    const a = document.createElement('a');
+    a.className = 'card';
+    a.href = 'car.html?slug=' + encodeURIComponent(m.slug);
+    a.innerHTML = `
+      <div class="maker">${escapeHtml(m.maker)}</div>
+      <div class="model">${escapeHtml(m.model)}</div>
+      <div class="count">${m.grades.length}グレード</div>
+    `;
+    grid.appendChild(a);
+  }
+}
+
+document.getElementById('q').addEventListener('input', (e) => {
+  if (!DATA) return;
+  const q = e.target.value.trim().toLowerCase();
+  if (!q) { render(DATA.models); return; }
+  const filtered = DATA.models.filter(m =>
+    m.maker.toLowerCase().includes(q) || m.model.toLowerCase().includes(q)
+  );
+  render(filtered);
+});
+
+function escapeHtml(s) {
+  return String(s).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+}
+</script>
+</body>
+</html>

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>車種ページ（試作版）</title>
+<style>
+  :root { --bg:#0B2644; --panel:#123358; --line:#2A4A73; --text:#EAF1FB; --sub:#9FB6D4; --accent:#F2994A; --warn:#E06666; }
+  * { box-sizing: border-box; }
+  body { margin:0; background:var(--bg); color:var(--text); font-family: 'Hiragino Sans','Noto Sans JP',sans-serif; }
+  header { padding: 20px; border-bottom:1px solid var(--line); }
+  a.back { color: var(--sub); text-decoration:none; font-size:13px; }
+  h1 { margin: 10px 0 2px; font-size: 24px; }
+  .maker { color: var(--sub); font-size: 13px; }
+  main { padding: 20px; max-width: 1000px; margin: 0 auto; }
+  .axes { display:grid; grid-template-columns: repeat(4,1fr); gap:10px; margin-bottom: 24px; }
+  .axis { background:var(--panel); border:1px solid var(--line); border-radius:8px; padding:12px; font-size:12px; color:var(--sub); text-align:center; }
+  .axis .label { display:block; margin-bottom:4px; }
+  .axis .status { color: var(--text); font-weight:600; }
+  table { width:100%; border-collapse: collapse; font-size: 13px; }
+  th, td { border-bottom: 1px solid var(--line); padding: 8px 10px; text-align: left; vertical-align: top; }
+  th { color: var(--sub); font-weight:600; font-size:12px; }
+  .note { color: var(--sub); font-size: 11px; max-width: 260px; }
+  .needcheck { color: var(--warn); font-weight:600; }
+  @media (max-width: 700px) {
+    .axes { grid-template-columns: repeat(2,1fr); }
+    table, thead, tbody, th, td, tr { display:block; }
+    thead { display:none; }
+    tr { border-bottom:1px solid var(--line); padding:10px 0; }
+    td { border:none; padding:3px 0; }
+    td::before { content: attr(data-label) "： "; color: var(--sub); }
+  }
+</style>
+</head>
+<body>
+<header>
+  <a class="back" href="index.html">← 一覧へ戻る</a>
+  <div class="maker" id="maker">-</div>
+  <h1 id="model">読み込み中...</h1>
+</header>
+<main>
+  <div class="axes">
+    <div class="axis"><span class="label">リコール履歴</span><span class="status">未実装</span></div>
+    <div class="axis"><span class="label">安全性能評価(JNCAP)</span><span class="status">未実装</span></div>
+    <div class="axis"><span class="label">維持費試算</span><span class="status">未実装</span></div>
+    <div class="axis"><span class="label">中古相場</span><span class="status">未実装</span></div>
+  </div>
+  <table id="gradeTable">
+    <thead>
+      <tr>
+        <th>グレード</th><th>型式</th><th>駆動</th><th>エンジン</th><th>排気量</th><th>出力</th><th>価格(税込)</th><th>燃費WLTC</th><th>備考</th>
+      </tr>
+    </thead>
+    <tbody id="tbody"></tbody>
+  </table>
+</main>
+<script>
+const params = new URLSearchParams(location.search);
+const slug = params.get('slug');
+
+fetch('data/cars.json').then(r => r.json()).then(d => {
+  const m = d.models.find(x => x.slug === slug);
+  if (!m) {
+    document.getElementById('model').textContent = '車種が見つかりません';
+    return;
+  }
+  document.getElementById('maker').textContent = m.maker;
+  document.getElementById('model').textContent = m.model;
+  document.title = `${m.model}｜${m.maker}｜自動車なんでも相談所`;
+
+  const tbody = document.getElementById('tbody');
+  for (const g of m.grades) {
+    const tr = document.createElement('tr');
+    const typeCls = g.typeCode === '要確認' ? 'needcheck' : '';
+    tr.innerHTML = `
+      <td data-label="グレード">${esc(g.grade)}</td>
+      <td data-label="型式" class="${typeCls}">${esc(g.typeCode)}</td>
+      <td data-label="駆動">${esc(g.drive)}</td>
+      <td data-label="エンジン">${esc(g.engine)}</td>
+      <td data-label="排気量">${esc(g.displacementCc)}cc</td>
+      <td data-label="出力">${esc(g.powerPs)}ps</td>
+      <td data-label="価格">${formatYen(g.priceYen)}</td>
+      <td data-label="燃費">${esc(g.fuelEconomyWltc)}km/L</td>
+      <td data-label="備考" class="note">${esc(g.note)}</td>
+    `;
+    tbody.appendChild(tr);
+  }
+});
+
+function formatYen(v) {
+  const n = Number(v);
+  if (!v || isNaN(n)) return esc(v);
+  return '¥' + n.toLocaleString('ja-JP');
+}
+function esc(s) {
+  return String(s ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+}
+</script>
+</body>
+</html>
