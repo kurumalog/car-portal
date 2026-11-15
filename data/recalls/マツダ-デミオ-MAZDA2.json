@@ -1,0 +1,1316 @@
+{
+  "slug": "マツダ-デミオ-MAZDA2",
+  "maker": "マツダ",
+  "model": "デミオ/MAZDA2",
+  "source": {
+    "name": "国土交通省 自動車不具合情報ホットライン リコール情報検索",
+    "url": "https://renrakuda.mlit.go.jp/renrakuda/recall-search.html",
+    "credit": "出典：国土交通省 自動車不具合情報ホットライン（https://renrakuda.mlit.go.jp/renrakuda/recall-search.html）を加工して作成",
+    "license": "公共データ利用規約（第1.0版）（PDL1.0）"
+  },
+  "retrievedAt": "2026-11-15",
+  "coveredUntil": "2026-09-30",
+  "generations": [
+    {
+      "id": "DJ",
+      "name": "4代目（DJ系・2014年9月〜、2019年9月にMAZDA2へ改名）",
+      "launched": "2014年9月",
+      "current": true,
+      "officialSource": {
+        "title": "マツダ ニュースルーム 系図 DEMIO／ニュースリリース「MAZDA2」の予約受注を開始",
+        "url": "https://newsroom.mazda.com/ja/publicity/release/2019/201907/190718a.html"
+      }
+    },
+    {
+      "id": "DE",
+      "name": "3代目（DE系・2007〜2014年）",
+      "launched": "2007年7月",
+      "current": false,
+      "officialSource": {
+        "title": "マツダ ニュースルーム 系図 DEMIO",
+        "url": "https://newsroom.mazda.com/ja/other/1909/index.html"
+      }
+    },
+    {
+      "id": "DY",
+      "name": "2代目（DY系・2002〜2007年）",
+      "launched": "2002年8月",
+      "current": false,
+      "officialSource": {
+        "title": "マツダ ニュースルーム 系図 DEMIO",
+        "url": "https://newsroom.mazda.com/ja/other/1909/index.html"
+      }
+    },
+    {
+      "id": "DW",
+      "name": "初代（DW系・1996〜2002年）",
+      "launched": "1996年8月",
+      "current": false,
+      "officialSource": {
+        "title": "マツダ ニュースルーム 系図 DEMIO",
+        "url": "https://newsroom.mazda.com/ja/other/1909/index.html"
+      }
+    }
+  ],
+  "recalls": [
+    {
+      "no": "リ国-5436-0",
+      "baseNo": "リ国-5436",
+      "kind": "リコール",
+      "date": "2024-01-26",
+      "startDate": "2024年2月9日",
+      "device": "燃料ポンプ",
+      "situation": "ガソリンエンジン車の低圧燃料ポンプのインペラ（樹脂製羽根車）において、成形条件が不適切なため、樹脂密度が低くなって、燃料により膨潤して変形することがある。そのため、インペラがポンプケースと接触して低圧燃料ポンプが作動不良となり、最悪の場合、走行中エンストに至るおそれがある。",
+      "measures": "全車両、低圧燃料ポンプを対策品に交換する。なお、修理部品の準備に時間を要することから、部品の準備ができ次第、改めて案内する。",
+      "productionPeriod": "2017年6月19日 ～ 2020年5月26日",
+      "units": "146,777台",
+      "generations": [
+        "DJ"
+      ],
+      "targets": [
+        {
+          "typeCode": "DBA-DJ3AS",
+          "chassisRange": "DJ3AS-303178 ～ DJ3AS-502417",
+          "generation": "DJ"
+        },
+        {
+          "typeCode": "DBA-DJ3FS",
+          "chassisRange": "DJ3FS-320675 ～ DJ3FS-517511",
+          "generation": "DJ"
+        },
+        {
+          "typeCode": "CBA-DJLFS",
+          "chassisRange": "DJLFS-300205 ～ DJLFS-500232",
+          "generation": "DJ"
+        },
+        {
+          "typeCode": "6BA-DJLAS",
+          "chassisRange": "DJLAS-101396 ～ DJLAS-200575",
+          "generation": "DJ"
+        },
+        {
+          "typeCode": "6BA-DJLFS",
+          "chassisRange": "DJLFS-607060 ～ DJLFS-700721",
+          "generation": "DJ"
+        },
+        {
+          "typeCode": "3BA-DJLFS",
+          "chassisRange": "DJLFS-700007 ～ DJLFS-700148",
+          "generation": "DJ"
+        }
+      ],
+      "specialVehicle": false,
+      "url": "https://renrakuda.mlit.go.jp/renrakuda/ris-detail-car.html?selCarTp=1&id=3009605"
+    },
+    {
+      "no": "リ国-5043-0",
+      "baseNo": "リ国-5043",
+      "kind": "リコール",
+      "date": "2021-11-12",
+      "startDate": "2021年11月12日",
+      "device": "燃料ポンプ",
+      "situation": "ガソリンエンジン車の低圧燃料ポンプのインペラ（樹脂製羽根車）において、成形条件が不適切なため、樹脂密度が低くなって、燃料により膨潤して変形することがある。そのため、インペラがポンプケースと接触して低圧燃料ポンプが作動不良となり、最悪の場合、走行中エンストに至るおそれがある。",
+      "measures": "全車両、低圧燃料ポンプを対策品に交換する。なお、修理部品の準備に時間を要するため、部品の準備ができ次第、使用者に改めて修理入庫を通知する。",
+      "productionPeriod": "2018年4月 3日 ～ 2019年8月15日",
+      "units": "42,505台",
+      "generations": [
+        "DJ"
+      ],
+      "targets": [
+        {
+          "typeCode": "6BA-DJLAS",
+          "chassisRange": "DJLAS-100002 ～ DJLAS-101395",
+          "generation": "DJ"
+        },
+        {
+          "typeCode": "6BA-DJLFS",
+          "chassisRange": "DJLFS-600004 ～ DJLFS-607059",
+          "generation": "DJ"
+        },
+        {
+          "typeCode": "CBA-DJLFS",
+          "chassisRange": "DJLFS-500095 ～ DJLFS-500165",
+          "generation": "DJ"
+        },
+        {
+          "typeCode": "DBA-DJ3AS",
+          "chassisRange": "DJ3AS-502418 ～ DJ3AS-503552",
+          "generation": "DJ"
+        },
+        {
+          "typeCode": "DBA-DJ3FS",
+          "chassisRange": "DJ3FS-517512 ～ DJ3FS-525726",
+          "generation": "DJ"
+        }
+      ],
+      "specialVehicle": false,
+      "url": "https://renrakuda.mlit.go.jp/renrakuda/ris-detail-car.html?selCarTp=1&id=3005069"
+    },
+    {
+      "no": "改国-0546-0",
+      "baseNo": "改国-0546",
+      "kind": "改善対策",
+      "date": "2018-07-12",
+      "startDate": "2018年7月13日",
+      "device": "パワーステアリング",
+      "situation": "アイドリングストップ（ｉ－Ｓｔｏｐ）仕様車において、電動式パワーステアリング制御用コンピュータのプログラムが不適切なため、アイドリングストップ状態からエンジンが自動で再始動した後に、まれにパワステ機能が作動しないことがあり、ハンドル操作力が増大するおそれがある。",
+      "measures": "全車両、電動式パワーステアリング制御用コンピュータを対策品に交換する。",
+      "productionPeriod": "2012年11月26日 ～ 2012年11月26日",
+      "units": "2台",
+      "generations": [
+        "DE"
+      ],
+      "targets": [
+        {
+          "typeCode": "DBA-DEJFS",
+          "chassisRange": "DEJFS-１47052 ～ DEJFS-147053",
+          "generation": "DE"
+        }
+      ],
+      "specialVehicle": false,
+      "url": "https://renrakuda.mlit.go.jp/renrakuda/ris-detail-car.html?selCarTp=1&id=3008866"
+    },
+    {
+      "no": "リ国-4289-0",
+      "baseNo": "リ国-4289",
+      "kind": "リコール",
+      "date": "2018-07-05",
+      "startDate": "2018年7月6日",
+      "device": "コンピュータ(エンジン)",
+      "deviceOriginal": "コンピュータ(エンジ",
+      "situation": "減速エネルギー回生システム（ｉ－ＥＬＯＯＰ）を搭載した車両において、ＤＣ－ＤＣコンバータの制御プログラムが不適切なため、電気回路が故障した場合にｉ－ＥＬＯＯＰ警告灯点灯およびｉ－ｓｔｏｐ警告灯が点滅するとともに、通電停止のためのバイパスモードが作動するが、プッシュボタンスタートを押して電源ポジションをＯＦＦにした際、解除することがある。そのため、そのまま使用を続けると、ＤＣ－ＤＣコンバータ内部の電気回路がショートし、充電不良となりバッテリが上がり、エンジンが停止するおそれがある。または、最悪の場合、火災に至るおそれがある。",
+      "measures": "全車両、エンジン制御コンピュータを点検し、点検の結果、ＤＣ－ＤＣコンバータに異常がある場合はＤＣ－ＤＣコンバータを新品と交換し、エンジン制御コンピュータを対策プログラムに書き換える。異常がない場合は、ＤＣ－ＤＣコンバータおよびエンジン制御コンピュータを対策プログラムに書き換える。",
+      "productionPeriod": "2014年8月 5日 ～ 2017年4月24日",
+      "units": "15,105台",
+      "generations": [
+        "DJ"
+      ],
+      "targets": [
+        {
+          "typeCode": "LDA-DJ5AS",
+          "chassisRange": "DJ5AS-100012 ～ DJ5AS-301677",
+          "generation": "DJ"
+        },
+        {
+          "typeCode": "LDA-DJ5FS",
+          "chassisRange": "DJ5FS-100032 ～ DJ5FS-307302",
+          "generation": "DJ"
+        }
+      ],
+      "specialVehicle": false,
+      "url": "https://renrakuda.mlit.go.jp/renrakuda/ris-detail-car.html?selCarTp=1&id=3004292"
+    },
+    {
+      "no": "リ国-4290-0",
+      "baseNo": "リ国-4290",
+      "kind": "リコール",
+      "date": "2018-06-28",
+      "startDate": "2018年6月29日",
+      "device": "エアバッグ",
+      "situation": "助手席側エアバッグのインフレータ（ガス発生装置）において、ガス発生剤が湿気のある状態で長期間の温度変化にさらされると劣化することがある。このため、エアバッグ展開時にインフレータ容器が破損して構成部品が飛散し、乗員が負傷するおそれがある。",
+      "measures": "全車両、当該インフレータを対策品と交換する。",
+      "productionPeriod": "2007年5月11日 ～ 2014年10月20日",
+      "units": "77台",
+      "generations": [
+        "DE"
+      ],
+      "targets": [
+        {
+          "typeCode": "DBA-DE3AS",
+          "chassisRange": "DE3AS-250969 ～ DE3AS-250969",
+          "generation": "DE"
+        },
+        {
+          "typeCode": "DBA-DE3FS",
+          "chassisRange": "DE3FS-100038 ～ DE3FS-564713",
+          "generation": "DE"
+        },
+        {
+          "typeCode": "DBA-DE3FS改",
+          "chassisRange": "DE3FS-700014 ～ DE3FS-700124",
+          "generation": "DE"
+        },
+        {
+          "typeCode": "DBA-DE5FS",
+          "chassisRange": "DE5FS-100055 ～ DE5FS-252335",
+          "generation": "DE"
+        },
+        {
+          "typeCode": "DBA-DEJFS",
+          "chassisRange": "DEJFS-100057 ～ DEJFS-158010",
+          "generation": "DE"
+        }
+      ],
+      "specialVehicle": false,
+      "url": "https://renrakuda.mlit.go.jp/renrakuda/ris-detail-car.html?selCarTp=1&id=3004293"
+    },
+    {
+      "no": "リ国-4172-2",
+      "baseNo": "リ国-4172",
+      "kind": "リコール",
+      "date": "2018-02-01",
+      "startDate": "2018年2月2日",
+      "device": "エンジン本体",
+      "situation": "ディーゼルエンジンにおいて、低車速で加減速する走行を繰り返すと、燃焼時に発生する煤の量が増え、インジェクタ噴孔部に堆積し、燃料の噴霧状態が悪化することで、さらに煤の量が増え、排気側バルブガイド周辺に堆積することがある。そのため、排気バルブが動きにくくなり、圧縮低下による加速不良や車体振動が発生するとともに、エンジン警告灯が点灯あるいはグローランプが点滅し、最悪の場合、エンジンが停止するおそれがある。",
+      "measures": "使用者に当該不具合を周知し、エンジン警告灯が点灯あるいはグローランプが点滅した場合は、速やかに点検入庫するよう促す。また、点検入庫した場合には、エンジン制御コンピュータ等を点検し、排気バルブのバルブスプリング、インジェクタを無償で交換するとともに、エンジンおよびＤＰＦ（黒煙除去フィルタ）に堆積した煤を清掃する。",
+      "productionPeriod": "2014年8月 5日 ～ 2017年10月30日",
+      "units": "158,785台",
+      "generations": [
+        "DJ"
+      ],
+      "targets": [
+        {
+          "typeCode": "LDA-DJ5AS",
+          "chassisRange": "DJ5AS-100009 ～ DJ5AS-302568",
+          "generation": "DJ"
+        },
+        {
+          "typeCode": "LDA-DJ5FS",
+          "chassisRange": "DJ5FS-100032 ～ DJ5FS-312015",
+          "generation": "DJ"
+        }
+      ],
+      "specialVehicle": false,
+      "url": "https://renrakuda.mlit.go.jp/renrakuda/ris-detail-car.html?selCarTp=1&id=3004166"
+    },
+    {
+      "no": "リ国-4172-1",
+      "baseNo": "リ国-4172",
+      "kind": "リコール",
+      "date": "2018-02-01",
+      "startDate": "2018年2月2日",
+      "device": "コンピュータ(エンジン)",
+      "deviceOriginal": "コンピュータ(エンジ",
+      "situation": "ディーゼルエンジンにおいて、エンジンの保護制御が不適切なため、無負荷状態でアクセルを全開した際に燃焼異常が発生しても、エンジン保護機能が作動しない。そのため、燃焼異常により燃焼圧力が上昇し、最悪の場合、エンジンが破損するおそれがある。",
+      "measures": "全車両、エンジン制御プログラムを対策プログラムに修正するとともに、エンジンおよびＤＰＦ（黒煙除去フィルタ）に堆積した煤を清掃する。",
+      "productionPeriod": "2014年8月 5日 ～ 2017年10月30日",
+      "units": "158,785台",
+      "generations": [
+        "DJ"
+      ],
+      "targets": [
+        {
+          "typeCode": "LDA-DJ5AS",
+          "chassisRange": "DJ5AS-100009 ～ DJ5AS-302568",
+          "generation": "DJ"
+        },
+        {
+          "typeCode": "LDA-DJ5FS",
+          "chassisRange": "DJ5FS-100032 ～ DJ5FS-312015",
+          "generation": "DJ"
+        }
+      ],
+      "specialVehicle": false,
+      "url": "https://renrakuda.mlit.go.jp/renrakuda/ris-detail-car.html?selCarTp=1&id=3004165"
+    },
+    {
+      "no": "リ国-4027-0",
+      "baseNo": "リ国-4027",
+      "kind": "リコール",
+      "date": "2017-04-13",
+      "startDate": "2017年4月14日",
+      "device": "配線",
+      "situation": "後付け用品のＬＥＤ前部霧灯を取り付けた車両において、取り付ける際に使用するハーネスが不適切なため、右側前照灯もしくは右側車幅灯に電気が流れず、不灯となるおそれがある。",
+      "measures": "全車両、灯火装置を点検し、不灯となる場合は、後付け用品のＬＥＤ前部霧灯取付けハーネスを対策品に交換する。",
+      "productionPeriod": "2016年10月 4日 ～ 2017年2月16日",
+      "units": "97台",
+      "generations": [
+        "DJ"
+      ],
+      "targets": [
+        {
+          "typeCode": "DBA-DJ3AS",
+          "chassisRange": "DJ3AS-300005 ～ DJ3AS-301405",
+          "generation": "DJ"
+        },
+        {
+          "typeCode": "DBA-DJ3FS",
+          "chassisRange": "DJ3FS-301083 ～ DJ3FS-309503",
+          "generation": "DJ"
+        },
+        {
+          "typeCode": "LDA-DJ5AS",
+          "chassisRange": "DJ5AS-300004 ～ DJ5AS-300958",
+          "generation": "DJ"
+        },
+        {
+          "typeCode": "LDA-DJ5FS",
+          "chassisRange": "DJ5FS-301142 ～ DJ5FS-304785",
+          "generation": "DJ"
+        }
+      ],
+      "specialVehicle": false,
+      "url": "https://renrakuda.mlit.go.jp/renrakuda/ris-detail-car.html?selCarTp=1&id=3004004"
+    },
+    {
+      "no": "リ国-3978-0",
+      "baseNo": "リ国-3978",
+      "kind": "リコール",
+      "date": "2017-02-09",
+      "startDate": "2017年2月10日",
+      "device": "座席",
+      "situation": "運転者席において、座席高さを調整するリフタリンクの強度が不足しているほか、リフタリンクの抜け止め防止用プッシュナットの固定方法が不適切なため、リフタリンクに亀裂が入る、または、プッシュナットが外れることがある。そのため、そのまま使用を続けると、座席から異音やガタが発生し、最悪の場合、リフタリンクが破損もしくは外れて座席が傾き、正しい運転姿勢が取れなくなるおそれがある。",
+      "measures": "全車両、リフタリンクを点検し、亀裂が無い場合はリフタリンクに補強ブラケットを追加するとともに、プッシュナットを２枚構造にする。リフタリンクに亀裂がある場合は、シートアジャスターユニットを対策品に交換する。なお、補強ブラケットの準備に時間を要するため、年式の古い車両から順次改善措置を実施する。",
+      "productionPeriod": "2007年5月11日 ～ 2010年9月30日",
+      "units": "248,753台",
+      "generations": [
+        "DE"
+      ],
+      "targets": [
+        {
+          "typeCode": "DBA-DE3AS",
+          "chassisRange": "DE3AS-100011 ～ DE3AS-350104",
+          "generation": "DE"
+        },
+        {
+          "typeCode": "DBA-DE3FS",
+          "chassisRange": "DE3FS-100037 ～ DE3FS-353538",
+          "generation": "DE"
+        },
+        {
+          "typeCode": "DBA-DE5FS",
+          "chassisRange": "DE5FS-100027 ～ DE5FS-350288",
+          "generation": "DE"
+        }
+      ],
+      "specialVehicle": false,
+      "url": "https://renrakuda.mlit.go.jp/renrakuda/ris-detail-car.html?selCarTp=1&id=3003948"
+    },
+    {
+      "no": "リ国-3885-0",
+      "baseNo": "リ国-3885",
+      "kind": "リコール",
+      "date": "2016-09-01",
+      "startDate": "2016年9月2日",
+      "device": "コンピュータ(エンジン)",
+      "deviceOriginal": "コンピュータ(エンジ",
+      "situation": "ディーゼルエンジンにおいて、エンジン制御コンピュータの吸入空気量制御が不適切なため、気筒内の燃料濃度が部分的に濃くなり、燃焼時に多く煤が発生することがある。そのため、排気バルブが開いた際に煤が排気側バルブガイド周辺に入り堆積して、バルブが動きにくくなり、圧縮不良による加速不良や車体振動が発生し、最悪の場合、走行中にエンジンが停止するおそれがある。",
+      "measures": "全車両、制御プログラムを対策プログラムに修正する。また、インジェクタおよび排気側のバルブ周辺に堆積した煤を清掃する。",
+      "productionPeriod": "2014年8月 5日 ～ 2016年8月 8日",
+      "units": "117,030台",
+      "generations": [
+        "DJ"
+      ],
+      "targets": [
+        {
+          "typeCode": "LDA-DJ5AS",
+          "chassisRange": "DJ5AS-100009 ～ DJ5AS-110698",
+          "generation": "DJ"
+        },
+        {
+          "typeCode": "LDA-DJ5FS",
+          "chassisRange": "DJ5FS-100032 ～ DJ5FS-159468",
+          "generation": "DJ"
+        }
+      ],
+      "specialVehicle": false,
+      "url": "https://renrakuda.mlit.go.jp/renrakuda/ris-detail-car.html?selCarTp=1&id=3003851"
+    },
+    {
+      "no": "リ国-3856-0",
+      "baseNo": "リ国-3856",
+      "kind": "リコール",
+      "date": "2016-07-13",
+      "startDate": "2016年7月14日",
+      "device": "燃料ホース/パイプ",
+      "situation": "エンジンの燃料パイプにおいて、コネクタボルトの締め付け作業が不適切なため、締め付け力が不足しているものがある。そのため、コネクタボルトが緩み燃料が漏れ、最悪の場合、火災に至るおそれがある。",
+      "measures": "全車両、当該燃料パイプ、パッキンおよびコネクタボルトを新品と交換し、規定トルクで締め付ける。",
+      "productionPeriod": "2015年2月25日 ～ 2015年9月 3日",
+      "units": "3台",
+      "generations": [
+        "DJ"
+      ],
+      "targets": [
+        {
+          "typeCode": "LDA-DJ5AS",
+          "chassisRange": "DJ5AS-102167 ～",
+          "generation": "DJ"
+        },
+        {
+          "typeCode": "LDA-DJ5FS",
+          "chassisRange": "DJ5FS-131300 ～ DJ5FS-139676",
+          "generation": "DJ"
+        }
+      ],
+      "specialVehicle": false,
+      "url": "https://renrakuda.mlit.go.jp/renrakuda/ris-detail-car.html?selCarTp=1&id=3003820"
+    },
+    {
+      "no": "リ国-3796-0",
+      "baseNo": "リ国-3796",
+      "kind": "リコール",
+      "date": "2016-04-07",
+      "startDate": "2016年4月8日",
+      "device": "燃料フィルター",
+      "situation": "燃料フィルターにおいて、ドレンプラグ取付部の平面が確保できていないため、定期点検時にドレンプラグを緩め、再締め付け作業を行うと、シール性が低下することがある。そのため、そのまま使用を続けると、燃料が漏れるおそれがある。",
+      "measures": "全車両、燃料フィルターもしくは、燃料フィルターのドレンプラグとガスケットを対策品に交換する。",
+      "productionPeriod": "2014年12月17日 ～ 2016年3月 7日",
+      "units": "25,417台",
+      "generations": [
+        "DJ"
+      ],
+      "targets": [
+        {
+          "typeCode": "LDA-DJ5AS",
+          "chassisRange": "DJ5AS-101826 ～ DJ5AS-109187",
+          "generation": "DJ"
+        },
+        {
+          "typeCode": "LDA-DJ5FS",
+          "chassisRange": "DJ5FS-112868 ～ DJ5FS-151897",
+          "generation": "DJ"
+        }
+      ],
+      "specialVehicle": false,
+      "url": "https://renrakuda.mlit.go.jp/renrakuda/ris-detail-car.html?selCarTp=1&id=3003763"
+    },
+    {
+      "no": "リ国-3795-0",
+      "baseNo": "リ国-3795",
+      "kind": "リコール",
+      "date": "2016-04-07",
+      "startDate": "2016年4月8日",
+      "device": "コンピュータ",
+      "situation": "ＤＣ－ＤＣコンバータにおいて、部品の検査指示が不適切なため、過大な電圧をかけ、内部基板がダメージを負ったものがある。そのため、そのまま使用を続けると、コンバータ内部がショートし、充電不良となり、警告灯等が点灯し、最悪の場合、火災に至るおそれがある。",
+      "measures": "全車両、ＤＣ－ＤＣコンバータを良品に交換する。",
+      "productionPeriod": "2014年8月 5日 ～ 2015年9月16日",
+      "units": "1,073台",
+      "generations": [
+        "DJ"
+      ],
+      "targets": [
+        {
+          "typeCode": "LDA-DJ5AS",
+          "chassisRange": "DJ5AS-100012 ～ DJ5AS-103212",
+          "generation": "DJ"
+        },
+        {
+          "typeCode": "LDA-DJ5FS",
+          "chassisRange": "DJ5FS-100032 ～ DJ5FS-135399",
+          "generation": "DJ"
+        }
+      ],
+      "specialVehicle": false,
+      "url": "https://renrakuda.mlit.go.jp/renrakuda/ris-detail-car.html?selCarTp=1&id=3003762"
+    },
+    {
+      "no": "リ国-3794-0",
+      "baseNo": "リ国-3794",
+      "kind": "リコール",
+      "date": "2016-04-07",
+      "startDate": "2016年4月8日",
+      "device": "ショックアブソーバ",
+      "situation": "前輪サスペンションにおいて、ダンパーとナックルの締め付け作業が不適切なため、ナットの締め付け力が不足しているものがある。そのため、そのままの状態で使用すると、当該ナットが緩み、最悪の場合、ナットおよびボルトが脱落し、走行不能になるおそれがある。",
+      "measures": "全車両、当該ナットの締め付けトルクを点検し、ナットが緩んでいるものは、ボルトおよびナットを新品と交換し、規定トルクで締め付ける。",
+      "productionPeriod": "2012年12月13日 ～ 2015年12月 3日",
+      "units": "612台",
+      "generations": [
+        "DE"
+      ],
+      "targets": [
+        {
+          "typeCode": "DBA-DE3AS",
+          "chassisRange": "DE3AS-504925 ～ DE3AS-505861",
+          "generation": "DE"
+        },
+        {
+          "typeCode": "DBA-DE3FS",
+          "chassisRange": "DE３FS-544558 ～ DE３FS- 576138",
+          "generation": "DE"
+        },
+        {
+          "typeCode": "DBA-DE5FS",
+          "chassisRange": "DE5FS-503316 ～ DE5FS-503316",
+          "generation": "DE"
+        },
+        {
+          "typeCode": "DBA-DEJFS",
+          "chassisRange": "DEJFS-147508 ～ DEJFS-173393",
+          "generation": "DE"
+        }
+      ],
+      "specialVehicle": false,
+      "url": "https://renrakuda.mlit.go.jp/renrakuda/ris-detail-car.html?selCarTp=1&id=3003761"
+    },
+    {
+      "no": "リ国-3721-0",
+      "baseNo": "リ国-3721",
+      "kind": "リコール",
+      "date": "2015-12-10",
+      "startDate": "2015年12月11日",
+      "device": "圧力制御伝達部",
+      "situation": "マニュアルトランスミッション仕様車のクラッチリザーブホースにおいて、接続部のＯリングの材質が不適切なものがある。そのため、長期使用により当該Ｏリングに亀裂が発生してオイルが漏れ、最悪の場合、変速できなくなるおそれがある。",
+      "measures": "全車両、クラッチリザーブホースを良品と交換する。",
+      "productionPeriod": "2014年7月11日 ～ 2014年10月10日",
+      "units": "95台",
+      "generations": [
+        "DJ"
+      ],
+      "targets": [
+        {
+          "typeCode": "DBA-DJ3FS",
+          "chassisRange": "DJ3FS -100051 ～ DJ3FS -106388",
+          "generation": "DJ"
+        },
+        {
+          "typeCode": "LDA-DJ5FS",
+          "chassisRange": "DJ5FS -100044 ～ DJ5FS -100218",
+          "generation": "DJ"
+        }
+      ],
+      "specialVehicle": false,
+      "url": "https://renrakuda.mlit.go.jp/renrakuda/ris-detail-car.html?selCarTp=1&id=3003681"
+    },
+    {
+      "no": "リ国-3705-0",
+      "baseNo": "リ国-3705",
+      "kind": "リコール",
+      "date": "2015-11-26",
+      "startDate": "2015年11月27日",
+      "device": "燃料フィルター",
+      "situation": "燃料フィルターにおいて、ドレンプラグ取付部の平面が確保できていないため、製造時に過大なトルクでドレンプラグを締め付けた場合に、ガスケットが変形もしくは圧縮割れが発生するものがある。そのため、そのまま使用を続けたり、定期点検時にドレンプラグを緩め、再締め付け作業を行うと、燃料が漏れるおそれがある。",
+      "measures": "全車両、対策品の準備に時間を要することから、対策品の供給が出来るまでの暫定措置として、燃料フィルターを点検し、燃料が漏れている場合または、燃料フィルターの定期点検時期に該当する場合は、燃料フィルターを新品に交換する。なお、準備が整い次第、再度入庫の通知を行なうとともに、燃料フィルターのドレンプラグとガスケットを対策品に交換する。",
+      "productionPeriod": "2014年8月 5日 ～ 2015年10月16日",
+      "units": "74,350台",
+      "generations": [
+        "DJ"
+      ],
+      "targets": [
+        {
+          "typeCode": "LDA-DJ5AS",
+          "chassisRange": "DJ5AS-100009 ～ DJ5AS-107036",
+          "generation": "DJ"
+        },
+        {
+          "typeCode": "LDA-DJ5FS",
+          "chassisRange": "DJ5FS-100032 ～ DJ5FS-143338",
+          "generation": "DJ"
+        }
+      ],
+      "specialVehicle": false,
+      "url": "https://renrakuda.mlit.go.jp/renrakuda/ris-detail-car.html?selCarTp=1&id=3003664"
+    },
+    {
+      "no": "リ国-3704-0",
+      "baseNo": "リ国-3704",
+      "kind": "リコール",
+      "date": "2015-11-26",
+      "startDate": "2015年11月27日",
+      "device": "(ファン)ベルト",
+      "situation": "エンジン補機ベルトにおいて、ベルト製造時の芯線の張力が不均等なため、ベルトの強度が低下しているものがある。そのため、エンジンの駆動力によりベルトが破断し、オルタネータやウォーターポンプが停止して警告灯が点灯し、最悪の場合、エンジンが停止して再始動できなくなるおそれがある。",
+      "measures": "全車両、エンジン補機ベルトを良品に交換する。",
+      "productionPeriod": "2014年8月 5日 ～ 2015年7月28日",
+      "units": "63,768台",
+      "generations": [
+        "DJ"
+      ],
+      "targets": [
+        {
+          "typeCode": "LDA-DJ5AS",
+          "chassisRange": "DJ5AS-100009 ～ DJ5AS-105908",
+          "generation": "DJ"
+        },
+        {
+          "typeCode": "LDA-DJ5FS",
+          "chassisRange": "DJ5FS-100032 ～ DJ5FS-136879",
+          "generation": "DJ"
+        }
+      ],
+      "specialVehicle": false,
+      "url": "https://renrakuda.mlit.go.jp/renrakuda/ris-detail-car.html?selCarTp=1&id=3003663"
+    },
+    {
+      "no": "リ国-3643-0",
+      "baseNo": "リ国-3643",
+      "kind": "リコール",
+      "date": "2015-10-16",
+      "startDate": "2015年10月23日",
+      "device": "その他(電気装置)",
+      "situation": "イグニッションスイッチにおいて、スイッチ内部の接点に過剰な量のグリスが塗布されたため、スイッチ操作時に発生するアーク放電の熱によりグリスが炭化して可動接点と固定接点間に堆積し、スイッチ内部の絶縁性が低下することがある。そのため、そのまま使用を続けると接点間が導通してスイッチが発熱、発煙し、最悪の場合、火災に至るおそれがある。",
+      "measures": "全車両、イグニッションスイッチを対策品に交換する。なお、対策品の準備に時間を要することから、使用者に不具合の内容を通知して注意喚起を行い、準備が整い次第、再度入庫の通知をする。",
+      "productionPeriod": "1989年1月10日 ～ 2005年12月 1日",
+      "units": "923,672台",
+      "generations": [
+        "DW"
+      ],
+      "targets": [
+        {
+          "typeCode": "E-DW3W",
+          "chassisRange": "DW3W-100014 ～ DW3W-389651",
+          "generation": "DW"
+        },
+        {
+          "typeCode": "GF-DW3W",
+          "chassisRange": "DW3W-100014 ～ DW3W-389651",
+          "generation": "DW"
+        },
+        {
+          "typeCode": "E-DW5W",
+          "chassisRange": "DW5W-100012 ～ DW5W-220825",
+          "generation": "DW"
+        },
+        {
+          "typeCode": "GF-DW5W",
+          "chassisRange": "DW5W-100012 ～ DW5W-220825",
+          "generation": "DW"
+        }
+      ],
+      "specialVehicle": false,
+      "url": "https://renrakuda.mlit.go.jp/renrakuda/ris-detail-car.html?selCarTp=1&id=3003607"
+    },
+    {
+      "no": "改国-0474-0",
+      "baseNo": "改国-0474",
+      "kind": "改善対策",
+      "date": "2015-05-21",
+      "startDate": "2015年5月21日",
+      "device": "車体",
+      "situation": "エンジンルーム内のフロントフェンダー裏側にあるレインレールの端部処理が不適切なため、パネルエッジ部に製造工程で発生したバリ等がある。そのため、清掃時等に当該パネルエッジ部に手が触れると、切創するおそれがある。",
+      "measures": "全車両、レインレールのパネルエッジ部にプロテクタを装着する。",
+      "productionPeriod": "2014年7月 1日 ～ 2015年3月19日",
+      "units": "44,654台",
+      "generations": [
+        "DJ"
+      ],
+      "targets": [
+        {
+          "typeCode": "LDA-DJ5FS",
+          "chassisRange": "DJ5FS-100032 ～ DJ5FS-125223",
+          "generation": "DJ"
+        },
+        {
+          "typeCode": "LDA-DJ5AS",
+          "chassisRange": "DJ5AS-100009 ～ DJ5AS-102757",
+          "generation": "DJ"
+        },
+        {
+          "typeCode": "DBA-DJ3FS",
+          "chassisRange": "DJ3FS-100048 ～ DJ3FS-119167",
+          "generation": "DJ"
+        },
+        {
+          "typeCode": "DBA-DJ3AS",
+          "chassisRange": "DJ3AS-100008 ～ DJ3AS-101178",
+          "generation": "DJ"
+        }
+      ],
+      "specialVehicle": false,
+      "url": "https://renrakuda.mlit.go.jp/renrakuda/ris-detail-car.html?selCarTp=1&id=3008811"
+    },
+    {
+      "no": "改国-0435-0",
+      "baseNo": "改国-0435",
+      "kind": "改善対策",
+      "date": "2013-07-04",
+      "startDate": "2013年7月5日",
+      "device": "パワーステアリング",
+      "situation": "アイドリングストップ（ｉ－Ｓｔｏｐ）仕様車において、電動式パワーステアリング制御用コンピュータのプログラムが不適切なため、アイドリングストップ状態からエンジンが自動で再始動した後に、まれにパワステ機能が作動しないことがあり、ハンドル操作力が増大するおそれがある。",
+      "measures": "全車両、電動式パワーステアリング制御用コンピュータのプログラムを書き換える。若しくは、当該制御用コンピュータを対策品に交換する。",
+      "productionPeriod": "2011年6月23日 ～ 2013年4月17日",
+      "units": "6,036台",
+      "generations": [
+        "DE"
+      ],
+      "targets": [
+        {
+          "typeCode": "DBA-DEJFS",
+          "chassisRange": "DEJFS-147051 ～ DEJFS-154967DEJFS-102204 ～ DEJFS-144217",
+          "generation": "DE"
+        }
+      ],
+      "specialVehicle": false,
+      "url": "https://renrakuda.mlit.go.jp/renrakuda/ris-detail-car.html?selCarTp=1&id=3008785"
+    },
+    {
+      "no": "リ国-3092-0",
+      "baseNo": "リ国-3092",
+      "kind": "リコール",
+      "date": "2013-02-15",
+      "startDate": "2013年2月15日",
+      "device": "装置その他",
+      "situation": "車両に架装した警光灯（社外品）の上下カバーの外周締結部（計１６ヶ所）において、下側カバーの埋込ナット部に応力集中が発生しており、そこに走行振動や日射熱等の外的要因が加わることで亀裂が発生することがある。そのため、そのままの状態で使用を続けると、締結部が損傷し、最悪の場合、上側カバーが脱落するおそれがある。",
+      "measures": "全車両、警光灯を対策品と交換する。",
+      "productionPeriod": "2010年10月28日 ～ 2012年12月12日",
+      "units": "25台",
+      "generations": [
+        "DE"
+      ],
+      "targets": [
+        {
+          "typeCode": "DBA-DE3AS",
+          "chassisRange": "DE3AS-501324 ～ DE3AS-501364",
+          "generation": "DE"
+        }
+      ],
+      "specialVehicle": true,
+      "note": "社外の警光灯を後から取り付けた車両（25台）だけが対象の届出です。",
+      "url": "https://renrakuda.mlit.go.jp/renrakuda/ris-detail-car.html?selCarTp=1&id=3002958"
+    },
+    {
+      "no": "リ国-2784-0",
+      "baseNo": "リ国-2784",
+      "kind": "リコール",
+      "date": "2011-07-21",
+      "startDate": "2011年7月22日",
+      "device": "エバポ抑止装置",
+      "situation": "燃料蒸発ガスの排出を抑止するキャニスターの大気導入ホースの取り付けが不適切なため、当該ホースが車体と燃料タンクの間に挟まっているものがある。そのため、そのまま使用を続けるとパージ流量が低下し、キャニスターの掃気が不十分となるため、基準値を超える燃料蒸発ガスが排出するおそれがある。",
+      "measures": "全車両、大気導入ホースの組み付け状態を点検し、ホースが挟まっている場合は、正規の組み付け状態に修正する。",
+      "productionPeriod": "2011年6月14日 ～ 2011年6月27日",
+      "units": "86台",
+      "generations": [
+        "DE"
+      ],
+      "targets": [
+        {
+          "typeCode": "DBA-DEJFS",
+          "chassisRange": "DEJFS-100609 ～ DEJFS-102759",
+          "generation": "DE"
+        }
+      ],
+      "specialVehicle": false,
+      "url": "https://renrakuda.mlit.go.jp/renrakuda/ris-detail-car.html?selCarTp=1&id=3002621"
+    },
+    {
+      "no": "リ国-2090-0",
+      "baseNo": "リ国-2090",
+      "kind": "リコール",
+      "date": "2008-04-10",
+      "startDate": "2008年4月11日",
+      "device": "コンピュータ(エンジン)",
+      "deviceOriginal": "コンピュータ(エンジ",
+      "situation": "エンジン制御コンピュータのアイドリング回転数制御プログラムが不適切なため、高外気温下でエアコンを作動させ、一定車速で高速走行を継続した場合、アクセルペダルを戻してもエンジン回転が下がりにくくなることがある。そのため、ブレーキ倍力装置に供給される負圧が不足し、最悪の場合、ブレーキ操作を繰り返し行うと、制動力が低下するおそれがある。",
+      "measures": "全車両、エンジン制御コンピュータのプログラムを書き換える。",
+      "productionPeriod": "2005年3月24日 ～ 2007年10月31日",
+      "units": "170,300台",
+      "generations": [
+        "DY"
+      ],
+      "targets": [
+        {
+          "typeCode": "DBA-DY3R",
+          "chassisRange": "DY3R-200005 ～ DY3R-208892",
+          "generation": "DY"
+        },
+        {
+          "typeCode": "DBA-DY3W",
+          "chassisRange": "DY3W-400030 ～ DY3W-508290",
+          "generation": "DY"
+        },
+        {
+          "typeCode": "DBA-DY5R",
+          "chassisRange": "DY5R-200007 ～ DY5R-201385",
+          "generation": "DY"
+        },
+        {
+          "typeCode": "DBA-DY5W",
+          "chassisRange": "DY5W-400019 ～ DY5W-414530",
+          "generation": "DY"
+        }
+      ],
+      "specialVehicle": false,
+      "url": "https://renrakuda.mlit.go.jp/renrakuda/ris-detail-car.html?selCarTp=1&id=3001845"
+    },
+    {
+      "no": "リ国-2017-0",
+      "baseNo": "リ国-2017",
+      "kind": "リコール",
+      "date": "2007-12-06",
+      "startDate": "2007年12月7日",
+      "device": "その他(その他)",
+      "situation": "スロープ式車いす移動車において、車いす固定用ワイヤーがねじれやすいため、ワイヤーを滑車に保持するためのカバーが動き、ワイヤーが滑車から外れる場合がある。そのため、ワイヤーがカバーと干渉し、最悪の場合、ワイヤーが切れて車いすを固定できなくなるおそれがある。",
+      "measures": "全車両、ワイヤー一式を対策品に交換する。また、カバーが動いている場合は、カバーを正規に取り付ける。",
+      "productionPeriod": "2001年1月12日 ～ 2007年8月 7日",
+      "units": "8,518台",
+      "generations": [
+        "DY"
+      ],
+      "targets": [
+        {
+          "typeCode": "LA-DY3W改",
+          "chassisRange": "DY3W-114677 ～ DY3W-499360",
+          "generation": "DY"
+        },
+        {
+          "typeCode": "UA-DY3W改",
+          "chassisRange": "DY3W-114677 ～ DY3W-499360",
+          "generation": "DY"
+        },
+        {
+          "typeCode": "DBA-DY3W改",
+          "chassisRange": "DY3W-114677 ～ DY3W-499360",
+          "generation": "DY"
+        },
+        {
+          "typeCode": "LA-DY5W改",
+          "chassisRange": "DY5W-113596 ～ DY5W-413456",
+          "generation": "DY"
+        },
+        {
+          "typeCode": "UA-DY5W改",
+          "chassisRange": "DY5W-113596 ～ DY5W-413456",
+          "generation": "DY"
+        },
+        {
+          "typeCode": "DBA-DY5W改",
+          "chassisRange": "DY5W-113596 ～ DY5W-413456",
+          "generation": "DY"
+        }
+      ],
+      "specialVehicle": false,
+      "url": "https://renrakuda.mlit.go.jp/renrakuda/ris-detail-car.html?selCarTp=1&id=3001769"
+    },
+    {
+      "no": "リ国-1917-0",
+      "baseNo": "リ国-1917",
+      "kind": "リコール",
+      "date": "2007-07-26",
+      "startDate": "2007年7月27日",
+      "device": "駐車ケーブル/ロッド",
+      "situation": "駐車制動装置のイコライザ（駐車ブレーキの操作力を左右の車輪に均等に振り分ける装置）において、ブレーキケーブル組付部の隙間が広いものがある。そのため、ブレーキケーブルが当該隙間に入り込み、最悪の場合、駐車ブレーキ操作時にブレーキケーブルがイコライザから外れ、駐車制動能力が低下するおそれがある。",
+      "measures": "全車両、イコライザの隙間を再かしめする。",
+      "productionPeriod": "2007年5月11日 ～ 2007年7月11日",
+      "units": "5,658台",
+      "generations": [
+        "DE"
+      ],
+      "targets": [
+        {
+          "typeCode": "DBA-DE3FS",
+          "chassisRange": "DE3FS-100037 ～ DE3FS-106528",
+          "generation": "DE"
+        },
+        {
+          "typeCode": "DBA-DE5FS",
+          "chassisRange": "DE5FS-100027 ～ DE5FS-101054",
+          "generation": "DE"
+        }
+      ],
+      "specialVehicle": false,
+      "url": "https://renrakuda.mlit.go.jp/renrakuda/ris-detail-car.html?selCarTp=1&id=3001665"
+    },
+    {
+      "no": "リ国-1890-0",
+      "baseNo": "リ国-1890",
+      "kind": "リコール",
+      "date": "2007-05-31",
+      "startDate": "2007年6月1日",
+      "device": "ストラット",
+      "situation": "前輪緩衝装置のコイルスプリングの設計が不適切なため、路面からの衝撃により、ストラットマウントのダンパー取付け部に過大な応力が発生することがある。そのため、そのまま使用を続けると、当該取付け部に亀裂が生じ、最悪の場合、破損してダンパーが外れ、走行不能に至るおそれがある。",
+      "measures": "全車両、フロントコイルスプリングを良品と交換するとともに、ストラットマウントを新品に交換する。",
+      "productionPeriod": "2006年10月10日 ～ 2006年10月11日",
+      "units": "6台",
+      "generations": [
+        "DY"
+      ],
+      "targets": [
+        {
+          "typeCode": "DBA-DY3R",
+          "chassisRange": "DY3R-206524 ～ DY3R-206524",
+          "generation": "DY"
+        },
+        {
+          "typeCode": "DBA-DY3W",
+          "chassisRange": "DY3W-478587 ～ DY3W-478591",
+          "generation": "DY"
+        },
+        {
+          "typeCode": "DBA-DY5W",
+          "chassisRange": "DY5W-411158 ～ DY5W-411158",
+          "generation": "DY"
+        }
+      ],
+      "specialVehicle": false,
+      "url": "https://renrakuda.mlit.go.jp/renrakuda/ris-detail-car.html?selCarTp=1&id=3001632"
+    },
+    {
+      "no": "リ国-1889-2",
+      "baseNo": "リ国-1889",
+      "kind": "リコール",
+      "date": "2007-05-31",
+      "startDate": "2007年6月1日",
+      "device": "スプリング/エアサス",
+      "situation": "（２）緩衝装置において、フロントコイルスプリングシートとコイルスプリングの組合せが不適切なため、コイルスプリングが当該シートと干渉するものがある。そのため、そのまま使用を続けると、当該スプリングの塗装が剥がれて錆が発生し、折損することがあり、最悪の場合、折損したスプリングとタイヤが干渉し、タイヤが損傷して、走行不能に至るおそれがある。",
+      "measures": "（２）全車両、コイルスプリングを対策品と交換するとともに当該スプリングの防錆プレート（亜鉛製プレート）を当該スプリングとフロントコイルスプリングシートの間に装着する。",
+      "productionPeriod": "2002年6月19日 ～ 2007年3月31日",
+      "units": "264,276台",
+      "generations": [
+        "DY"
+      ],
+      "targets": [
+        {
+          "typeCode": "LA-DY3W",
+          "chassisRange": "DY3W-100043 ～ DY3W-276324",
+          "generation": "DY"
+        },
+        {
+          "typeCode": "UA-DY3W",
+          "chassisRange": "DY3W-100043 ～ DY3W-276324",
+          "generation": "DY"
+        },
+        {
+          "typeCode": "DBA-DY3W",
+          "chassisRange": "DY3W-300011 ～ DY3W-415389",
+          "generation": "DY"
+        },
+        {
+          "typeCode": "UA-DY3R",
+          "chassisRange": "DY3R-100010 ～ DY3R-201284",
+          "generation": "DY"
+        },
+        {
+          "typeCode": "DBA-DY3R",
+          "chassisRange": "DY3R-100010 ～ DY3R-201284",
+          "generation": "DY"
+        },
+        {
+          "typeCode": "LA-DY5W",
+          "chassisRange": "DY5W-100059 ～ DY5W-255782",
+          "generation": "DY"
+        },
+        {
+          "typeCode": "UA-DY5W",
+          "chassisRange": "DY5W-100059 ～ DY5W-255782",
+          "generation": "DY"
+        },
+        {
+          "typeCode": "DBA-DY5W",
+          "chassisRange": "DY5W-300003 ～ DY5W-402956",
+          "generation": "DY"
+        },
+        {
+          "typeCode": "UA-DY5R",
+          "chassisRange": "DY5R-100008 ～ DY5R-200280",
+          "generation": "DY"
+        },
+        {
+          "typeCode": "DBA-DY5R",
+          "chassisRange": "DY5R-100008 ～ DY5R-200280",
+          "generation": "DY"
+        }
+      ],
+      "specialVehicle": false,
+      "url": "https://renrakuda.mlit.go.jp/renrakuda/ris-detail-car.html?selCarTp=1&id=3001631"
+    },
+    {
+      "no": "リ国-1889-1",
+      "baseNo": "リ国-1889",
+      "kind": "リコール",
+      "date": "2007-05-31",
+      "startDate": "2007年6月1日",
+      "device": "クラッチ",
+      "situation": "（１）クラッチマスターシリンダー内のピストンカップの材質が不適切なため、当該ピストンカップが早期に摩耗することがある。そのため、そのまま使用を続けると、シール不良となり、クラッチの液圧が低下するものがあり、最悪の場合、クラッチが切れなくなり走行不能となるおそれがある。",
+      "measures": "（１）全車両、クラッチマスターシリンダーを対策品と交換する。",
+      "productionPeriod": "2002年6月19日 ～ 2007年3月31日",
+      "units": "264,276台",
+      "generations": [
+        "DY"
+      ],
+      "targets": [
+        {
+          "typeCode": "LA-DY3W",
+          "chassisRange": "DY3W-100043 ～ DY3W-276324",
+          "generation": "DY"
+        },
+        {
+          "typeCode": "UA-DY3W",
+          "chassisRange": "DY3W-100043 ～ DY3W-276324",
+          "generation": "DY"
+        },
+        {
+          "typeCode": "DBA-DY3W",
+          "chassisRange": "DY3W-300011 ～ DY3W-415389DY3W-415396 ～ DY3W-451588",
+          "generation": "DY"
+        },
+        {
+          "typeCode": "DBA-DY3R",
+          "chassisRange": "DY3R-100010 ～ DY3R-201284",
+          "generation": "DY"
+        },
+        {
+          "typeCode": "LA-DY5W",
+          "chassisRange": "DY5W-100059 ～ DY5W-255782",
+          "generation": "DY"
+        },
+        {
+          "typeCode": "UA-DY5W",
+          "chassisRange": "DY5W-100059 ～ DY5W-255782",
+          "generation": "DY"
+        },
+        {
+          "typeCode": "DBA-DY5W",
+          "chassisRange": "DY5W-300003 ～ DY5W-402956DY5W-402958 ～ DY5W-408012",
+          "generation": "DY"
+        },
+        {
+          "typeCode": "UA-DY5R",
+          "chassisRange": "DY5R-100008 ～ DY5R-200280",
+          "generation": "DY"
+        },
+        {
+          "typeCode": "DBA-DY5R",
+          "chassisRange": "DY5R-100008 ～ DY5R-200280",
+          "generation": "DY"
+        }
+      ],
+      "specialVehicle": false,
+      "url": "https://renrakuda.mlit.go.jp/renrakuda/ris-detail-car.html?selCarTp=1&id=3001630"
+    },
+    {
+      "no": "リ国-1700-0",
+      "baseNo": "リ国-1700",
+      "kind": "リコール",
+      "date": "2006-08-03",
+      "startDate": "2006年8月4日",
+      "device": "点火コイル",
+      "situation": "原動機のイグニッション・コイルの製造工程が不適切なため、イグニッション・コイルに内蔵されているイグナイタを損傷させたものがある。そのため、そのままの状態で使用を続けると当該コイルとイグナイタが溶損し、エンジン不調となり、最悪の場合、エンストし再始動不能に至るおそれがある。",
+      "measures": "全車両、イグニッション・コイルを良品と交換する。",
+      "productionPeriod": "2005年3月24日 ～ 2005年10月17日",
+      "units": "39,345台",
+      "generations": [
+        "DY"
+      ],
+      "targets": [
+        {
+          "typeCode": "DBA-DY3R",
+          "chassisRange": "DY3R-200005 ～ DY3R-201985",
+          "generation": "DY"
+        },
+        {
+          "typeCode": "DBA-DY3W",
+          "chassisRange": "DY3W-400029 ～ DY3W-426587",
+          "generation": "DY"
+        },
+        {
+          "typeCode": "DBA-DY5R",
+          "chassisRange": "DY5R-200007 ～ DY5R-200410",
+          "generation": "DY"
+        },
+        {
+          "typeCode": "DBA-DY5W",
+          "chassisRange": "DY5W-400019 ～ DY5W-404751",
+          "generation": "DY"
+        }
+      ],
+      "specialVehicle": false,
+      "url": "https://renrakuda.mlit.go.jp/renrakuda/ris-detail-car.html?selCarTp=1&id=3001413"
+    },
+    {
+      "no": "リ国-1215-0",
+      "baseNo": "リ国-1215",
+      "kind": "リコール",
+      "date": "2004-09-09",
+      "startDate": "2004年9月10日",
+      "device": "その他(燃料装置)",
+      "situation": "圧縮天然ガス車の燃料減圧装置（レギュレータ）において、高圧側減圧器内部のバルブシ ート部の寸法およびオーリングの硬度が不適切なため、当該オーリングが変形又は破損す ることがある。そのため、燃料ガスが高圧のまま低圧側減圧器に流出し、安全弁から外部 に漏れるおそれがある。",
+      "measures": "全車両、高圧側減圧器を対策品に交換する。",
+      "productionPeriod": "1995年8月10日 ～ 2002年8月 1日",
+      "units": "217台",
+      "generations": [
+        "DW"
+      ],
+      "targets": [
+        {
+          "typeCode": "GF-DW5W改",
+          "chassisRange": "DW5W-301724 ～ DW5W-504191",
+          "generation": "DW"
+        }
+      ],
+      "specialVehicle": false,
+      "url": "https://renrakuda.mlit.go.jp/renrakuda/ris-detail-car.html?selCarTp=1&id=3000877"
+    },
+    {
+      "no": "リ国-0939-0",
+      "baseNo": "リ国-0939",
+      "kind": "リコール",
+      "date": "2003-04-17",
+      "startDate": "2003年4月18日",
+      "device": "その他(保安灯火)",
+      "situation": "灯火装置の灯火スイッチにおいて、 ①電気配線の組付けに不適切なものがあるため、方向指示器操作レバーを繰り返し操作す ると、当該電気配線がコネクター部から外れ、又は方向指示器操作レバーのカバ一部と接 触して断線し、前照灯、車幅灯及びフォグランプが点灯しなくなるおそれがある。 ②接点のメッキ処理に不適切なものがあるため、方向指示器操作レバーを繰り返し操作す ると、当該接点が異常磨耗し、磨耗粉によって回路が短絡し常時通電状態となって方向指 示器が作動したままとなるおそれがある。",
+      "measures": "全車両、車台番号および灯火スイッチを確認し、対象となるものは灯火スイッチユニット を良品と交換する。",
+      "productionPeriod": "2002年6月19日 ～ 2003年3月10日",
+      "units": "51,264台",
+      "generations": [
+        "DY"
+      ],
+      "targets": [
+        {
+          "typeCode": "LA-DY3W",
+          "chassisRange": "DY3W-100043 ～ DY3W-200694",
+          "generation": "DY"
+        },
+        {
+          "typeCode": "UA-DY3W",
+          "chassisRange": "DY3W-100043 ～ DY3W-200694",
+          "generation": "DY"
+        },
+        {
+          "typeCode": "LA-DY5W",
+          "chassisRange": "DY5W-100059 ～ DY5W-200062",
+          "generation": "DY"
+        },
+        {
+          "typeCode": "UA-DY5W",
+          "chassisRange": "DY5W-100059 ～ DY5W-200062",
+          "generation": "DY"
+        }
+      ],
+      "specialVehicle": false,
+      "url": "https://renrakuda.mlit.go.jp/renrakuda/ris-detail-car.html?selCarTp=1&id=3000575"
+    },
+    {
+      "no": "リ国-0922-0",
+      "baseNo": "リ国-0922",
+      "kind": "リコール",
+      "date": "2003-02-20",
+      "startDate": "2003年2月21日",
+      "device": "排気管",
+      "situation": "車いすを収納する福祉車両の排気管において、主消音器（メインサイレンサー）後方の テールパイプの強度が不十分なため、長時間のアイドリング状態での使用を繰り返し行っ た場合、当該テールパイプのフランジ部に亀裂が発生し、そのままの状態で使用を続ける と、テールパイプが破断してブレーキパイプと干渉し、最悪の場合、ブレーキパイプに穴 があき、ブレーキ液が漏れて制動力が低下するおそれがある。",
+      "measures": "全車両、当該テールパイプを対策品と交換するとともに、万一、テールパイプが破断して もブレーキパイプと干渉しないように、リアフロアパンにブレーキパイプとの干渉防止用 プロテクターを取付ける。",
+      "productionPeriod": "1998年4月 7日 ～ 2002年10月15日",
+      "units": "1,679台",
+      "generations": [
+        "DW"
+      ],
+      "targets": [
+        {
+          "typeCode": "E-DW3W改",
+          "chassisRange": "DW3W-192483 ～ DW3W-234084",
+          "generation": "DW"
+        },
+        {
+          "typeCode": "E-DW5W改",
+          "chassisRange": "DW5W-148453 ～ DW5W-156397",
+          "generation": "DW"
+        },
+        {
+          "typeCode": "GF-DW3W改",
+          "chassisRange": "DW3W-300060 ～ DW3W-552008",
+          "generation": "DW"
+        },
+        {
+          "typeCode": "GF-DW5W改",
+          "chassisRange": "DW5W-200217 ～ DW5W-504259",
+          "generation": "DW"
+        },
+        {
+          "typeCode": "LA-DW3W改",
+          "chassisRange": "DW3W-600034 ～ DW3W-753921",
+          "generation": "DW"
+        }
+      ],
+      "specialVehicle": false,
+      "url": "https://renrakuda.mlit.go.jp/renrakuda/ris-detail-car.html?selCarTp=1&id=3000557"
+    },
+    {
+      "no": "リ国-0892-0",
+      "baseNo": "リ国-0892",
+      "kind": "リコール",
+      "date": "2002-11-12",
+      "startDate": "2002年11月13日",
+      "device": "ストラット",
+      "situation": "前輪懸架装置において、ストラットとナックルを締結するボルトの締付け力が不足して いるものがあるため、そのままの状態で使用を続けると、段差乗り越え等の突起路面を走 行した際に、最悪の場合、ストラットがナックルから抜け、ハンドルが取られ、走行不能 に至るおそれがある。",
+      "measures": "全車両、当該ボルトを新品と交換する。また、当該ボルトが損傷しているものは、ナッ クルを新品と交換する。",
+      "productionPeriod": "2002年7月16日 ～ 2002年8月31日",
+      "units": "51台",
+      "generations": [
+        "DY"
+      ],
+      "targets": [
+        {
+          "typeCode": "LA-DY3W",
+          "chassisRange": "DY3W-100633 ～ DY3W-108903",
+          "generation": "DY"
+        },
+        {
+          "typeCode": "LA-DY5W",
+          "chassisRange": "DY5W-100143 ～ DY5W-103168",
+          "generation": "DY"
+        }
+      ],
+      "specialVehicle": false,
+      "url": "https://renrakuda.mlit.go.jp/renrakuda/ris-detail-car.html?selCarTp=1&id=3000525"
+    },
+    {
+      "no": "リ国-0891-2",
+      "baseNo": "リ国-0891",
+      "kind": "リコール",
+      "date": "2002-11-12",
+      "startDate": "2002年11月13日",
+      "device": "燃料タンク",
+      "situation": "①燃料装置において、燃料ポンプユニットを燃料タンクに固定する樹脂製ナットの締付け が不適切なため、当該ナットを斜めに締付けたものがあり、そのままの状態で使用を続け ると、燃料満タン時に当該燃料ポンプユニット取付け部から燃料が漏れ、最悪の場合、火 災に至るおそれがある。",
+      "measures": "①全車両、当該樹脂製ナットを緩めて外し、再締付けを行う。",
+      "productionPeriod": "2002年6月19日 ～ 2002年10月31日",
+      "units": "26,212台",
+      "generations": [
+        "DY"
+      ],
+      "targets": [
+        {
+          "typeCode": "LA-DY3W",
+          "chassisRange": "DY3W-100043 ～ DY3W-117911",
+          "generation": "DY"
+        },
+        {
+          "typeCode": "LA-DY5W",
+          "chassisRange": "DY5W-100059 ～ DY5W-110931",
+          "generation": "DY"
+        }
+      ],
+      "specialVehicle": false,
+      "url": "https://renrakuda.mlit.go.jp/renrakuda/ris-detail-car.html?selCarTp=1&id=3000524"
+    },
+    {
+      "no": "リ国-0891-1",
+      "baseNo": "リ国-0891",
+      "kind": "リコール",
+      "date": "2002-11-12",
+      "startDate": "2002年11月13日",
+      "device": "その他(その他)",
+      "situation": "②室内ヒータにおいて、ヒータユニットのパイプとヒータホースを接続する継手部の嵌合 が不十分なものがあるため、そのままの状態で使用を続けると、当該継手部のクイックコ ネクタが抜けてエンジン冷却水が漏れ、オーバーヒートし、最悪の場合、走行不能に至る おそれがある。",
+      "measures": "②全車両、当該継手部の嵌合状態を点検し、確実に接続する。",
+      "productionPeriod": "2002年6月19日 ～ 2002年10月31日",
+      "units": "21,176台",
+      "generations": [
+        "DY"
+      ],
+      "targets": [
+        {
+          "typeCode": "LA-DY3W",
+          "chassisRange": "DY3W-100043 ～ DY3W-121020",
+          "generation": "DY"
+        },
+        {
+          "typeCode": "LA-DY5W",
+          "chassisRange": "DY5W-100059 ～ DY5W-110931",
+          "generation": "DY"
+        }
+      ],
+      "specialVehicle": false,
+      "url": "https://renrakuda.mlit.go.jp/renrakuda/ris-detail-car.html?selCarTp=1&id=3000523"
+    },
+    {
+      "no": "リ国-0577-0",
+      "baseNo": "リ国-0577",
+      "kind": "リコール",
+      "date": "1999-07-08",
+      "startDate": "1999年7月9日",
+      "device": "Ａ／Ｔ",
+      "situation": "３速自動変速機において、当該変速機内部のリングギヤ取り付けボルトのねじ穴に加工不 良のものがあり、そのままの状態で使用を続けると当該取り付けボルトが緩み、ミッショ ンケースと干渉して異音が発生し、最悪の場合、当該変速機が破損して走行不能に至るお それがある。",
+      "measures": "全車両、当該自動変速機を良品と交換する。",
+      "productionPeriod": "1999年6月10日 ～ 1999年6月24日",
+      "units": "1,662台",
+      "generations": [
+        "DW"
+      ],
+      "targets": [
+        {
+          "typeCode": "GF-DW3W",
+          "chassisRange": "DW3W-361645 ～ DW3W-364344",
+          "generation": "DW"
+        }
+      ],
+      "specialVehicle": false,
+      "url": "https://renrakuda.mlit.go.jp/renrakuda/ris-detail-car.html?selCarTp=1&id=3000186"
+    }
+  ]
+}

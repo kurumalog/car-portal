@@ -1,0 +1,193 @@
+{
+  "slug": "マツダ-CX-30",
+  "maker": "マツダ",
+  "model": "CX-30",
+  "source": {
+    "name": "国土交通省 自動車不具合情報ホットライン リコール情報検索",
+    "url": "https://renrakuda.mlit.go.jp/renrakuda/recall-search.html",
+    "credit": "出典：国土交通省 自動車不具合情報ホットライン（https://renrakuda.mlit.go.jp/renrakuda/recall-search.html）を加工して作成",
+    "license": "公共データ利用規約（第1.0版）（PDL1.0）"
+  },
+  "retrievedAt": "2026-11-15",
+  "coveredUntil": "2026-09-30",
+  "generations": [
+    {
+      "id": "DM",
+      "name": "初代（DM系・2019年10月〜）",
+      "launched": "2019年10月",
+      "current": true,
+      "officialSource": {
+        "title": "マツダ ニュースリリース「MAZDA CX-30」の予約受注を開始",
+        "url": "https://newsroom.mazda.com/ja/publicity/release/2019/201909/190920a.html"
+      }
+    }
+  ],
+  "recalls": [
+    {
+      "no": "リ国-5436-0",
+      "baseNo": "リ国-5436",
+      "kind": "リコール",
+      "date": "2024-01-26",
+      "startDate": "2024年2月9日",
+      "device": "燃料ポンプ",
+      "situation": "ガソリンエンジン車の低圧燃料ポンプのインペラ（樹脂製羽根車）において、成形条件が不適切なため、樹脂密度が低くなって、燃料により膨潤して変形することがある。そのため、インペラがポンプケースと接触して低圧燃料ポンプが作動不良となり、最悪の場合、走行中エンストに至るおそれがある。",
+      "measures": "全車両、低圧燃料ポンプを対策品に交換する。なお、修理部品の準備に時間を要することから、部品の準備ができ次第、改めて案内する。",
+      "productionPeriod": "2017年6月19日 ～ 2020年5月26日",
+      "units": "146,777台",
+      "generations": [
+        "DM"
+      ],
+      "targets": [
+        {
+          "typeCode": "3AA-DMFP",
+          "chassisRange": "DMFP-100009 ～ DMFP-100406",
+          "generation": "DM"
+        },
+        {
+          "typeCode": "5BA-DMEP",
+          "chassisRange": "DMEP-100011 ～ DMEP-104209",
+          "generation": "DM"
+        }
+      ],
+      "specialVehicle": false,
+      "url": "https://renrakuda.mlit.go.jp/renrakuda/ris-detail-car.html?selCarTp=1&id=3009605"
+    },
+    {
+      "no": "改国-0607-0",
+      "baseNo": "改国-0607",
+      "kind": "改善対策",
+      "date": "2021-02-18",
+      "startDate": "2021年2月19日",
+      "device": "車体",
+      "situation": "パワーリアゲートにおいて、パワーリアゲート・ドライブユニットの保持力設定が不適切なため、高温環境下での保持力が不足しているものがある。そのため、坂道に駐車する等してリアゲートを全開した場合、全開状態を保持できずにリアゲートが下がるおそれがある。",
+      "measures": "全車両、パワーリアゲート制御ユニットのプログラムを対策プログラムに修正する。また、パワーリアゲート・ドライブユニットの製造番号を点検し、保持力が不足しているものは良品と交換する。",
+      "productionPeriod": "2019年8月 6日 ～ 2020年10月15日",
+      "units": "31,161台",
+      "generations": [
+        "DM"
+      ],
+      "targets": [
+        {
+          "typeCode": "5BA-DMEP",
+          "chassisRange": "DMEP-100011 ～ DMEP-120269",
+          "generation": "DM"
+        },
+        {
+          "typeCode": "3DA-DM8P",
+          "chassisRange": "DM8P-100006 ～ DM8P-111393",
+          "generation": "DM"
+        },
+        {
+          "typeCode": "3AA-DMFP",
+          "chassisRange": "DMFP-100008 ～ DMFP-101328",
+          "generation": "DM"
+        }
+      ],
+      "specialVehicle": false,
+      "url": "https://renrakuda.mlit.go.jp/renrakuda/ris-detail-car.html?selCarTp=1&id=3008909"
+    },
+    {
+      "no": "リ国-4813-0",
+      "baseNo": "リ国-4813",
+      "kind": "リコール",
+      "date": "2020-10-15",
+      "startDate": "2020年10月16日",
+      "device": "前照灯",
+      "situation": "アダプティブＬＥＤヘッドライトを制御するコントロールユニットにおいて、光軸調整用プログラムが不適切なため、プッシュボタンスタートを押して電源ポジションをＯＮした際に、前照灯の光軸初期化が正しく作動しないことがある。そのため、前照灯の光軸が上向きにずれ、前照灯に係る保安基準第３２条に適合しないおそれがある。",
+      "measures": "全車両、アダプティブＬＥＤヘッドライト・コントロールユニットの光軸調整用プログラムを対策プログラムに修正する。",
+      "productionPeriod": "2019年8月 6日 ～ 2020年3月20日",
+      "units": "7,513台",
+      "generations": [
+        "DM"
+      ],
+      "targets": [
+        {
+          "typeCode": "3DA-DM8P",
+          "chassisRange": "DM8P-100006 ～ DM8P-107520",
+          "generation": "DM"
+        }
+      ],
+      "specialVehicle": false,
+      "url": "https://renrakuda.mlit.go.jp/renrakuda/ris-detail-car.html?selCarTp=1&id=3004818"
+    },
+    {
+      "no": "改国-0587-0",
+      "baseNo": "改国-0587",
+      "kind": "改善対策",
+      "date": "2019-12-19",
+      "startDate": "2019年12月19日",
+      "device": "装置その他",
+      "situation": "車両制御コンピュータにおいて、スマート・ブレーキ・サポート（ＳＢＳ）の制御プログラムが不適切なため、Ｓ字路の路肩に停車した車両や大きな道路標識などを正しく認識できないことがある。そのため、衝突の可能性がないにもかかわらず障害物との接近を知らせる警報音が鳴り、ディスプレイに警告表示が出て、最悪の場合、衝突被害軽減ブレーキが作動し、急制動がかかるおそれがある。",
+      "measures": "全車両、車両制御コンピュータのＳＢＳ制御プログラムを対策プログラムに修正する。なお、一部の車両はＳＢＳ作動設定の仕様が変更になるため、取扱説明書の変更、メータのプログラム変更を同時に実施する。",
+      "productionPeriod": "2019年3月 5日 ～ 2019年10月23日",
+      "units": "24,750台",
+      "generations": [
+        "DM"
+      ],
+      "targets": [
+        {
+          "typeCode": "5BA-DMEP",
+          "chassisRange": "DMEP-100011 ～ DMEP-101999",
+          "generation": "DM"
+        },
+        {
+          "typeCode": "3DA-DM8P",
+          "chassisRange": "DM8P-100006 ～ DM8P-101670",
+          "generation": "DM"
+        }
+      ],
+      "specialVehicle": false,
+      "url": "https://renrakuda.mlit.go.jp/renrakuda/ris-detail-car.html?selCarTp=1&id=3008896"
+    },
+    {
+      "no": "リ国-4631-2",
+      "baseNo": "リ国-4631",
+      "kind": "リコール",
+      "date": "2019-12-19",
+      "startDate": "2019年11月1日",
+      "device": "コンピュータ(エンジン)",
+      "deviceOriginal": "コンピュータ(エンジ",
+      "situation": "エンジン制御コンピュータにおいて、アイドリングストップ後の再始動制御プログラムが不適切なため、アイドリングストップを判別するためのエンジン停止判定処理が遅れた場合、アイドリングストップ後にエンジンが再始動しなくなるおそれがある。",
+      "measures": "全車両、エンジン制御コンピュータのアイドリングストップ後の再始動制御プログラムを対策プログラムに修正する。",
+      "productionPeriod": "2019年3月 5日 ～ 2019年11月 8日",
+      "units": "17,367台",
+      "generations": [
+        "DM"
+      ],
+      "targets": [
+        {
+          "typeCode": "5BA-DMEP",
+          "chassisRange": "DMEP-100011 ～ DMEP-102225",
+          "generation": "DM"
+        }
+      ],
+      "specialVehicle": false,
+      "url": "https://renrakuda.mlit.go.jp/renrakuda/ris-detail-car.html?selCarTp=1&id=3004654"
+    },
+    {
+      "no": "リ国-4631-1",
+      "baseNo": "リ国-4631",
+      "kind": "リコール",
+      "date": "2019-12-19",
+      "startDate": "2019年11月1日",
+      "device": "コンピュータ(エンジン)",
+      "deviceOriginal": "コンピュータ(エンジ",
+      "situation": "エンジン制御コンピュータにおいて、燃料噴射制御プログラムが不適切なため、燃焼室に大量の燃料蒸発ガスが流れ込んだ際に、インジェクタによる燃料噴射量を正しく制御できないことがある。そのため、燃焼に必要な燃料噴射量が不足し、最悪の場合、低車速時にエンストするおそれがある。",
+      "measures": "全車両、エンジン制御コンピュータの燃料噴射制御プログラムを対策プログラムに修正する。",
+      "productionPeriod": "2019年3月 5日 ～ 2019年11月 8日",
+      "units": "17,367台",
+      "generations": [
+        "DM"
+      ],
+      "targets": [
+        {
+          "typeCode": "5BA-DMEP",
+          "chassisRange": "DMEP-100011 ～ DMEP-102225",
+          "generation": "DM"
+        }
+      ],
+      "specialVehicle": false,
+      "url": "https://renrakuda.mlit.go.jp/renrakuda/ris-detail-car.html?selCarTp=1&id=3004653"
+    }
+  ]
+}

@@ -1,0 +1,423 @@
+{
+  "slug": "マツダ-ロドスタ",
+  "maker": "マツダ",
+  "model": "ロードスター",
+  "source": {
+    "name": "国土交通省 自動車不具合情報ホットライン リコール情報検索",
+    "url": "https://renrakuda.mlit.go.jp/renrakuda/recall-search.html",
+    "credit": "出典：国土交通省 自動車不具合情報ホットライン（https://renrakuda.mlit.go.jp/renrakuda/recall-search.html）を加工して作成",
+    "license": "公共データ利用規約（第1.0版）（PDL1.0）"
+  },
+  "retrievedAt": "2026-11-15",
+  "coveredUntil": "2026-09-30",
+  "note": "ロードスターRF（リトラクタブルハードトップ）も国交省のデータでは同じ「ロードスター」として届け出られており、RFだけを区別できません。RFが対象かどうかは、型式・車台番号でご確認ください。",
+  "generations": [
+    {
+      "id": "ND",
+      "name": "4代目（ND系・2015年5月〜）",
+      "launched": "2015年5月",
+      "current": true,
+      "officialSource": {
+        "title": "マツダ ニュースルーム 系図 ROADSTER",
+        "url": "https://newsroom.mazda.com/ja/other/1901/index.html"
+      }
+    },
+    {
+      "id": "NC",
+      "name": "3代目（NC系・2005〜2015年）",
+      "launched": "2005年8月",
+      "current": false,
+      "officialSource": {
+        "title": "マツダ ニュースルーム 系図 ROADSTER",
+        "url": "https://newsroom.mazda.com/ja/other/1901/index.html"
+      }
+    },
+    {
+      "id": "NB",
+      "name": "2代目（NB系・1998〜2005年）",
+      "launched": "1998年1月",
+      "current": false,
+      "officialSource": {
+        "title": "マツダ ニュースルーム 系図 ROADSTER",
+        "url": "https://newsroom.mazda.com/ja/other/1901/index.html"
+      }
+    },
+    {
+      "id": "NA",
+      "name": "初代（NA系・1989〜1998年、ユーノスロードスター）",
+      "launched": "1989年9月",
+      "current": false,
+      "officialSource": {
+        "title": "マツダ ニュースルーム 系図 ROADSTER",
+        "url": "https://newsroom.mazda.com/ja/other/1901/index.html"
+      }
+    }
+  ],
+  "recalls": [
+    {
+      "no": "リ国-5720-0",
+      "baseNo": "リ国-5720",
+      "kind": "リコール",
+      "date": "2025-09-25",
+      "startDate": "2025年9月26日",
+      "device": "燃料ホース/パイプ",
+      "situation": "フューエルパイプにおいて、ブラケットによる保持力の管理値が不適切なため、保持力が低いものがある。そのため、サーキット走行等でエンジン高回転域を繰り返し使用すると、振動によりフューエルパイプが共振して亀裂が生じ、そのまま使用を続けると燃料が漏れてエンジンが停止し、再始動できないおそれがある。最悪の場合、火災に至るおそれがある。",
+      "measures": "全車両、フューエルパイプを対策品に交換する。なお、交換部品の準備に時間を要することから、準備ができ次第、改めて案内する。",
+      "productionPeriod": "2015年3月 5日 ～ 2018年6月 1日",
+      "units": "18,491台",
+      "generations": [
+        "ND"
+      ],
+      "targets": [
+        {
+          "typeCode": "DBA-ND5RC",
+          "chassisRange": "ND5RC-100066 ～ ND5RC-201790",
+          "generation": "ND"
+        }
+      ],
+      "specialVehicle": false,
+      "url": "https://renrakuda.mlit.go.jp/renrakuda/ris-detail-car.html?selCarTp=1&id=3010239"
+    },
+    {
+      "no": "リ国-5649-0",
+      "baseNo": "リ国-5649",
+      "kind": "リコール",
+      "date": "2025-05-22",
+      "startDate": "2025年5月22日",
+      "device": "コンピュータ(制御装置)",
+      "situation": "ダイナミック・スタビリティ・コントロールユニットにおいて、ヨーレートの特性異常を検知するプログラムが不適切なため、正しく判定できない。そのため、ヨーレートの特性異常が発生しても故障判定できず、ＴＣＳ／ＤＳＣ作動表示灯が点灯しないおそれがある。 ＴＣＳ・・・トラクションコントロールシステム：水にぬれた路面や雪道等の滑り易い路面での発進や旋回加速時に起こる駆動輪の空転を防ぎ、適切な駆動力と操縦性を確保するシステム ＤＳＣ・・・ダイナミック・スタビリティ・コントロール：滑り易い路面での走行時や、緊急回避など急激なハンドル操作による車両の横すべりを抑えるため、ＡＢＳやＴＣＳ等によりブレーキやエンジンの出力を自動的に制御し、車両の安定性を確保するシステム",
+      "measures": "全車両、ダイナミック・スタビリティ・コントロールユニットを対策品に交換する。なお、交換部品の準備に時間を要することから、準備ができ次第、改めて案内する。",
+      "productionPeriod": "2023年11月28日 ～ 2025年2月14日",
+      "units": "10,769台",
+      "generations": [
+        "ND"
+      ],
+      "targets": [
+        {
+          "typeCode": "5BA-ND5RE",
+          "chassisRange": "ND5RE-100006 ～ ND5RE-151164",
+          "generation": "ND"
+        },
+        {
+          "typeCode": "5BA-NDERE",
+          "chassisRange": "NDERE-100003 ～ NDERE-150448",
+          "generation": "ND"
+        }
+      ],
+      "specialVehicle": false,
+      "url": "https://renrakuda.mlit.go.jp/renrakuda/ris-detail-car.html?selCarTp=1&id=3010092"
+    },
+    {
+      "no": "リ国-5585-0",
+      "baseNo": "リ国-5585",
+      "kind": "リコール",
+      "date": "2024-12-12",
+      "startDate": "2024年12月13日",
+      "device": "装置その他",
+      "situation": "パーキング・アシスト・ユニットにおいて、ホイールの車輪速センサからの信号処理が不適切なため、後進時に超音波センサが検出した障害物との距離と、車輪速センサからの信号で算出した移動距離に不整合が出ることがある。そのため、障害物の位置と距離を知らせるパーキングセンサインジケータとブザーが正しく作動しないおそれがある。また、スマート・ブレーキ・サポートの後方検知機能※１　も作動しないおそれがある。さらに、自動変速機を搭載した車両については、ＡＴ誤発進抑制制御（前進時／後進時）※２　も作動しないおそれがある。 ※１　スマート・ブレーキ・サポートの後方検知機能とは、後進時にブレーキ制御をすることで衝突回避および衝突時の被害軽減を図る機能のこと。 ※２　ＡＴ誤発進抑制制御（前進時／後進時）とは、アクセルペダルの踏み間違いによる急発進を抑制して衝突時の被害軽減を図る制御のこと。",
+      "measures": "全車両、パーキング・アシスト・ユニットの制御プログラムを対策プログラムに修正する。",
+      "productionPeriod": "2023年11月28日 ～ 2024年10月31日",
+      "units": "9,051台",
+      "generations": [
+        "ND"
+      ],
+      "targets": [
+        {
+          "typeCode": "5BA-ND5RE",
+          "chassisRange": "ND5RE-100006 ～ ND5RE-107166",
+          "generation": "ND"
+        },
+        {
+          "typeCode": "5BA-NDERE",
+          "chassisRange": "NDERE-100003 ～ NDERE-102305",
+          "generation": "ND"
+        }
+      ],
+      "specialVehicle": false,
+      "url": "https://renrakuda.mlit.go.jp/renrakuda/ris-detail-car.html?selCarTp=1&id=3009941"
+    },
+    {
+      "no": "リ国-5436-0",
+      "baseNo": "リ国-5436",
+      "kind": "リコール",
+      "date": "2024-01-26",
+      "startDate": "2024年2月9日",
+      "device": "燃料ポンプ",
+      "situation": "ガソリンエンジン車の低圧燃料ポンプのインペラ（樹脂製羽根車）において、成形条件が不適切なため、樹脂密度が低くなって、燃料により膨潤して変形することがある。そのため、インペラがポンプケースと接触して低圧燃料ポンプが作動不良となり、最悪の場合、走行中エンストに至るおそれがある。",
+      "measures": "全車両、低圧燃料ポンプを対策品に交換する。なお、修理部品の準備に時間を要することから、部品の準備ができ次第、改めて案内する。",
+      "productionPeriod": "2017年6月19日 ～ 2020年5月26日",
+      "units": "146,777台",
+      "generations": [
+        "ND"
+      ],
+      "targets": [
+        {
+          "typeCode": "5BA-ND5RC",
+          "chassisRange": "ND5RC-301387 ～ ND5RC-400111",
+          "generation": "ND"
+        },
+        {
+          "typeCode": "DBA-ND5RC",
+          "chassisRange": "ND5RC-115825 ～ ND5RC-201531",
+          "generation": "ND"
+        },
+        {
+          "typeCode": "5BA-NDERC",
+          "chassisRange": "NDERC-301092 ～ NDERC-302313",
+          "generation": "ND"
+        },
+        {
+          "typeCode": "DBA-NDERC",
+          "chassisRange": "NDERC-103797 ～ NDERC-200885",
+          "generation": "ND"
+        }
+      ],
+      "specialVehicle": false,
+      "url": "https://renrakuda.mlit.go.jp/renrakuda/ris-detail-car.html?selCarTp=1&id=3009605"
+    },
+    {
+      "no": "リ国-5043-0",
+      "baseNo": "リ国-5043",
+      "kind": "リコール",
+      "date": "2021-11-12",
+      "startDate": "2021年11月12日",
+      "device": "燃料ポンプ",
+      "situation": "ガソリンエンジン車の低圧燃料ポンプのインペラ（樹脂製羽根車）において、成形条件が不適切なため、樹脂密度が低くなって、燃料により膨潤して変形することがある。そのため、インペラがポンプケースと接触して低圧燃料ポンプが作動不良となり、最悪の場合、走行中エンストに至るおそれがある。",
+      "measures": "全車両、低圧燃料ポンプを対策品に交換する。なお、修理部品の準備に時間を要するため、部品の準備ができ次第、使用者に改めて修理入庫を通知する。",
+      "productionPeriod": "2018年4月 3日 ～ 2019年8月15日",
+      "units": "42,505台",
+      "generations": [
+        "ND"
+      ],
+      "targets": [
+        {
+          "typeCode": "5BA-ND5RC",
+          "chassisRange": "ND5RC-300005 ～ ND5RC-301386",
+          "generation": "ND"
+        },
+        {
+          "typeCode": "5BA-NDERC",
+          "chassisRange": "NDERC-300008 ～ NDERC-301091",
+          "generation": "ND"
+        },
+        {
+          "typeCode": "DBA-ND5RC",
+          "chassisRange": "ND5RC-201532 ～ ND5RC-201790",
+          "generation": "ND"
+        },
+        {
+          "typeCode": "DBA-NDERC",
+          "chassisRange": "NDERC-200886 ～ NDERC-200994",
+          "generation": "ND"
+        }
+      ],
+      "specialVehicle": false,
+      "url": "https://renrakuda.mlit.go.jp/renrakuda/ris-detail-car.html?selCarTp=1&id=3005069"
+    },
+    {
+      "no": "リ国-4518-0",
+      "baseNo": "リ国-4518",
+      "kind": "リコール",
+      "date": "2019-06-27",
+      "startDate": "2019年6月28日",
+      "device": "車体",
+      "situation": "アンダーカバーにおいて、ブラケットとの接合治具の管理が不適切なため、接合強度が不足しているものがある。そのため、走行中の大きな振動や融雪剤による腐食で接合部が剥がれて異音が発生し、最悪の場合、ブラケットが脱落して他の交通の妨げとなるおそれがある。",
+      "measures": "全車両、アンダーカバーを良品と交換する。",
+      "productionPeriod": "2015年5月26日 ～ 2015年7月 6日",
+      "units": "1,231台",
+      "generations": [
+        "ND"
+      ],
+      "targets": [
+        {
+          "typeCode": "DBA-ND5RC",
+          "chassisRange": "ND5RC-102908 ～ ND5RC-104236",
+          "generation": "ND"
+        }
+      ],
+      "specialVehicle": false,
+      "url": "https://renrakuda.mlit.go.jp/renrakuda/ris-detail-car.html?selCarTp=1&id=3004541"
+    },
+    {
+      "no": "リ国-4424-0",
+      "baseNo": "リ国-4424",
+      "kind": "リコール",
+      "date": "2019-01-31",
+      "startDate": "2019年2月1日",
+      "device": "コンピュータ(動力伝達)",
+      "deviceOriginal": "コンピュータ(動力伝",
+      "situation": "自動変速機搭載車のトランスミッション制御コンピュータにおいて、クラッチ制御プログラムが不適切なため、Ｄレンジ（マニュアルモード含む）で走行中にレンジ信号ノイズを検出した場合に、意図しないクラッチ制御が作動することがある。そのため、減速感を伴うショックが発生し、最悪の場合、走行安定性を損なうおそれがある。",
+      "measures": "全車両、トランスミッション制御コンピュータのクラッチ制御プログラムを対策プログラムに修正する。",
+      "productionPeriod": "2015年3月 5日 ～ 2018年12月19日",
+      "units": "8,607台",
+      "generations": [
+        "ND"
+      ],
+      "targets": [
+        {
+          "typeCode": "DBA-ND5RC",
+          "chassisRange": "ND5RC-100066 ～ ND5RC-116802ND5RC-200009 ～ ND5RC-201789",
+          "generation": "ND"
+        },
+        {
+          "typeCode": "5BA-ND5RC",
+          "chassisRange": "ND5RC-300005 ～ ND5RC-301747",
+          "generation": "ND"
+        },
+        {
+          "typeCode": "DBA-NDERC",
+          "chassisRange": "NDERC-100018 ～ NDERC-104652NDERC-200004 ～ NDERC-200993",
+          "generation": "ND"
+        },
+        {
+          "typeCode": "5BA-NDERC",
+          "chassisRange": "NDERC-300010 ～ NDERC-301198",
+          "generation": "ND"
+        }
+      ],
+      "specialVehicle": false,
+      "url": "https://renrakuda.mlit.go.jp/renrakuda/ris-detail-car.html?selCarTp=1&id=3004446"
+    },
+    {
+      "no": "リ国-4289-0",
+      "baseNo": "リ国-4289",
+      "kind": "リコール",
+      "date": "2018-07-05",
+      "startDate": "2018年7月6日",
+      "device": "コンピュータ(エンジン)",
+      "deviceOriginal": "コンピュータ(エンジ",
+      "situation": "減速エネルギー回生システム（ｉ－ＥＬＯＯＰ）を搭載した車両において、ＤＣ－ＤＣコンバータの制御プログラムが不適切なため、電気回路が故障した場合にｉ－ＥＬＯＯＰ警告灯点灯およびｉ－ｓｔｏｐ警告灯が点滅するとともに、通電停止のためのバイパスモードが作動するが、プッシュボタンスタートを押して電源ポジションをＯＦＦにした際、解除することがある。そのため、そのまま使用を続けると、ＤＣ－ＤＣコンバータ内部の電気回路がショートし、充電不良となりバッテリが上がり、エンジンが停止するおそれがある。または、最悪の場合、火災に至るおそれがある。",
+      "measures": "全車両、エンジン制御コンピュータを点検し、点検の結果、ＤＣ－ＤＣコンバータに異常がある場合はＤＣ－ＤＣコンバータを新品と交換し、エンジン制御コンピュータを対策プログラムに書き換える。異常がない場合は、ＤＣ－ＤＣコンバータおよびエンジン制御コンピュータを対策プログラムに書き換える。",
+      "productionPeriod": "2014年8月 5日 ～ 2017年4月24日",
+      "units": "15,105台",
+      "generations": [
+        "ND"
+      ],
+      "targets": [
+        {
+          "typeCode": "DBA-ND5RC",
+          "chassisRange": "ND5RC-100066 ～ ND5RC-115343",
+          "generation": "ND"
+        },
+        {
+          "typeCode": "DBA-NDERC",
+          "chassisRange": "NDERC-100018 ～ NDERC-103275",
+          "generation": "ND"
+        }
+      ],
+      "specialVehicle": false,
+      "url": "https://renrakuda.mlit.go.jp/renrakuda/ris-detail-car.html?selCarTp=1&id=3004292"
+    },
+    {
+      "no": "リ国-3795-0",
+      "baseNo": "リ国-3795",
+      "kind": "リコール",
+      "date": "2016-04-07",
+      "startDate": "2016年4月8日",
+      "device": "コンピュータ",
+      "situation": "ＤＣ－ＤＣコンバータにおいて、部品の検査指示が不適切なため、過大な電圧をかけ、内部基板がダメージを負ったものがある。そのため、そのまま使用を続けると、コンバータ内部がショートし、充電不良となり、警告灯等が点灯し、最悪の場合、火災に至るおそれがある。",
+      "measures": "全車両、ＤＣ－ＤＣコンバータを良品に交換する。",
+      "productionPeriod": "2014年8月 5日 ～ 2015年9月16日",
+      "units": "1,073台",
+      "generations": [
+        "ND"
+      ],
+      "targets": [
+        {
+          "typeCode": "DBA-ND5RC",
+          "chassisRange": "ND5RC-100077 ～ ND5RC-106715",
+          "generation": "ND"
+        }
+      ],
+      "specialVehicle": false,
+      "url": "https://renrakuda.mlit.go.jp/renrakuda/ris-detail-car.html?selCarTp=1&id=3003762"
+    },
+    {
+      "no": "改国-0316-0",
+      "baseNo": "改国-0316",
+      "kind": "改善対策",
+      "date": "2006-04-06",
+      "startDate": "2006年4月7日",
+      "device": "エアーバッグ",
+      "situation": "ホーンスイッチをステアリングに締結しているボルトの強度が不足しているものがある。そのため、極低温下でエアバッグが展開した際、その圧力により当該ボルトが破断し、ホーンスイッチがステアリングから飛び出し、最悪の場合、乗員に危害を与えるおそれがある。",
+      "measures": "全車両、ホーンスイッチとエアバッグを対策品に交換する。",
+      "productionPeriod": "2005年12月 2日 ～ 2006年2月14日",
+      "units": "618台",
+      "generations": [
+        "NC"
+      ],
+      "targets": [
+        {
+          "typeCode": "CBA-NCEC",
+          "chassisRange": "NCEC-103152 ～ NCEC-104283",
+          "generation": "NC"
+        }
+      ],
+      "specialVehicle": false,
+      "url": "https://renrakuda.mlit.go.jp/renrakuda/ris-detail-car.html?selCarTp=1&id=3008692"
+    },
+    {
+      "no": "リ国-0945-1",
+      "baseNo": "リ国-0945",
+      "kind": "リコール",
+      "date": "2003-05-29",
+      "startDate": "2003年5月30日",
+      "device": "その他(保安灯火)",
+      "situation": "①フロント・フォグランプ装備車両において、当該ランプのソケットホルダーの固定構造 が不適切なため、バルブの点灯・消灯により、固定部分が膨張・収縮を繰り返し、ソケッ トホルダーがバルブとともにランプ本体から脱落して、周辺の樹脂製部品を溶損させ、最 悪の場合、火災に至るおそれがある。",
+      "measures": "①全車両、ソケットホルダーとフォグランプ本体をスプリングで固定する。",
+      "productionPeriod": "1997年12月10日 ～ 2003年5月16日",
+      "units": "78,505台",
+      "generations": [
+        "NB"
+      ],
+      "targets": [
+        {
+          "typeCode": "GF-NB6C",
+          "chassisRange": "NB6C-100014 ～ NB6C-301010",
+          "generation": "NB"
+        },
+        {
+          "typeCode": "GH-NB6C",
+          "chassisRange": "NB6C-100014 ～ NB6C-301010",
+          "generation": "NB"
+        },
+        {
+          "typeCode": "GF-NB8C",
+          "chassisRange": "NB8C-100020 ～ NB8C-300752",
+          "generation": "NB"
+        },
+        {
+          "typeCode": "GH-NB8C",
+          "chassisRange": "NB8C-100020 ～ NB8C-300752",
+          "generation": "NB"
+        }
+      ],
+      "specialVehicle": false,
+      "url": "https://renrakuda.mlit.go.jp/renrakuda/ris-detail-car.html?selCarTp=1&id=3000581"
+    },
+    {
+      "no": "リ国-0504-0",
+      "baseNo": "リ国-0504",
+      "kind": "リコール",
+      "date": "1998-01-22",
+      "startDate": "1998年1月23日",
+      "device": "Ｍ／Ｔ",
+      "situation": "動力伝達装置の手動変速機において、二重かみ合い防止機構部の寸法が不適切なため、車 両停止時に変速レバーの位置がニュートラルであるにもかかわらず変速ギヤがかみ合って 、変速操作ができなくなることがあり、最悪の場合、発進できなくなるおそれがある。",
+      "measures": "全車両、手動変速機を対策品と交換する。",
+      "productionPeriod": "1997年7月31日 ～ 1997年8月18日",
+      "units": "185台",
+      "generations": [
+        "NA"
+      ],
+      "targets": [
+        {
+          "typeCode": "E-NA8C",
+          "chassisRange": "NA8C-408680 ～",
+          "generation": "NA"
+        }
+      ],
+      "specialVehicle": false,
+      "url": "https://renrakuda.mlit.go.jp/renrakuda/ris-detail-car.html?selCarTp=1&id=3000107"
+    }
+  ]
+}

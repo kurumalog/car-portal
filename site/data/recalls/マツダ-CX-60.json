@@ -1,0 +1,748 @@
+{
+  "slug": "マツダ-CX-60",
+  "maker": "マツダ",
+  "model": "CX-60",
+  "source": {
+    "name": "国土交通省 自動車不具合情報ホットライン リコール情報検索",
+    "url": "https://renrakuda.mlit.go.jp/renrakuda/recall-search.html",
+    "credit": "出典：国土交通省 自動車不具合情報ホットライン（https://renrakuda.mlit.go.jp/renrakuda/recall-search.html）を加工して作成",
+    "license": "公共データ利用規約（第1.0版）（PDL1.0）"
+  },
+  "retrievedAt": "2026-11-15",
+  "coveredUntil": "2026-09-30",
+  "generations": [
+    {
+      "id": "KH",
+      "name": "初代（KH系・2022年9月〜）",
+      "launched": "2022年9月",
+      "current": true,
+      "officialSource": {
+        "title": "マツダ ニュースリリース「MAZDA CX-60」の販売を開始",
+        "url": "https://newsroom.mazda.com/ja/publicity/release/2022/202209/220915a.html"
+      }
+    }
+  ],
+  "recalls": [
+    {
+      "no": "リ国-5563-0",
+      "baseNo": "リ国-5563",
+      "kind": "リコール",
+      "date": "2024-10-31",
+      "startDate": "2024年11月1日",
+      "device": "その他(電気装置)",
+      "situation": "コンビネーションメータにおいて、市場整備のため制御プログラムを配信する際の条件設定が不適切なため、整備時に誤った制御プログラムが書き込まれたものがある。そのため、クルージング＆トラフィック・サポートの機能で走行中にハンドルから手を放す、または緩く握った状態が一定時間続いた場合に作動する、ハンドル操作を促すための警告がコンビネーションメータに表示されないおそれがある。",
+      "measures": "全車両、コンビネーションメータの制御プログラムを正しいプログラムに修正する。",
+      "productionPeriod": "2022年10月14日 ～ 2023年2月22日",
+      "units": "2台",
+      "generations": [
+        "KH"
+      ],
+      "targets": [
+        {
+          "typeCode": "3CA-KH3R3P",
+          "chassisRange": "KH3R3P-104662 ～ KH3R3P-104662",
+          "generation": "KH"
+        },
+        {
+          "typeCode": "3DA-KH3P",
+          "chassisRange": "KH3P-106583 ～ KH3P-106583",
+          "generation": "KH"
+        }
+      ],
+      "specialVehicle": false,
+      "url": "https://renrakuda.mlit.go.jp/renrakuda/ris-detail-car.html?selCarTp=1&id=3009887"
+    },
+    {
+      "no": "リ国-5554-4",
+      "baseNo": "リ国-5554",
+      "kind": "リコール",
+      "date": "2024-10-31",
+      "startDate": "2024年11月1日",
+      "device": "その他(その他)",
+      "situation": "④ダッシュ・エレクトリカル・サプライユニットにおいて、制御プログラムが不適切なため、起動時の情報処理が終了せず、正常に起動しないことがある。そのため、メータに複数の異常メッセージが表示され、空調やシートベルトリマインダー、３６０°ビューモニタが機能しないおそれがある。また、エンジン警告灯が点灯し、高電圧バッテリの冷却も機能しないおそれがある。",
+      "measures": "④全車両、ダッシュ・エレクトリカル・サプライユニットの制御プログラムを対策プログラムに修正する。",
+      "productionPeriod": "2022年7月 5日 ～ 2024年8月23日",
+      "units": "34,442台",
+      "generations": [
+        "KH"
+      ],
+      "targets": [
+        {
+          "typeCode": "3CA-KH3R3P",
+          "chassisRange": "KH3R3P-100013 ～ KH3R3P-113761",
+          "generation": "KH"
+        },
+        {
+          "typeCode": "3DA-KH3P",
+          "chassisRange": "KH3P-100015 ～ KH3P-113068",
+          "generation": "KH"
+        },
+        {
+          "typeCode": "5LA-KH5S3P",
+          "chassisRange": "KH5S3P-100004 ～ KH5S3P-101311",
+          "generation": "KH"
+        },
+        {
+          "typeCode": "5BA-KH5P",
+          "chassisRange": "KH5P-100009 ～ KH5P-106364",
+          "generation": "KH"
+        }
+      ],
+      "specialVehicle": false,
+      "url": "https://renrakuda.mlit.go.jp/renrakuda/ris-detail-car.html?selCarTp=1&id=3009877"
+    },
+    {
+      "no": "リ国-5554-3",
+      "baseNo": "リ国-5554",
+      "kind": "リコール",
+      "date": "2024-10-31",
+      "startDate": "2024年11月1日",
+      "device": "コンピュータ(エンジン)",
+      "situation": "③マイルドハイブリッド車のエンジン制御コンピュータとマイルドハイブリッド用バッテリにおいて、バッテリ制御が不適切なため、バッテリ内部のセルに電圧差が生じることがある。そのため、そのまま使用を続けると電圧差が大きくなり、エンジン始動時に故障判定してエンジン警告灯が点灯し、メータに「ハイブリッドシステム異常」のメッセージが表示され、モータアシストが停止するおそれがある。有車速アイドリングストップ時に故障判定すると、最悪の場合、エンジンが再始動できずエンストするおそれがある。",
+      "measures": "③全車両、エンジン制御コンピュータとマイルドハイブリッド用バッテリの制御プログラムを対策プログラムに修正する。",
+      "productionPeriod": "2022年7月 5日 ～ 2024年8月27日",
+      "units": "12,965台",
+      "generations": [
+        "KH"
+      ],
+      "targets": [
+        {
+          "typeCode": "3CA-KH3R3P",
+          "chassisRange": "KH3R3P-100013 ～ KH3R3P-113761",
+          "generation": "KH"
+        }
+      ],
+      "specialVehicle": false,
+      "url": "https://renrakuda.mlit.go.jp/renrakuda/ris-detail-car.html?selCarTp=1&id=3009876"
+    },
+    {
+      "no": "リ国-5554-2",
+      "baseNo": "リ国-5554",
+      "kind": "リコール",
+      "date": "2024-10-31",
+      "startDate": "2024年11月1日",
+      "device": "コンピュータ(動力伝達)",
+      "situation": "②マイルドハイブリッド車のトランスミッション制御コンピュータにおいて、クラッチ制御が不適切なため、エンジンを停止してモータによるＥＶ走行へ切り替わった直後に、停止したエンジンが再始動する際、モータとエンジンを繋ぐクラッチの締結タイミングがずれることがある。そのため、エンジン回転が上昇せず、再始動できないおそれがある。",
+      "measures": "①②全車両、トランスミッション制御コンピュータとエンジン制御コンピュータの制御プログラムを対策プログラムに修正し、トランスミッションの初期学習を実施する。",
+      "productionPeriod": "2022年7月 5日 ～ 2024年8月27日",
+      "units": "13,747台",
+      "generations": [
+        "KH"
+      ],
+      "targets": [
+        {
+          "typeCode": "3CA-KH3R3P",
+          "chassisRange": "KH3R3P-100013 ～ KH3R3P-113761",
+          "generation": "KH"
+        }
+      ],
+      "specialVehicle": false,
+      "url": "https://renrakuda.mlit.go.jp/renrakuda/ris-detail-car.html?selCarTp=1&id=3009875"
+    },
+    {
+      "no": "リ国-5554-1",
+      "baseNo": "リ国-5554",
+      "kind": "リコール",
+      "date": "2024-10-31",
+      "startDate": "2024年11月1日",
+      "device": "コンピュータ(動力伝達)",
+      "situation": "①マイルドハイブリッド車のトランスミッション制御コンピュータにおいて、クラッチ制御が不適切なため、モータによるＥＶ走行中に停止したエンジンを再始動する際、モータとエンジンを繋ぐクラッチの締結タイミングがずれることがある。そのため、エンジンを再始動するためのピストン停止位置からずれて再始動できないおそれがある。",
+      "measures": "①②全車両、トランスミッション制御コンピュータとエンジン制御コンピュータの制御プログラムを対策プログラムに修正し、トランスミッションの初期学習を実施する。",
+      "productionPeriod": "2022年7月 5日 ～ 2024年8月27日",
+      "units": "12,514台",
+      "generations": [
+        "KH"
+      ],
+      "targets": [
+        {
+          "typeCode": "3CA-KH3R3P",
+          "chassisRange": "KH3R3P-100013 ～ KH3R3P-113761",
+          "generation": "KH"
+        }
+      ],
+      "specialVehicle": false,
+      "url": "https://renrakuda.mlit.go.jp/renrakuda/ris-detail-car.html?selCarTp=1&id=3009874"
+    },
+    {
+      "no": "リ国-5525-0",
+      "baseNo": "リ国-5525",
+      "kind": "リコール",
+      "date": "2024-07-25",
+      "startDate": "2024年7月26日",
+      "device": "コンピュータ(動力伝達)",
+      "situation": "トランスミッション制御コンピュータにおいて、減速中のクラッチ制御が不適切なため、強めにブレーキを踏んで停止した際、エンジンとモータを繋ぐクラッチが解放したままになることがある。そのため、エンジンからの動力を伝達できず、アクセルを踏んでも発進できなくなるおそれがある。",
+      "measures": "全車両、トランスミッション制御コンピュータの制御プログラムを対策プログラムに修正し、トランスミッションの初期学習を実施する。",
+      "productionPeriod": "2022年7月 5日 ～ 2024年6月29日",
+      "units": "9,422台",
+      "generations": [
+        "KH"
+      ],
+      "targets": [
+        {
+          "typeCode": "3CA-KH3R3P",
+          "chassisRange": "KH3R3P-100013 ～ KH3R3P-113603",
+          "generation": "KH"
+        }
+      ],
+      "specialVehicle": false,
+      "url": "https://renrakuda.mlit.go.jp/renrakuda/ris-detail-car.html?selCarTp=1&id=3009795"
+    },
+    {
+      "no": "改国-0688-0",
+      "baseNo": "改国-0688",
+      "kind": "改善対策",
+      "date": "2024-05-16",
+      "startDate": "2024年5月31日",
+      "device": "装置その他",
+      "situation": "車両制御コンピュータにおいて、スマート・ブレーキ・サポートの制御プログラムが不適切なため、道路横に斜めの金属壁などがあった場合に、前進時左右接近物検知機能が誤作動することがある。そのため、衝突の可能性がないにもかかわらず障害物との接近を知らせる警報音が鳴り、ディスプレイに警告表示が出て、最悪の場合、衝突被害軽減ブレーキが作動し、急制動がかかるおそれがある。",
+      "measures": "全車両、車両制御コンピュータの制御プログラムを対策プログラムに修正する。",
+      "productionPeriod": "2022年7月 5日 ～ 2023年9月11日",
+      "units": "12,654台",
+      "generations": [
+        "KH"
+      ],
+      "targets": [
+        {
+          "typeCode": "3CA-KH3R3P",
+          "chassisRange": "KH3R3P-100013 ～ KH3R3P-111604",
+          "generation": "KH"
+        },
+        {
+          "typeCode": "5LA-KH5S3P",
+          "chassisRange": "KH5S3P-100004 ～ KH5S3P-101066",
+          "generation": "KH"
+        }
+      ],
+      "specialVehicle": false,
+      "url": "https://renrakuda.mlit.go.jp/renrakuda/ris-detail-car.html?selCarTp=1&id=3009704"
+    },
+    {
+      "no": "リ国-5473-2",
+      "baseNo": "リ国-5473",
+      "kind": "リコール",
+      "date": "2024-05-16",
+      "startDate": "2024年5月31日",
+      "device": "コンピュータ(動力伝達)",
+      "deviceOriginal": "コンピュータ(動力伝",
+      "situation": "（２）トランスミッション制御コンピュータにおいて、減速中のクラッチ制御が不適切なため、クラッチを解放するタイミングの遅れや、意図しないタイミングでのクラッチ締結が発生することがある。そのため、減速中にエンジン回転が低下し、最悪の場合、低車速時にエンストするおそれがある。",
+      "measures": "（２）全車両、トランスミッション制御コンピュータの制御プログラムを対策プログラムに修正し、トランスミッションの初期学習を実施する。",
+      "productionPeriod": "2022年12月14日 ～ 2023年10月31日",
+      "units": "4,925台",
+      "generations": [
+        "KH"
+      ],
+      "targets": [
+        {
+          "typeCode": "5BA-KH5P",
+          "chassisRange": "KH5P-100009 ～ KH5P-105018",
+          "generation": "KH"
+        }
+      ],
+      "specialVehicle": false,
+      "url": "https://renrakuda.mlit.go.jp/renrakuda/ris-detail-car.html?selCarTp=1&id=3009709"
+    },
+    {
+      "no": "リ国-5473-1",
+      "baseNo": "リ国-5473",
+      "kind": "リコール",
+      "date": "2024-05-16",
+      "startDate": "2024年5月31日",
+      "device": "コンピュータ(エンジン)",
+      "deviceOriginal": "コンピュータ(エンジ",
+      "situation": "（１）エンジン制御コンピュータにおいて、燃料蒸発ガス濃度の学習条件が不適切なため、パージバルブが開弁していない際に学習し、実際よりも低い濃度として判定することがある。そのため、走行直後など、燃料タンク内の燃料温度が高くなり、高濃度のガスがエンジンに取り込まれた場合に失火し、最悪の場合、エンストするおそれがある。",
+      "measures": "（１）全車両、エンジン制御コンピュータの制御プログラムを対策プログラムに修正する。",
+      "productionPeriod": "2022年12月14日 ～ 2023年10月31日",
+      "units": "4,696台",
+      "generations": [
+        "KH"
+      ],
+      "targets": [
+        {
+          "typeCode": "5BA-KH5P",
+          "chassisRange": "KH5P-100009 ～ KH5P-105018",
+          "generation": "KH"
+        }
+      ],
+      "specialVehicle": false,
+      "url": "https://renrakuda.mlit.go.jp/renrakuda/ris-detail-car.html?selCarTp=1&id=3009708"
+    },
+    {
+      "no": "リ国-5430-0",
+      "baseNo": "リ国-5430",
+      "kind": "リコール",
+      "date": "2024-01-18",
+      "startDate": "2024年1月19日",
+      "device": "かじ取ギヤボックス",
+      "situation": "電動パワーステアリングギヤボックスにおいて、ギヤ同士の噛み合わせ荷重設定が不適切なため、噛み合い部に塗布したグリースが押し出され、摺動抵抗が増加する。そのため、ステアリングを操作するときの操作力が増大するおそれがある。",
+      "measures": "全車両、ギヤを噛み合わせるためのスプリングを対策品に交換する。また、押し出されたグリースをウォームホイールの噛み合い部に塗り直す。",
+      "productionPeriod": "2022年7月 5日 ～ 2023年12月13日",
+      "units": "30,150台",
+      "generations": [
+        "KH"
+      ],
+      "targets": [
+        {
+          "typeCode": "3CA-KH3R3P",
+          "chassisRange": "KH3R3P-100013 ～ KH3R3P-112461",
+          "generation": "KH"
+        },
+        {
+          "typeCode": "3DA-KH3P",
+          "chassisRange": "KH3P-100015 ～ KH3P-111324",
+          "generation": "KH"
+        },
+        {
+          "typeCode": "5BA-KH5P",
+          "chassisRange": "KH5P-100009 ～ KH5P-105244",
+          "generation": "KH"
+        },
+        {
+          "typeCode": "5LA-KH5S3P",
+          "chassisRange": "KH5S3P-100004 ～ KH5S3P-101191",
+          "generation": "KH"
+        }
+      ],
+      "specialVehicle": false,
+      "url": "https://renrakuda.mlit.go.jp/renrakuda/ris-detail-car.html?selCarTp=1&id=3009599"
+    },
+    {
+      "no": "改国-0679-0",
+      "baseNo": "改国-0679",
+      "kind": "改善対策",
+      "date": "2023-10-26",
+      "startDate": "2023年10月27日",
+      "device": "その他(制御装置)",
+      "situation": "サイドレーダーセンサにおいて、情報処理プログラムが不適切なため、センサが電波を出す角度を補正するための記録情報が、システム遮断時に消失することがある。そのため、センサが対象物の位置を正しく認識できず、前進あるいは後退時に警報音や被害軽減ブレーキが作動しないおそれがある。また、衝突の可能性がないにもかかわらず、警報音が鳴り、最悪の場合、急制動がかかるおそれがある。",
+      "measures": "全車両、サイドレーダーセンサの制御プログラムを対策プログラムに修正する。なお、サイドレーダーセンサの記録情報が消失している場合は、サイドレーダーセンサを対策品に交換する。",
+      "productionPeriod": "2022年7月 5日 ～ 2023年4月 4日",
+      "units": "20,671台",
+      "generations": [
+        "KH"
+      ],
+      "targets": [
+        {
+          "typeCode": "3CA-KH3R3P",
+          "chassisRange": "KH3R3P-100013 ～ KH3R3P-110178",
+          "generation": "KH"
+        },
+        {
+          "typeCode": "3DA-KH3P",
+          "chassisRange": "KH3P-100015 ～ KH3P-107286",
+          "generation": "KH"
+        },
+        {
+          "typeCode": "5BA-KH5P",
+          "chassisRange": "KH5P-100009 ～ KH5P-102429",
+          "generation": "KH"
+        },
+        {
+          "typeCode": "5LA-KH5S3P",
+          "chassisRange": "KH5S3P-100004 ～ KH5S3P-100816",
+          "generation": "KH"
+        }
+      ],
+      "specialVehicle": false,
+      "url": "https://renrakuda.mlit.go.jp/renrakuda/ris-detail-car.html?selCarTp=1&id=3009488"
+    },
+    {
+      "no": "リ国-5384-5",
+      "baseNo": "リ国-5384",
+      "kind": "リコール",
+      "date": "2023-10-26",
+      "startDate": "2023年10月27日",
+      "device": "後写鏡",
+      "situation": "（５）ビューモニターユニットにおいて、システムの処理条件が不適切なため、再起動時にメモリをリセットできないことがある。そのため、メモリ不足により画像処理が遅くなり、センターディスプレイの映像が乱れ、黒画になることで、サイド及びバックカメラの映像が表示できないおそれがある。",
+      "measures": "（５）全車両、ビューモニターユニットの制御プログラムを対策プログラムに修正する。",
+      "productionPeriod": "2022年7月 5日 ～ 2023年8月23日",
+      "units": "27,699台",
+      "generations": [
+        "KH"
+      ],
+      "targets": [
+        {
+          "typeCode": "3CA-KH3R3P",
+          "chassisRange": "KH3R3P-100013 ～ KH3R3P-110860",
+          "generation": "KH"
+        },
+        {
+          "typeCode": "3DA-KH3P",
+          "chassisRange": "KH3P-100015 ～ KH3P-108550",
+          "generation": "KH"
+        },
+        {
+          "typeCode": "5BA-KH5P",
+          "chassisRange": "KH5P-100009 ～ KH5P-103794",
+          "generation": "KH"
+        },
+        {
+          "typeCode": "5LA-KH5S3P",
+          "chassisRange": "KH5S3P-100004 ～ KH5S3P-100992",
+          "generation": "KH"
+        }
+      ],
+      "specialVehicle": false,
+      "url": "https://renrakuda.mlit.go.jp/renrakuda/ris-detail-car.html?selCarTp=1&id=3009496"
+    },
+    {
+      "no": "リ国-5384-4",
+      "baseNo": "リ国-5384",
+      "kind": "リコール",
+      "date": "2023-10-26",
+      "startDate": "2023年10月27日",
+      "device": "後写鏡",
+      "situation": "（４）ビューモニターユニットにおいて、システムの起動条件が不適切なため、起動時にサイド及びバックカメラに切り替えるシステムが起動しないことがある。そのため、ｉ－ＡＣＴＩＶＳＥＮＳＥ警告灯が点灯し、ビューモニターユニット異常を知らせるメッセージがメータ内ディスプレイに表示される。また、サイド及びバックカメラの映像が表示できないおそれがある。",
+      "measures": "（４）全車両、ビューモニターユニットの制御プログラムを対策プログラムに修正する。",
+      "productionPeriod": "2022年7月 5日 ～ 2023年8月23日",
+      "units": "27,699台",
+      "generations": [
+        "KH"
+      ],
+      "targets": [
+        {
+          "typeCode": "3CA-KH3R3P",
+          "chassisRange": "KH3R3P-100013 ～ KH3R3P-110860",
+          "generation": "KH"
+        },
+        {
+          "typeCode": "3DA-KH3P",
+          "chassisRange": "KH3P-100015 ～ KH3P-108550",
+          "generation": "KH"
+        },
+        {
+          "typeCode": "5BA-KH5P",
+          "chassisRange": "KH5P-100009 ～ KH5P-103794",
+          "generation": "KH"
+        },
+        {
+          "typeCode": "5LA-KH5S3P",
+          "chassisRange": "KH5S3P-100004 ～ KH5S3P-100992",
+          "generation": "KH"
+        }
+      ],
+      "specialVehicle": false,
+      "url": "https://renrakuda.mlit.go.jp/renrakuda/ris-detail-car.html?selCarTp=1&id=3009495"
+    },
+    {
+      "no": "リ国-5384-3",
+      "baseNo": "リ国-5384",
+      "kind": "リコール",
+      "date": "2023-10-26",
+      "startDate": "2023年10月27日",
+      "device": "コンピュータ(電動機)",
+      "situation": "（３）電気駆動制御コンピュータにおいて、フェイルセーフの作動条件が不適切なため、プラグインハイブリッド用インバータの冷却異常が発生した場合にモータの運転を制限しても、インバータが過熱することがある。そのため、そのまま使用を続けた場合、エンジン警告灯やハイブリッドシステム警告灯が点灯し、フェイルセーフが作動してモータの運転を停止する際、同時にエンジンの運転も停止し、走行できなくなるおそれがある。",
+      "measures": "（３）全車両、電気駆動制御コンピュータの制御プログラムを対策プログラムに修正する。併せてエンジン制御コンピュータの制御プログラムを、電気駆動制御コンピュータの対策プログラムに適応したプログラムに更新する。",
+      "productionPeriod": "2022年10月19日 ～ 2023年6月19日",
+      "units": "27,699台",
+      "generations": [
+        "KH"
+      ],
+      "targets": [
+        {
+          "typeCode": "5LA-KH5S3P",
+          "chassisRange": "KH5S3P-100004 ～ KH5S3P-100992",
+          "generation": "KH"
+        }
+      ],
+      "specialVehicle": false,
+      "url": "https://renrakuda.mlit.go.jp/renrakuda/ris-detail-car.html?selCarTp=1&id=3009494"
+    },
+    {
+      "no": "リ国-5384-2",
+      "baseNo": "リ国-5384",
+      "kind": "リコール",
+      "date": "2023-10-26",
+      "startDate": "2023年10月27日",
+      "device": "コンピュータ(エンジン)",
+      "deviceOriginal": "コンピュータ(エンジ",
+      "situation": "（２）エンジン制御コンピュータにおいて、故障判定する条件が不適切なため、アイドリングストップによりエンジンが停止する際、アクセル操作等でエンジン停止が中断されると、一時的に、燃料噴射気筒を正しく判定できなくなることがある。そのため、その時に故障として誤判定することで、燃料噴射を禁止し、燃料噴射気筒を正しく判定するまで燃料が噴射できず、走行中の場合は車両が減速し、停車中の場合はエンジンが再始動できないおそれがある。",
+      "measures": "（２）全車両、エンジン制御コンピュータの制御プログラムを対策プログラムに修正する。",
+      "productionPeriod": "2022年7月 5日 ～ 2023年6月 9日",
+      "units": "27,699台",
+      "generations": [
+        "KH"
+      ],
+      "targets": [
+        {
+          "typeCode": "3CA-KH3R3P",
+          "chassisRange": "KH3R3P-100013 ～ KH3R3P-110860",
+          "generation": "KH"
+        }
+      ],
+      "specialVehicle": false,
+      "url": "https://renrakuda.mlit.go.jp/renrakuda/ris-detail-car.html?selCarTp=1&id=3009493"
+    },
+    {
+      "no": "リ国-5384-1",
+      "baseNo": "リ国-5384",
+      "kind": "リコール",
+      "date": "2023-10-26",
+      "startDate": "2023年10月27日",
+      "device": "コンピュータ(エンジン)",
+      "deviceOriginal": "コンピュータ(エンジ",
+      "situation": "（１）エンジン制御コンピュータにおいて、ハイブリッドシステムの起動条件が不適切なため、プッシュボタンスタートをオフしてから約８秒後にオンして再始動した場合、マイルドハイブリッド用バッテリーのリレー回路が接続できないことがある。そのため、メータに「ハイブリッドシステム異常」のメッセージが表示され、エンジン警告灯も点灯してトランスミッションがＮレンジに固定され、走行できなくなるおそれがある。また、プッシュボタンスタートをオフしてから約９０秒以内はエンジンを始動できない。",
+      "measures": "（１）全車両、エンジン制御コンピュータの制御プログラムを対策プログラムに修正する。",
+      "productionPeriod": "2022年7月 5日 ～ 2023年6月 9日",
+      "units": "27,699台",
+      "generations": [
+        "KH"
+      ],
+      "targets": [
+        {
+          "typeCode": "3CA-KH3R3P",
+          "chassisRange": "KH3R3P-100013 ～ KH3R3P-110860",
+          "generation": "KH"
+        }
+      ],
+      "specialVehicle": false,
+      "url": "https://renrakuda.mlit.go.jp/renrakuda/ris-detail-car.html?selCarTp=1&id=3009492"
+    },
+    {
+      "no": "リ国-5342-3",
+      "baseNo": "リ国-5342",
+      "kind": "リコール",
+      "date": "2023-06-15",
+      "startDate": "2023年6月16日",
+      "device": "ＡＢＳ",
+      "situation": "（３）フロントＡＢＳセンサにおいて、車両組立工程の組付け作業が不適切なため、ステアリングナックルにハーネスを固定するブラケットを締結するボルトが規定トルクで締め付けられていないものがある。そのため、そのまま使用を続けるとボルトが外れ、最悪の場合、ハーネスがタイヤ等に干渉することで損傷し、ＡＢＳ警告灯およびＴＣＳ／ＤＳＣ表示灯が点灯し、ＥＰＢ表示灯が点滅すると共に、ＡＢＳ、ＴＣＳ、ＤＳＣおよびＥＰＢの作動が停止し、さらに先進安全運転支援システムも停止するおそれがある。",
+      "measures": "（３）全車両、当該ボルトの状態を点検し、規定トルクで締付けを行う。また、ボルトが脱落していた場合は、フロントＡＢＳセンサ一式を新品と交換し、新品のボルトを取付ける。",
+      "productionPeriod": "2022年11月18日 ～ 2022年12月16日",
+      "units": "753台",
+      "generations": [
+        "KH"
+      ],
+      "targets": [
+        {
+          "typeCode": "3DA-KH3P",
+          "chassisRange": "KH3P-100015 ～ KH3P-101022",
+          "generation": "KH"
+        },
+        {
+          "typeCode": "5BA-KH5P",
+          "chassisRange": "KH5P-100009 ～ KH5P-100033",
+          "generation": "KH"
+        }
+      ],
+      "specialVehicle": false,
+      "url": "https://renrakuda.mlit.go.jp/renrakuda/ris-detail-car.html?selCarTp=1&id=3009364"
+    },
+    {
+      "no": "リ国-5342-2",
+      "baseNo": "リ国-5342",
+      "kind": "リコール",
+      "date": "2023-06-15",
+      "startDate": "2023年6月16日",
+      "device": "かじ取リンク機構",
+      "situation": "（２）インターミディエイトシャフトにおいて、車両組立工程の組付け作業が不適切なため、ステアリングギヤに締結するボルトが規定トルクで締め付けられていないものがある。そのため、そのまま使用を続けるとボルトが外れ、最悪の場合、ステアリングギヤからインターミディエイトシャフトが抜け、操舵不能になるおそれがある。",
+      "measures": "（２）全車両、当該ボルトの状態を点検し、規定トルクで締付けを行う。また、ボルトが脱落していた場合は、新品のボルトを取付ける。",
+      "productionPeriod": "2022年11月18日 ～ 2022年12月16日",
+      "units": "753台",
+      "generations": [
+        "KH"
+      ],
+      "targets": [
+        {
+          "typeCode": "3DA-KH3P",
+          "chassisRange": "KH3P-100015 ～ KH3P-101022",
+          "generation": "KH"
+        },
+        {
+          "typeCode": "5BA-KH5P",
+          "chassisRange": "KH5P-100009 ～ KH5P-100033",
+          "generation": "KH"
+        }
+      ],
+      "specialVehicle": false,
+      "url": "https://renrakuda.mlit.go.jp/renrakuda/ris-detail-car.html?selCarTp=1&id=3009363"
+    },
+    {
+      "no": "リ国-5342-1",
+      "baseNo": "リ国-5342",
+      "kind": "リコール",
+      "date": "2023-06-15",
+      "startDate": "2023年6月16日",
+      "device": "緩衝アーム/ロッド",
+      "situation": "（１）フロントサスペンションにおいて、車両組立工程の組付け作業が不適切なため、アッパアーム・ボールジョイントとステアリングナックルを締結するボルトとナットが規定トルクで締め付けられていないものがある。そのため、そのまま使用を続けるとボルトが外れ、最悪の場合、ステアリングナックルがボールジョイントから抜け、タイヤと接触することでパンクして走行不能となるおそれがある。",
+      "measures": "（１）全車両、当該ボルトとナットの状態を点検し、規定トルクで締付けを行う。また、ボルトとナットが脱落していた場合は、新品のボルトとナットを取付ける。",
+      "productionPeriod": "2022年11月18日 ～ 2022年12月16日",
+      "units": "753台",
+      "generations": [
+        "KH"
+      ],
+      "targets": [
+        {
+          "typeCode": "3DA-KH3P",
+          "chassisRange": "KH3P-100015 ～ KH3P-101022",
+          "generation": "KH"
+        },
+        {
+          "typeCode": "5BA-KH5P",
+          "chassisRange": "KH5P-100009 ～ KH5P-100033",
+          "generation": "KH"
+        }
+      ],
+      "specialVehicle": false,
+      "url": "https://renrakuda.mlit.go.jp/renrakuda/ris-detail-car.html?selCarTp=1&id=3009362"
+    },
+    {
+      "no": "リ国-5297-3",
+      "baseNo": "リ国-5297",
+      "kind": "リコール",
+      "date": "2023-04-06",
+      "startDate": "2023年4月7日",
+      "device": "スピードメータ",
+      "situation": "（３）コンビネーションメータ（フル液晶タイプ）において、制御プログラムが不適切なため、メータの液晶画面を表示するための起動制御が完了できないことがある。そのため、速度計や警告灯等が表示できないおそれがある。",
+      "measures": "（３）全車両、コンビネーションメータの制御プログラムを対策プログラムに修正する。",
+      "productionPeriod": "2022年7月 5日 ～ 2023年1月23日",
+      "units": "10,682台",
+      "generations": [
+        "KH"
+      ],
+      "targets": [
+        {
+          "typeCode": "3CA-KH3R3P",
+          "chassisRange": "KH3R3P-100013 ～ KH3R3P-108499",
+          "generation": "KH"
+        },
+        {
+          "typeCode": "3DA-KH3P",
+          "chassisRange": "KH3P-100016 ～ KH3P-103470",
+          "generation": "KH"
+        },
+        {
+          "typeCode": "5LA-KH5S3P",
+          "chassisRange": "KH5S3P-100005 ～ KH5S3P-100642",
+          "generation": "KH"
+        },
+        {
+          "typeCode": "5BA-KH5P",
+          "chassisRange": "KH5P-100025 ～ KH5P-100376",
+          "generation": "KH"
+        }
+      ],
+      "specialVehicle": false,
+      "url": "https://renrakuda.mlit.go.jp/renrakuda/ris-detail-car.html?selCarTp=1&id=3009297"
+    },
+    {
+      "no": "リ国-5297-2",
+      "baseNo": "リ国-5297",
+      "kind": "リコール",
+      "date": "2023-04-06",
+      "startDate": "2023年4月7日",
+      "device": "その他(電気装置)",
+      "situation": "（２）電力変換装置（インバータ）において、制御プログラムが不適切なため、プッシュボタンスタートをオフした直後にオンするとインバータが起動しないことがある。そのため、アイドリングストップ後にエンジンが再始動できない。また、バッテリーへの充電が停止するため、充電警告灯が点灯し、最悪の場合エンストするおそれがある。",
+      "measures": "（２）全車両、インバータの制御プログラムを対策プログラムに修正する",
+      "productionPeriod": "2022年7月 5日 ～ 2023年1月23日",
+      "units": "10,682台",
+      "generations": [
+        "KH"
+      ],
+      "targets": [
+        {
+          "typeCode": "3CA-KH3R3P",
+          "chassisRange": "KH3R3P-100013 ～ KH3R3P-108499",
+          "generation": "KH"
+        }
+      ],
+      "specialVehicle": false,
+      "url": "https://renrakuda.mlit.go.jp/renrakuda/ris-detail-car.html?selCarTp=1&id=3009296"
+    },
+    {
+      "no": "リ国-5297-1",
+      "baseNo": "リ国-5297",
+      "kind": "リコール",
+      "date": "2023-04-06",
+      "startDate": "2023年4月7日",
+      "device": "コンピュータ(動力伝達)",
+      "deviceOriginal": "コンピュータ(動力伝",
+      "situation": "（１）トランスミッション制御コンピュータにおいて、制御プログラムが不適切なため、変速時やＥＶ走行からのエンジン再始動時に、強めにブレーキを踏むと締結しているクラッチが解放しないことがある。そのため、エンジン回転が低下し、最悪の場合エンストするおそれがある。",
+      "measures": "（１）全車両、トランスミッション制御コンピュータの制御プログラムを対策プログラムに修正する。",
+      "productionPeriod": "2022年7月 5日 ～ 2023年1月23日",
+      "units": "10,682台",
+      "generations": [
+        "KH"
+      ],
+      "targets": [
+        {
+          "typeCode": "3CA-KH3R3P",
+          "chassisRange": "KH3R3P-100013 ～ KH3R3P-108499",
+          "generation": "KH"
+        }
+      ],
+      "specialVehicle": false,
+      "url": "https://renrakuda.mlit.go.jp/renrakuda/ris-detail-car.html?selCarTp=1&id=3009295"
+    },
+    {
+      "no": "リ国-5243-0",
+      "baseNo": "リ国-5243",
+      "kind": "リコール",
+      "date": "2022-11-17",
+      "startDate": "2022年11月18日",
+      "device": "潤滑装置",
+      "situation": "エンジンのオイルポンプチェーンにおいて、製造時の組み付け作業が不適切なため、正しい位置に組み付けられていないものがある。そのため、オイルポンプチェーンが外れてオイルポンプが停止すると、油圧が低下することで油圧警告灯およびエンジン警告灯が点灯してエンジン出力に制限がかかり、最悪の場合、エンジンが焼き付くおそれがある。",
+      "measures": "全車両、エンジンを良品と交換する。",
+      "productionPeriod": "2022年7月18日 ～ 2022年10月12日",
+      "units": "20台",
+      "generations": [
+        "KH"
+      ],
+      "targets": [
+        {
+          "typeCode": "3CA-KH3R3P",
+          "chassisRange": "KH3R3P-100067 ～ KH3R3P-104227",
+          "generation": "KH"
+        }
+      ],
+      "specialVehicle": false,
+      "url": "https://renrakuda.mlit.go.jp/renrakuda/ris-detail-car.html?selCarTp=1&id=3005280"
+    },
+    {
+      "no": "リ国-5209-2",
+      "baseNo": "リ国-5209",
+      "kind": "リコール",
+      "date": "2022-09-22",
+      "startDate": "2022年9月23日",
+      "device": "コンピュータ(エンジン)",
+      "deviceOriginal": "コンピュータ(エンジ",
+      "situation": "（１）フロントスタビライザにおいて、コントロールリンクを固定するナットの締め付けトルクの設定が不適切なため、段差の乗り越え等でフロントスタビライザに捻じれが加わった際の入力により締め付けナットが緩み、がたつきや異音が発生することがある。そのため、保安基準第１４条の緩衝装置に求められる要件を満たさないおそれがある。 （２）電力変換装置（インバータ）において、インバータ起動制御プログラムが不適切なため、エンジンを始動する際にインバータを起動できず、エンジンが始動しないことがある。またハイブリッドシステムの異常を知らせるメッセージがメータ内ディスプレイに表示されるおそれがある。",
+      "measures": "（１）全車両、コントロールリンクを固定するナットを変更した規定トルクで締め付ける。 （２）全車両、インバータの制御プログラムを対策プログラムに書き換える。",
+      "productionPeriod": "2022年7月 5日 ～ 2022年9月 6日",
+      "units": "879台",
+      "generations": [
+        "KH"
+      ],
+      "targets": [
+        {
+          "typeCode": "3CA-KH3R3P",
+          "chassisRange": "KH3R3P-100015 ～ KH3R3P-101517",
+          "generation": "KH"
+        }
+      ],
+      "specialVehicle": false,
+      "url": "https://renrakuda.mlit.go.jp/renrakuda/ris-detail-car.html?selCarTp=1&id=3005245"
+    },
+    {
+      "no": "リ国-5209-1",
+      "baseNo": "リ国-5209",
+      "kind": "リコール",
+      "date": "2022-09-22",
+      "startDate": "2022年9月23日",
+      "device": "スプリング/エアサス",
+      "situation": "（１）フロントスタビライザにおいて、コントロールリンクを固定するナットの締め付けトルクの設定が不適切なため、段差の乗り越え等でフロントスタビライザに捻じれが加わった際の入力により締め付けナットが緩み、がたつきや異音が発生することがある。そのため、保安基準第１４条の緩衝装置に求められる要件を満たさないおそれがある。 （２）電力変換装置（インバータ）において、インバータ起動制御プログラムが不適切なため、エンジンを始動する際にインバータを起動できず、エンジンが始動しないことがある。またハイブリッドシステムの異常を知らせるメッセージがメータ内ディスプレイに表示されるおそれがある。",
+      "measures": "（１）全車両、コントロールリンクを固定するナットを変更した規定トルクで締め付ける。 （２）全車両、インバータの制御プログラムを対策プログラムに書き換える。",
+      "productionPeriod": "2022年7月 5日 ～ 2022年9月 6日",
+      "units": "879台",
+      "generations": [
+        "KH"
+      ],
+      "targets": [
+        {
+          "typeCode": "3CA-KH3R3P",
+          "chassisRange": "KH3R3P-100015 ～ KH3R3P-101517",
+          "generation": "KH"
+        }
+      ],
+      "specialVehicle": false,
+      "url": "https://renrakuda.mlit.go.jp/renrakuda/ris-detail-car.html?selCarTp=1&id=3005244"
+    }
+  ]
+}

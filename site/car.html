@@ -38,6 +38,10 @@
   details.recall > summary .kind { font-size: 11px; border:1px solid var(--line); border-radius: 4px; padding: 0 6px; color: var(--sub); }
   details.recall > summary .kind.recall-k { color: var(--warn); border-color: var(--warn); }
   details.recall > summary .units { margin-left:auto; color: var(--sub); }
+  details.recall > summary .also { font-size: 11px; color: var(--sub); border:1px dashed var(--line); border-radius: 4px; padding: 0 6px; }
+  .dev-note { color: var(--sub); font-size: 11px; }
+  .gen-src { color: var(--sub); font-size: 11px; }
+  .gen-src a { color: var(--sub); }
   .recall-body { padding: 0 14px 12px; font-size: 13px; line-height: 1.7; }
   .branch + .branch { border-top: 1px dashed var(--line); margin-top: 10px; padding-top: 10px; }
   .branch h4 { margin: 6px 0 4px; font-size: 12px; color: var(--sub); font-weight: 600; }
@@ -128,39 +132,52 @@ function loadRecalls(slug) {
     .catch(() => {});
 }
 
+// データの形（data/recalls/<slug>.json）
+//   generations: 新しい順の世代一覧。current: true が現行型
+//   recalls[].generations: その届出が対象にする世代のid
+//   recalls[].targets[].generation: 型式ごとの世代id
 function renderRecalls(d) {
-  const normal = d.recalls.filter(r => !r.specialVehicle);
-  const special = d.recalls.filter(r => r.specialVehicle);
-  const uniq = list => new Set(list.map(r => r.baseNo)).size;
-  // 現行型の届出（generations に "current" を含むもの）
-  const currentList = normal.filter(r => r.generations.includes('current'));
-  const oldCount = uniq(normal.filter(r => !r.generations.includes('current')));
+  const gens = d.generations;
+  const cur = gens.find(g => g.current) || gens[0];
+  const genName = id => (gens.find(g => g.id === id) || {}).name || id;
+  const shortName = id => genName(id).split('（')[0];
+  // 届出（枝番をまとめたもの）が対象にする世代のうち、いちばん新しい世代
+  const genIdx = id => gens.findIndex(g => g.id === id);
+  const groupGens = grp => [...new Set(grp.flatMap(r => r.generations))].sort((a, b) => genIdx(a) - genIdx(b));
+
+  const normalGroups = groupByBase(d.recalls.filter(r => !r.specialVehicle));
+  const specialGroups = groupByBase(d.recalls.filter(r => r.specialVehicle));
+  const currentGroups = normalGroups.filter(grp => groupGens(grp).includes(cur.id));
+  const oldCount = normalGroups.length - currentGroups.length;
+  const ctx = { gens, shortName, groupGens, multi: gens.length > 1 };
 
   document.getElementById('recallStatus').innerHTML =
-    `現行型 ${uniq(currentList)}件<small>旧型 ${oldCount}件</small>`;
+    gens.length > 1 ? `現行型 ${currentGroups.length}件<small>旧型 ${oldCount}件</small>` : `${currentGroups.length}件`;
 
   let html = `
     <h2>リコール履歴</h2>
     <p class="lead">国土交通省に届け出られたリコール・改善対策の情報です（${esc(d.coveredUntil)}までの届出、${esc(d.retrievedAt)}取得）。
-    同じ車名でも、世代（モデルチェンジ前の型）が違えば対象になりません。お持ちの車が対象かどうかは、車検証の型式・車台番号と照らし合わせるか、販売店でご確認ください。</p>
-    <div class="current"><strong>${esc(d.currentGeneration.name)}</strong><br>
-      ${currentList.length ? `${uniq(currentList)}件の届出があります。` : esc(d.currentGeneration.note)}</div>`;
+    同じ車名でも、世代（モデルチェンジ前の型）が違えば対象になりません。「〜系」は型式の記号です。お持ちの車が対象かどうかは、車検証の型式・車台番号と照らし合わせるか、販売店でご確認ください。</p>
+    ${d.note ? `<p class="gen-note">${esc(d.note)}</p>` : ''}
+    <div class="current"><strong>現行型：${esc(cur.name)}</strong><br>
+      ${currentGroups.length ? `${currentGroups.length}件の届出があります。` : esc(cur.note || '届出はありません。')}
+      ${cur.officialSource ? `<br><span class="gen-src">世代の確認：<a href="${esc(cur.officialSource.url)}" target="_blank" rel="noopener">${esc(cur.officialSource.title)}</a></span>` : ''}</div>`;
 
-  if (currentList.length) html += renderGeneration(d.currentGeneration.name, currentList, 'current');
-
-  for (const g of d.generations) {
-    const list = normal.filter(r => r.generations.includes(g.id));
+  // 1つの届出は、対象の中でいちばん新しい世代の欄に1回だけ出す
+  for (const g of gens) {
+    const list = normalGroups.filter(grp => groupGens(grp)[0] === g.id);
     if (!list.length) continue;
-    html += renderGeneration(`${g.name}（参考・旧型）`, list, g.id);
+    const title = g.id === cur.id ? `現行型：${g.name}` : `${g.name}（参考・旧型）`;
+    html += `<h3>${esc(title)}：${list.length}件</h3>` + list.map(grp => renderGroup(grp, ctx)).join('');
   }
 
-  if (special.length) {
+  if (specialGroups.length) {
     html += `<div id="specialBox" hidden>
       <h3>特装車向けの届出（参考）</h3>
-      <p class="gen-note">警察車両・教習車など、後から装備を取り付けた特別な車両だけが対象の届出です。一般のCX-5は対象外の可能性が高いです。</p>
-      ${groupByBase(special).map(grp => renderGroup(grp, null)).join('')}
+      <p class="gen-note">警察車両・教習車など、後から装備を取り付けた特別な車両だけが対象の届出です。一般の${esc(d.model)}は対象外の可能性が高いです。</p>
+      ${specialGroups.map(grp => renderGroup(grp, ctx)).join('')}
     </div>
-    <button type="button" class="toggle-special" id="toggleSpecial">特装車向けの届出（${uniq(special)}件）も表示</button>`;
+    <button type="button" class="toggle-special" id="toggleSpecial">特装車向けの届出（${specialGroups.length}件）も表示</button>`;
   }
 
   html += `<p class="credit">${esc(d.source.credit)}<br>
@@ -175,15 +192,8 @@ function renderRecalls(d) {
   if (btn) btn.addEventListener('click', () => {
     const box = document.getElementById('specialBox');
     box.hidden = !box.hidden;
-    btn.textContent = box.hidden ? `特装車向けの届出（${uniq(special)}件）も表示` : '特装車向けの届出を隠す';
+    btn.textContent = box.hidden ? `特装車向けの届出（${specialGroups.length}件）も表示` : '特装車向けの届出を隠す';
   });
-}
-
-// 世代ごとの見出しと一覧
-function renderGeneration(title, list, genId) {
-  const groups = groupByBase(list);
-  return `<h3>${esc(title)}：${groups.length}件</h3>` +
-    groups.map(grp => renderGroup(grp, genId)).join('');
 }
 
 // 枝番（-1, -2 …）を同じ届出としてまとめる。新しい順
@@ -199,22 +209,27 @@ function groupByBase(list) {
 }
 
 // 届出1件分（クリックで詳細が開く）
-function renderGroup(grp, genId) {
+function renderGroup(grp, ctx) {
   const head = grp[0];
   const devices = [...new Set(grp.map(r => r.device))].join('・');
   const units = grp.length === 1 ? head.units : `${grp.length}件に分けて届出`;
   const kindCls = head.kind === 'リコール' ? 'kind recall-k' : 'kind';
+  // 複数の世代にまたがる届出は、ほかの世代も対象であることを示す
+  const others = ctx.groupGens(grp).slice(1);
+  const also = ctx.multi && others.length ? `<span class="also">${esc(others.map(ctx.shortName).join('・'))}も対象</span>` : '';
   const branches = grp.map(r => {
-    // この世代の型式だけを表示（旧型と新型をまたぐ届出もあるため）
-    const targets = r.targets.filter(t => !genId || genOf(t.typeCode) === genId || genId === 'current');
+    const targets = r.targets.map(t =>
+      `${esc(t.typeCode)}：${esc(t.chassisRange)}${ctx.multi ? `（${esc(ctx.shortName(t.generation))}）` : ''}`);
     return `<div class="branch">
       ${grp.length > 1 ? `<h4>${esc(r.no)}（${esc(r.device)}）</h4>` : ''}
       <dl>
+        ${r.note ? `<dt>注記</dt><dd>${esc(r.note)}</dd>` : ''}
         <dt>状況</dt><dd>${esc(r.situation)}</dd>
         <dt>対策</dt><dd>${esc(r.measures)}</dd>
         <dt>対象台数</dt><dd>${esc(r.units)}（他車種を含む届出全体の台数）</dd>
         <dt>製作期間</dt><dd>${esc(r.productionPeriod)}</dd>
-        <dt>対象の型式</dt><dd>${targets.map(t => `${esc(t.typeCode)}：${esc(t.chassisRange)}`).join('<br>')}</dd>
+        <dt>対象の型式</dt><dd>${targets.join('<br>')}</dd>
+        ${r.deviceOriginal ? `<dt>装置名</dt><dd class="dev-note">国土交通省のデータでは不具合装置名が「${esc(r.deviceOriginal)}」と途中で切れています。${r.device.endsWith('…)') ? '続きは不明です。' : `同じデータ内の表記「${esc(r.device)}」で補っています。`}</dd>` : ''}
         <dt>詳細</dt><dd><a href="${esc(r.url)}" target="_blank" rel="noopener">国土交通省の届出ページ（新しいウインドウ）</a></dd>
       </dl>
     </div>`;
@@ -226,17 +241,11 @@ function renderGroup(grp, genId) {
       <span class="no">${esc(head.baseNo)}</span>
       <span class="${kindCls}">${esc(head.kind)}</span>
       <span>${esc(devices)}</span>
+      ${also}
       <span class="units">${esc(units)}</span>
     </summary>
     <div class="recall-body">${branches}</div>
   </details>`;
-}
-
-// 型式から世代を判定（CX-5: KE系=初代、KF系=2代目）
-function genOf(typeCode) {
-  if (/-KE/.test(typeCode)) return 'KE';
-  if (/-KF/.test(typeCode)) return 'KF';
-  return '';
 }
 
 function formatYen(v) {

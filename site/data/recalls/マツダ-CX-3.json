@@ -1,0 +1,437 @@
+{
+  "slug": "マツダ-CX-3",
+  "maker": "マツダ",
+  "model": "CX-3",
+  "source": {
+    "name": "国土交通省 自動車不具合情報ホットライン リコール情報検索",
+    "url": "https://renrakuda.mlit.go.jp/renrakuda/recall-search.html",
+    "credit": "出典：国土交通省 自動車不具合情報ホットライン（https://renrakuda.mlit.go.jp/renrakuda/recall-search.html）を加工して作成",
+    "license": "公共データ利用規約（第1.0版）（PDL1.0）"
+  },
+  "retrievedAt": "2026-11-15",
+  "coveredUntil": "2026-09-30",
+  "generations": [
+    {
+      "id": "DK",
+      "name": "初代（DK系・2015年2月〜）",
+      "launched": "2015年2月",
+      "current": true,
+      "officialSource": {
+        "title": "マツダ ニュースルーム 系図 CX-3",
+        "url": "https://newsroom.mazda.com/ja/other/1906/index.html"
+      }
+    }
+  ],
+  "recalls": [
+    {
+      "no": "リ国-5436-0",
+      "baseNo": "リ国-5436",
+      "kind": "リコール",
+      "date": "2024-01-26",
+      "startDate": "2024年2月9日",
+      "device": "燃料ポンプ",
+      "situation": "ガソリンエンジン車の低圧燃料ポンプのインペラ（樹脂製羽根車）において、成形条件が不適切なため、樹脂密度が低くなって、燃料により膨潤して変形することがある。そのため、インペラがポンプケースと接触して低圧燃料ポンプが作動不良となり、最悪の場合、走行中エンストに至るおそれがある。",
+      "measures": "全車両、低圧燃料ポンプを対策品に交換する。なお、修理部品の準備に時間を要することから、部品の準備ができ次第、改めて案内する。",
+      "productionPeriod": "2017年6月19日 ～ 2020年5月26日",
+      "units": "146,777台",
+      "generations": [
+        "DK"
+      ],
+      "targets": [
+        {
+          "typeCode": "6BA-DKEAW",
+          "chassisRange": "DKEAW-100017 ～ DKEAW-201946",
+          "generation": "DK"
+        },
+        {
+          "typeCode": "6BA-DKEFW",
+          "chassisRange": "DKEFW-100020 ～ DKEFW-207618",
+          "generation": "DK"
+        }
+      ],
+      "specialVehicle": false,
+      "url": "https://renrakuda.mlit.go.jp/renrakuda/ris-detail-car.html?selCarTp=1&id=3009605"
+    },
+    {
+      "no": "改国-0674-0",
+      "baseNo": "改国-0674",
+      "kind": "改善対策",
+      "date": "2023-07-14",
+      "startDate": "2023年7月14日",
+      "device": "装置その他",
+      "situation": "バックカメラにおいて、電気配線の固定が不適切なため、リアゲートを閉めた時や走行中の車体振動などで振れ、バックカメラと電気配線間の接続端子が摺動することがある。そのため、そのまま使用を続けると、接続端子の表面被膜が摩耗して剥がれ、腐食することで電気抵抗が増加し、最悪の場合、バックカメラの映像が乱れ、車両後方が確認しにくくなるおそれがある。",
+      "measures": "全車両、バックカメラを点検し、映像に乱れが認められた場合はバックカメラ一式を新品と交換し、電気配線をシール材で固定する。映像に乱れが認められない場合は電気配線をシール材で固定する。なお、シール材及びバックカメラ一式の準備に時間を要することから、準備ができた段階で開始する。",
+      "productionPeriod": "2014年12月16日 ～ 2020年10月15日",
+      "units": "79,105台",
+      "generations": [
+        "DK"
+      ],
+      "targets": [
+        {
+          "typeCode": "LDA-DK5FW",
+          "chassisRange": "DK5FW-100053 ～ DK5FW-210898",
+          "generation": "DK"
+        },
+        {
+          "typeCode": "LDA-DK5AW",
+          "chassisRange": "DK5AW-100027 ～ DK5AW-204548",
+          "generation": "DK"
+        },
+        {
+          "typeCode": "3DA-DK8FW",
+          "chassisRange": "DK8FW-100010 ～ DK8FW-200333",
+          "generation": "DK"
+        },
+        {
+          "typeCode": "3DA-DK8AW",
+          "chassisRange": "DK8AW-100313 ～ DK8AW-200166",
+          "generation": "DK"
+        },
+        {
+          "typeCode": "6BA-DKEFW",
+          "chassisRange": "DKEFW-100002 ～ DKEFW-300326",
+          "generation": "DK"
+        },
+        {
+          "typeCode": "6BA-DKEAW",
+          "chassisRange": "DKEAW-100003 ～ DKEAW-300071",
+          "generation": "DK"
+        },
+        {
+          "typeCode": "5BA-DKLFW",
+          "chassisRange": "DKLFW-100027 ～ DKLFW-103242",
+          "generation": "DK"
+        },
+        {
+          "typeCode": "5BA-DKLAW",
+          "chassisRange": "DKLAW-100160 ～ DKLAW-100618",
+          "generation": "DK"
+        }
+      ],
+      "specialVehicle": false,
+      "url": "https://renrakuda.mlit.go.jp/renrakuda/ris-detail-car.html?selCarTp=1&id=3009388"
+    },
+    {
+      "no": "リ国-5043-0",
+      "baseNo": "リ国-5043",
+      "kind": "リコール",
+      "date": "2021-11-12",
+      "startDate": "2021年11月12日",
+      "device": "燃料ポンプ",
+      "situation": "ガソリンエンジン車の低圧燃料ポンプのインペラ（樹脂製羽根車）において、成形条件が不適切なため、樹脂密度が低くなって、燃料により膨潤して変形することがある。そのため、インペラがポンプケースと接触して低圧燃料ポンプが作動不良となり、最悪の場合、走行中エンストに至るおそれがある。",
+      "measures": "全車両、低圧燃料ポンプを対策品に交換する。なお、修理部品の準備に時間を要するため、部品の準備ができ次第、使用者に改めて修理入庫を通知する。",
+      "productionPeriod": "2018年4月 3日 ～ 2019年8月15日",
+      "units": "42,505台",
+      "generations": [
+        "DK"
+      ],
+      "targets": [
+        {
+          "typeCode": "6BA-DKEAW",
+          "chassisRange": "DKEAW-200002 ～ DKEAW-200879",
+          "generation": "DK"
+        },
+        {
+          "typeCode": "6BA-DKEFW",
+          "chassisRange": "DKEFW-200028 ～ DKEFW-203201",
+          "generation": "DK"
+        }
+      ],
+      "specialVehicle": false,
+      "url": "https://renrakuda.mlit.go.jp/renrakuda/ris-detail-car.html?selCarTp=1&id=3005069"
+    },
+    {
+      "no": "リ国-4289-0",
+      "baseNo": "リ国-4289",
+      "kind": "リコール",
+      "date": "2018-07-05",
+      "startDate": "2018年7月6日",
+      "device": "コンピュータ(エンジン)",
+      "deviceOriginal": "コンピュータ(エンジ",
+      "situation": "減速エネルギー回生システム（ｉ－ＥＬＯＯＰ）を搭載した車両において、ＤＣ－ＤＣコンバータの制御プログラムが不適切なため、電気回路が故障した場合にｉ－ＥＬＯＯＰ警告灯点灯およびｉ－ｓｔｏｐ警告灯が点滅するとともに、通電停止のためのバイパスモードが作動するが、プッシュボタンスタートを押して電源ポジションをＯＦＦにした際、解除することがある。そのため、そのまま使用を続けると、ＤＣ－ＤＣコンバータ内部の電気回路がショートし、充電不良となりバッテリが上がり、エンジンが停止するおそれがある。または、最悪の場合、火災に至るおそれがある。",
+      "measures": "全車両、エンジン制御コンピュータを点検し、点検の結果、ＤＣ－ＤＣコンバータに異常がある場合はＤＣ－ＤＣコンバータを新品と交換し、エンジン制御コンピュータを対策プログラムに書き換える。異常がない場合は、ＤＣ－ＤＣコンバータおよびエンジン制御コンピュータを対策プログラムに書き換える。",
+      "productionPeriod": "2014年8月 5日 ～ 2017年4月24日",
+      "units": "15,105台",
+      "generations": [
+        "DK"
+      ],
+      "targets": [
+        {
+          "typeCode": "LDA-DK5AW",
+          "chassisRange": "DK5AW-100216 ～ DK5AW-202486",
+          "generation": "DK"
+        },
+        {
+          "typeCode": "LDA-DK5FW",
+          "chassisRange": "DK5FW-100558 ～ DK5FW-206033",
+          "generation": "DK"
+        }
+      ],
+      "specialVehicle": false,
+      "url": "https://renrakuda.mlit.go.jp/renrakuda/ris-detail-car.html?selCarTp=1&id=3004292"
+    },
+    {
+      "no": "リ国-4172-2",
+      "baseNo": "リ国-4172",
+      "kind": "リコール",
+      "date": "2018-02-01",
+      "startDate": "2018年2月2日",
+      "device": "エンジン本体",
+      "situation": "ディーゼルエンジンにおいて、低車速で加減速する走行を繰り返すと、燃焼時に発生する煤の量が増え、インジェクタ噴孔部に堆積し、燃料の噴霧状態が悪化することで、さらに煤の量が増え、排気側バルブガイド周辺に堆積することがある。そのため、排気バルブが動きにくくなり、圧縮低下による加速不良や車体振動が発生するとともに、エンジン警告灯が点灯あるいはグローランプが点滅し、最悪の場合、エンジンが停止するおそれがある。",
+      "measures": "使用者に当該不具合を周知し、エンジン警告灯が点灯あるいはグローランプが点滅した場合は、速やかに点検入庫するよう促す。また、点検入庫した場合には、エンジン制御コンピュータ等を点検し、排気バルブのバルブスプリング、インジェクタを無償で交換するとともに、エンジンおよびＤＰＦ（黒煙除去フィルタ）に堆積した煤を清掃する。",
+      "productionPeriod": "2014年8月 5日 ～ 2017年10月30日",
+      "units": "158,785台",
+      "generations": [
+        "DK"
+      ],
+      "targets": [
+        {
+          "typeCode": "LDA-DK5AW",
+          "chassisRange": "DK5AW-100027 ～ DK5AW-203764",
+          "generation": "DK"
+        },
+        {
+          "typeCode": "LDA-DK5FW",
+          "chassisRange": "DK5FW-100053 ～ DK5FW-208913",
+          "generation": "DK"
+        }
+      ],
+      "specialVehicle": false,
+      "url": "https://renrakuda.mlit.go.jp/renrakuda/ris-detail-car.html?selCarTp=1&id=3004166"
+    },
+    {
+      "no": "リ国-4172-1",
+      "baseNo": "リ国-4172",
+      "kind": "リコール",
+      "date": "2018-02-01",
+      "startDate": "2018年2月2日",
+      "device": "コンピュータ(エンジン)",
+      "deviceOriginal": "コンピュータ(エンジ",
+      "situation": "ディーゼルエンジンにおいて、エンジンの保護制御が不適切なため、無負荷状態でアクセルを全開した際に燃焼異常が発生しても、エンジン保護機能が作動しない。そのため、燃焼異常により燃焼圧力が上昇し、最悪の場合、エンジンが破損するおそれがある。",
+      "measures": "全車両、エンジン制御プログラムを対策プログラムに修正するとともに、エンジンおよびＤＰＦ（黒煙除去フィルタ）に堆積した煤を清掃する。",
+      "productionPeriod": "2014年8月 5日 ～ 2017年10月30日",
+      "units": "158,785台",
+      "generations": [
+        "DK"
+      ],
+      "targets": [
+        {
+          "typeCode": "LDA-DK5AW",
+          "chassisRange": "DK5AW-100027 ～ DK5AW-203764",
+          "generation": "DK"
+        },
+        {
+          "typeCode": "LDA-DK5FW",
+          "chassisRange": "DK5FW-100053 ～ DK5FW-208913",
+          "generation": "DK"
+        }
+      ],
+      "specialVehicle": false,
+      "url": "https://renrakuda.mlit.go.jp/renrakuda/ris-detail-car.html?selCarTp=1&id=3004165"
+    },
+    {
+      "no": "リ国-3885-0",
+      "baseNo": "リ国-3885",
+      "kind": "リコール",
+      "date": "2016-09-01",
+      "startDate": "2016年9月2日",
+      "device": "コンピュータ(エンジン)",
+      "deviceOriginal": "コンピュータ(エンジ",
+      "situation": "ディーゼルエンジンにおいて、エンジン制御コンピュータの吸入空気量制御が不適切なため、気筒内の燃料濃度が部分的に濃くなり、燃焼時に多く煤が発生することがある。そのため、排気バルブが開いた際に煤が排気側バルブガイド周辺に入り堆積して、バルブが動きにくくなり、圧縮不良による加速不良や車体振動が発生し、最悪の場合、走行中にエンジンが停止するおそれがある。",
+      "measures": "全車両、制御プログラムを対策プログラムに修正する。また、インジェクタおよび排気側のバルブ周辺に堆積した煤を清掃する。",
+      "productionPeriod": "2014年8月 5日 ～ 2016年8月 8日",
+      "units": "117,030台",
+      "generations": [
+        "DK"
+      ],
+      "targets": [
+        {
+          "typeCode": "LDA-DK5AW",
+          "chassisRange": "DK5AW-100027 ～ DK5AW-113364",
+          "generation": "DK"
+        },
+        {
+          "typeCode": "LDA-DK5FW",
+          "chassisRange": "DK5FW-100053 ～ DK5FW-131857",
+          "generation": "DK"
+        }
+      ],
+      "specialVehicle": false,
+      "url": "https://renrakuda.mlit.go.jp/renrakuda/ris-detail-car.html?selCarTp=1&id=3003851"
+    },
+    {
+      "no": "リ国-3877-0",
+      "baseNo": "リ国-3877",
+      "kind": "リコール",
+      "date": "2016-09-01",
+      "startDate": "2016年9月2日",
+      "device": "その他(車枠車体)",
+      "situation": "リヤゲートのガス封入式ダンパーステーにおいて、外筒のエンドキャップ部の塗装が不適切なため、塩害地域の塩分の影響で腐食することがある。そのため、そのままの状態で使用を続けると、腐食が進行し、外筒が膨らみ、エンドキャップが割れ、リヤゲートを開く際に外筒が破裂し、最悪の場合、周囲の人が負傷するおそれがある。",
+      "measures": "全車両、当該ダンパーステーを対策品と交換する。なお、交換部品の準備に時間を要することから、年式の古いものから対策品と順次交換する。ただし、２０１０年以前の生産車については、当該ダンパーステーを点検し、エンドキャップに亀裂が確認された場合は、暫定措置としてリヤゲートを使用できないようにする。",
+      "productionPeriod": "2007年12月12日 ～ 2015年12月26日",
+      "units": "394,941台",
+      "generations": [
+        "DK"
+      ],
+      "targets": [
+        {
+          "typeCode": "LDA-DK5AW",
+          "chassisRange": "DK5AW-100027 ～ DK5AW-109388",
+          "generation": "DK"
+        },
+        {
+          "typeCode": "LDA-DK5FW",
+          "chassisRange": "DK5FW-100053 ～ DK5FW-122750",
+          "generation": "DK"
+        }
+      ],
+      "specialVehicle": false,
+      "url": "https://renrakuda.mlit.go.jp/renrakuda/ris-detail-car.html?selCarTp=1&id=3003842"
+    },
+    {
+      "no": "リ国-3796-0",
+      "baseNo": "リ国-3796",
+      "kind": "リコール",
+      "date": "2016-04-07",
+      "startDate": "2016年4月8日",
+      "device": "燃料フィルター",
+      "situation": "燃料フィルターにおいて、ドレンプラグ取付部の平面が確保できていないため、定期点検時にドレンプラグを緩め、再締め付け作業を行うと、シール性が低下することがある。そのため、そのまま使用を続けると、燃料が漏れるおそれがある。",
+      "measures": "全車両、燃料フィルターもしくは、燃料フィルターのドレンプラグとガスケットを対策品に交換する。",
+      "productionPeriod": "2014年12月17日 ～ 2016年3月 7日",
+      "units": "25,417台",
+      "generations": [
+        "DK"
+      ],
+      "targets": [
+        {
+          "typeCode": "LDA-DK5AW",
+          "chassisRange": "DK5AW-100050 ～ DK5AW-111540",
+          "generation": "DK"
+        },
+        {
+          "typeCode": "LDA-DK5FW",
+          "chassisRange": "DK5FW-100134 ～ DK5FW-127357",
+          "generation": "DK"
+        }
+      ],
+      "specialVehicle": false,
+      "url": "https://renrakuda.mlit.go.jp/renrakuda/ris-detail-car.html?selCarTp=1&id=3003763"
+    },
+    {
+      "no": "リ国-3795-0",
+      "baseNo": "リ国-3795",
+      "kind": "リコール",
+      "date": "2016-04-07",
+      "startDate": "2016年4月8日",
+      "device": "コンピュータ",
+      "situation": "ＤＣ－ＤＣコンバータにおいて、部品の検査指示が不適切なため、過大な電圧をかけ、内部基板がダメージを負ったものがある。そのため、そのまま使用を続けると、コンバータ内部がショートし、充電不良となり、警告灯等が点灯し、最悪の場合、火災に至るおそれがある。",
+      "measures": "全車両、ＤＣ－ＤＣコンバータを良品に交換する。",
+      "productionPeriod": "2014年8月 5日 ～ 2015年9月16日",
+      "units": "1,073台",
+      "generations": [
+        "DK"
+      ],
+      "targets": [
+        {
+          "typeCode": "LDA-DK5AW",
+          "chassisRange": "DK5AW-100216 ～ DK5AW-105468",
+          "generation": "DK"
+        },
+        {
+          "typeCode": "LDA-DK5FW",
+          "chassisRange": "DK5FW-100558 ～ DK5FW-111021",
+          "generation": "DK"
+        }
+      ],
+      "specialVehicle": false,
+      "url": "https://renrakuda.mlit.go.jp/renrakuda/ris-detail-car.html?selCarTp=1&id=3003762"
+    },
+    {
+      "no": "リ国-3794-0",
+      "baseNo": "リ国-3794",
+      "kind": "リコール",
+      "date": "2016-04-07",
+      "startDate": "2016年4月8日",
+      "device": "ショックアブソーバ",
+      "situation": "前輪サスペンションにおいて、ダンパーとナックルの締め付け作業が不適切なため、ナットの締め付け力が不足しているものがある。そのため、そのままの状態で使用すると、当該ナットが緩み、最悪の場合、ナットおよびボルトが脱落し、走行不能になるおそれがある。",
+      "measures": "全車両、当該ナットの締め付けトルクを点検し、ナットが緩んでいるものは、ボルトおよびナットを新品と交換し、規定トルクで締め付ける。",
+      "productionPeriod": "2012年12月13日 ～ 2015年12月 3日",
+      "units": "612台",
+      "generations": [
+        "DK"
+      ],
+      "targets": [
+        {
+          "typeCode": "LDA-DK5AW",
+          "chassisRange": "DK5AW-100051 ～ DK5AW-108677",
+          "generation": "DK"
+        },
+        {
+          "typeCode": "LDA-DK5FW",
+          "chassisRange": "DK5FW-100112 ～ DK5FW-120251",
+          "generation": "DK"
+        }
+      ],
+      "specialVehicle": false,
+      "url": "https://renrakuda.mlit.go.jp/renrakuda/ris-detail-car.html?selCarTp=1&id=3003761"
+    },
+    {
+      "no": "リ国-3705-0",
+      "baseNo": "リ国-3705",
+      "kind": "リコール",
+      "date": "2015-11-26",
+      "startDate": "2015年11月27日",
+      "device": "燃料フィルター",
+      "situation": "燃料フィルターにおいて、ドレンプラグ取付部の平面が確保できていないため、製造時に過大なトルクでドレンプラグを締め付けた場合に、ガスケットが変形もしくは圧縮割れが発生するものがある。そのため、そのまま使用を続けたり、定期点検時にドレンプラグを緩め、再締め付け作業を行うと、燃料が漏れるおそれがある。",
+      "measures": "全車両、対策品の準備に時間を要することから、対策品の供給が出来るまでの暫定措置として、燃料フィルターを点検し、燃料が漏れている場合または、燃料フィルターの定期点検時期に該当する場合は、燃料フィルターを新品に交換する。なお、準備が整い次第、再度入庫の通知を行なうとともに、燃料フィルターのドレンプラグとガスケットを対策品に交換する。",
+      "productionPeriod": "2014年8月 5日 ～ 2015年10月16日",
+      "units": "74,350台",
+      "generations": [
+        "DK"
+      ],
+      "targets": [
+        {
+          "typeCode": "LDA-DK5AW",
+          "chassisRange": "DK5AW-100027 ～ DK5AW-107854",
+          "generation": "DK"
+        },
+        {
+          "typeCode": "LDA-DK5FW",
+          "chassisRange": "DK5FW-100053 ～ DK5FW-119722",
+          "generation": "DK"
+        }
+      ],
+      "specialVehicle": false,
+      "url": "https://renrakuda.mlit.go.jp/renrakuda/ris-detail-car.html?selCarTp=1&id=3003664"
+    },
+    {
+      "no": "リ国-3704-0",
+      "baseNo": "リ国-3704",
+      "kind": "リコール",
+      "date": "2015-11-26",
+      "startDate": "2015年11月27日",
+      "device": "(ファン)ベルト",
+      "situation": "エンジン補機ベルトにおいて、ベルト製造時の芯線の張力が不均等なため、ベルトの強度が低下しているものがある。そのため、エンジンの駆動力によりベルトが破断し、オルタネータやウォーターポンプが停止して警告灯が点灯し、最悪の場合、エンジンが停止して再始動できなくなるおそれがある。",
+      "measures": "全車両、エンジン補機ベルトを良品に交換する。",
+      "productionPeriod": "2014年8月 5日 ～ 2015年7月28日",
+      "units": "63,768台",
+      "generations": [
+        "DK"
+      ],
+      "targets": [
+        {
+          "typeCode": "LDA-DK5AW",
+          "chassisRange": "DK5AW-100027 ～ DK5AW-106359",
+          "generation": "DK"
+        },
+        {
+          "typeCode": "LDA-DK5FW",
+          "chassisRange": "DK5FW-100053 ～ DK5FW-115331",
+          "generation": "DK"
+        }
+      ],
+      "specialVehicle": false,
+      "url": "https://renrakuda.mlit.go.jp/renrakuda/ris-detail-car.html?selCarTp=1&id=3003663"
+    }
+  ]
+}

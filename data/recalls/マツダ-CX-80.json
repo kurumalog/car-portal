@@ -1,0 +1,27 @@
+{
+  "slug": "マツダ-CX-80",
+  "maker": "マツダ",
+  "model": "CX-80",
+  "source": {
+    "name": "国土交通省 自動車不具合情報ホットライン リコール情報検索",
+    "url": "https://renrakuda.mlit.go.jp/renrakuda/recall-search.html",
+    "credit": "出典：国土交通省 自動車不具合情報ホットライン（https://renrakuda.mlit.go.jp/renrakuda/recall-search.html）を加工して作成",
+    "license": "公共データ利用規約（第1.0版）（PDL1.0）"
+  },
+  "retrievedAt": "2026-11-15",
+  "coveredUntil": "2026-09-30",
+  "generations": [
+    {
+      "id": "current",
+      "name": "初代（2024年10月〜）",
+      "launched": "2024年10月",
+      "current": true,
+      "officialSource": {
+        "title": "マツダ ニュースリリース「MAZDA CX-80」の販売を開始",
+        "url": "https://newsroom.mazda.com/ja/publicity/release/2024/202410/241010a.html"
+      },
+      "note": "2026年9月30日までの届出に、「CX-80」を対象とするものはありません。"
+    }
+  ],
+  "recalls": []
+}

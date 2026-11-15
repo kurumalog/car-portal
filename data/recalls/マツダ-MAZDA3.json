@@ -1,0 +1,352 @@
+{
+  "slug": "マツダ-MAZDA3",
+  "maker": "マツダ",
+  "model": "MAZDA3",
+  "source": {
+    "name": "国土交通省 自動車不具合情報ホットライン リコール情報検索",
+    "url": "https://renrakuda.mlit.go.jp/renrakuda/recall-search.html",
+    "credit": "出典：国土交通省 自動車不具合情報ホットライン（https://renrakuda.mlit.go.jp/renrakuda/recall-search.html）を加工して作成",
+    "license": "公共データ利用規約（第1.0版）（PDL1.0）"
+  },
+  "retrievedAt": "2026-11-15",
+  "coveredUntil": "2026-09-30",
+  "note": "2019年5月より前の先代モデルは「アクセラ」という別の車名で販売されていたため、ここには含めていません。",
+  "generations": [
+    {
+      "id": "BP",
+      "name": "初代（BP系・2019年5月〜）",
+      "launched": "2019年5月",
+      "current": true,
+      "officialSource": {
+        "title": "マツダ ニュースルーム 系図 MAZDA3",
+        "url": "https://newsroom.mazda.com/ja/other/1904/index.html"
+      }
+    }
+  ],
+  "recalls": [
+    {
+      "no": "リ国-5436-0",
+      "baseNo": "リ国-5436",
+      "kind": "リコール",
+      "date": "2024-01-26",
+      "startDate": "2024年2月9日",
+      "device": "燃料ポンプ",
+      "situation": "ガソリンエンジン車の低圧燃料ポンプのインペラ（樹脂製羽根車）において、成形条件が不適切なため、樹脂密度が低くなって、燃料により膨潤して変形することがある。そのため、インペラがポンプケースと接触して低圧燃料ポンプが作動不良となり、最悪の場合、走行中エンストに至るおそれがある。",
+      "measures": "全車両、低圧燃料ポンプを対策品に交換する。なお、修理部品の準備に時間を要することから、部品の準備ができ次第、改めて案内する。",
+      "productionPeriod": "2017年6月19日 ～ 2020年5月26日",
+      "units": "146,777台",
+      "generations": [
+        "BP"
+      ],
+      "targets": [
+        {
+          "typeCode": "5BA-BPFP",
+          "chassisRange": "BPFP-100008 ～ BPFP-112190",
+          "generation": "BP"
+        },
+        {
+          "typeCode": "6BA-BP5P",
+          "chassisRange": "BP5P-100006 ～ BP5P-110970",
+          "generation": "BP"
+        },
+        {
+          "typeCode": "3AA-BPEP",
+          "chassisRange": "BPEP-100026 ～ BPEP-100301",
+          "generation": "BP"
+        }
+      ],
+      "specialVehicle": false,
+      "url": "https://renrakuda.mlit.go.jp/renrakuda/ris-detail-car.html?selCarTp=1&id=3009605"
+    },
+    {
+      "no": "リ国-5384-5",
+      "baseNo": "リ国-5384",
+      "kind": "リコール",
+      "date": "2023-10-26",
+      "startDate": "2023年10月27日",
+      "device": "後写鏡",
+      "situation": "（５）ビューモニターユニットにおいて、システムの処理条件が不適切なため、再起動時にメモリをリセットできないことがある。そのため、メモリ不足により画像処理が遅くなり、センターディスプレイの映像が乱れ、黒画になることで、サイド及びバックカメラの映像が表示できないおそれがある。",
+      "measures": "（５）全車両、ビューモニターユニットの制御プログラムを対策プログラムに修正する。",
+      "productionPeriod": "2022年7月 5日 ～ 2023年8月23日",
+      "units": "27,699台",
+      "generations": [
+        "BP"
+      ],
+      "targets": [
+        {
+          "typeCode": "3DA-BP8R",
+          "chassisRange": "BP8R-100002 ～ BP8R-100772",
+          "generation": "BP"
+        },
+        {
+          "typeCode": "5AA-BPFJ3R",
+          "chassisRange": "BPFJ3R-100002 ～ BPFJ3R-102200",
+          "generation": "BP"
+        },
+        {
+          "typeCode": "5AA-BPEK3R",
+          "chassisRange": "BPEK3R-100001 ～ BPEK3R-100105",
+          "generation": "BP"
+        },
+        {
+          "typeCode": "6BA-BP5R",
+          "chassisRange": "BP5R-100001 ～ BP5R-100769",
+          "generation": "BP"
+        }
+      ],
+      "specialVehicle": false,
+      "url": "https://renrakuda.mlit.go.jp/renrakuda/ris-detail-car.html?selCarTp=1&id=3009496"
+    },
+    {
+      "no": "リ国-5384-4",
+      "baseNo": "リ国-5384",
+      "kind": "リコール",
+      "date": "2023-10-26",
+      "startDate": "2023年10月27日",
+      "device": "後写鏡",
+      "situation": "（４）ビューモニターユニットにおいて、システムの起動条件が不適切なため、起動時にサイド及びバックカメラに切り替えるシステムが起動しないことがある。そのため、ｉ－ＡＣＴＩＶＳＥＮＳＥ警告灯が点灯し、ビューモニターユニット異常を知らせるメッセージがメータ内ディスプレイに表示される。また、サイド及びバックカメラの映像が表示できないおそれがある。",
+      "measures": "（４）全車両、ビューモニターユニットの制御プログラムを対策プログラムに修正する。",
+      "productionPeriod": "2022年7月 5日 ～ 2023年8月23日",
+      "units": "27,699台",
+      "generations": [
+        "BP"
+      ],
+      "targets": [
+        {
+          "typeCode": "3DA-BP8R",
+          "chassisRange": "BP8R-100002 ～ BP8R-100772",
+          "generation": "BP"
+        },
+        {
+          "typeCode": "5AA-BPFJ3R",
+          "chassisRange": "BPFJ3R-100002 ～ BPFJ3R-102200",
+          "generation": "BP"
+        },
+        {
+          "typeCode": "5AA-BPEK3R",
+          "chassisRange": "BPEK3R-100001 ～ BPEK3R-100105",
+          "generation": "BP"
+        },
+        {
+          "typeCode": "6BA-BP5R",
+          "chassisRange": "BP5R-100001 ～ BP5R-100769",
+          "generation": "BP"
+        }
+      ],
+      "specialVehicle": false,
+      "url": "https://renrakuda.mlit.go.jp/renrakuda/ris-detail-car.html?selCarTp=1&id=3009495"
+    },
+    {
+      "no": "改国-0605-0",
+      "baseNo": "改国-0605",
+      "kind": "改善対策",
+      "date": "2020-12-10",
+      "startDate": "2020年12月11日",
+      "device": "装置その他",
+      "situation": "車両制御コンピュータにおいて、スマート・ブレーキ・サポート（ＳＢＳ）の制御プログラムが不適切なため、Ｓ字路の路肩に停車した車両や大きな道路標識などを正しく認識できないことがある。そのため、衝突の可能性がないにもかかわらず障害物との接近を知らせる警報音が鳴り、ディスプレイに警告表示が出て、最悪の場合、衝突被害軽減ブレーキが作動し、急制動がかかるおそれがある。",
+      "measures": "全車両、車両制御コンピュータのＳＢＳ制御プログラムを対策プログラムに修正する。なお、一部の車両はＳＢＳ作動設定の仕様が変更になるため、取扱説明書の変更、メータのプログラム変更を同時に実施する。",
+      "productionPeriod": "2019年6月11日 ～ 2019年10月14日",
+      "units": "43台",
+      "generations": [
+        "BP"
+      ],
+      "targets": [
+        {
+          "typeCode": "6BA-BP5P",
+          "chassisRange": "BP5P-101514 ～ BP5P-106282",
+          "generation": "BP"
+        },
+        {
+          "typeCode": "5BA-BPFP",
+          "chassisRange": "BPFP-100420 ～ BPFP-107339",
+          "generation": "BP"
+        },
+        {
+          "typeCode": "3DA-BP8P",
+          "chassisRange": "BP8P-101639 ～ BP8P-106460",
+          "generation": "BP"
+        }
+      ],
+      "specialVehicle": false,
+      "url": "https://renrakuda.mlit.go.jp/renrakuda/ris-detail-car.html?selCarTp=1&id=3008907"
+    },
+    {
+      "no": "リ国-4857-2",
+      "baseNo": "リ国-4857",
+      "kind": "リコール",
+      "date": "2020-12-10",
+      "startDate": "2020年12月11日",
+      "device": "コンピュータ(エンジン)",
+      "deviceOriginal": "コンピュータ(エンジ",
+      "situation": "②エンジン制御コンピュータにおいて、アイドリングストップ後の再始動制御プログラムが不適切なため、アイドリングストップを判別するためのエンジン停止判定処理が遅れた場合、アイドリングストップ後にエンジンが再始動しなくなるおそれがある。",
+      "measures": "②全車両、エンジン制御コンピュータのアイドリングストップ後の再始動制御プログラムを対策プログラムに修正する。",
+      "productionPeriod": "2019年6月12日 ～ 2019年10月14日",
+      "units": "22台",
+      "generations": [
+        "BP"
+      ],
+      "targets": [
+        {
+          "typeCode": "6BA-BP5P",
+          "chassisRange": "BP5P-101514 ～ BP5P-106282",
+          "generation": "BP"
+        },
+        {
+          "typeCode": "5BA-BPFP",
+          "chassisRange": "BPFP-100420 ～ BPFP-107339",
+          "generation": "BP"
+        }
+      ],
+      "specialVehicle": false,
+      "url": "https://renrakuda.mlit.go.jp/renrakuda/ris-detail-car.html?selCarTp=1&id=3004867"
+    },
+    {
+      "no": "リ国-4857-1",
+      "baseNo": "リ国-4857",
+      "kind": "リコール",
+      "date": "2020-12-10",
+      "startDate": "2020年12月11日",
+      "device": "コンピュータ(エンジン)",
+      "deviceOriginal": "コンピュータ(エンジ",
+      "situation": "①エンジン制御コンピュータにおいて、燃料噴射制御プログラムが不適切なため、燃焼室に大量の燃料蒸発ガスが流れ込んだ際に、インジェクタによる燃料噴射量を正しく制御できないことがある。そのため、燃焼に必要な燃料噴射量が不足し、最悪の場合、低車速時にエンストするおそれがある。",
+      "measures": "①全車両、エンジン制御コンピュータの燃料噴射制御プログラムを対策プログラムに修正する。",
+      "productionPeriod": "2019年6月13日 ～ 2019年9月19日",
+      "units": "10台",
+      "generations": [
+        "BP"
+      ],
+      "targets": [
+        {
+          "typeCode": "6BA-BP5P",
+          "chassisRange": "BP5P-101514 ～ BP5P-106282",
+          "generation": "BP"
+        },
+        {
+          "typeCode": "5BA-BPFP",
+          "chassisRange": "BPFP-100420 ～ BPFP-107339",
+          "generation": "BP"
+        }
+      ],
+      "specialVehicle": false,
+      "url": "https://renrakuda.mlit.go.jp/renrakuda/ris-detail-car.html?selCarTp=1&id=3004866"
+    },
+    {
+      "no": "改国-0587-0",
+      "baseNo": "改国-0587",
+      "kind": "改善対策",
+      "date": "2019-12-19",
+      "startDate": "2019年12月19日",
+      "device": "装置その他",
+      "situation": "車両制御コンピュータにおいて、スマート・ブレーキ・サポート（ＳＢＳ）の制御プログラムが不適切なため、Ｓ字路の路肩に停車した車両や大きな道路標識などを正しく認識できないことがある。そのため、衝突の可能性がないにもかかわらず障害物との接近を知らせる警報音が鳴り、ディスプレイに警告表示が出て、最悪の場合、衝突被害軽減ブレーキが作動し、急制動がかかるおそれがある。",
+      "measures": "全車両、車両制御コンピュータのＳＢＳ制御プログラムを対策プログラムに修正する。なお、一部の車両はＳＢＳ作動設定の仕様が変更になるため、取扱説明書の変更、メータのプログラム変更を同時に実施する。",
+      "productionPeriod": "2019年3月 5日 ～ 2019年10月23日",
+      "units": "24,750台",
+      "generations": [
+        "BP"
+      ],
+      "targets": [
+        {
+          "typeCode": "6BA-BP5P",
+          "chassisRange": "BP5P-100006 ～ BP5P-106927",
+          "generation": "BP"
+        },
+        {
+          "typeCode": "5BA-BPFP",
+          "chassisRange": "BPFP-100008 ～ BPFP-107571",
+          "generation": "BP"
+        },
+        {
+          "typeCode": "3DA-BP8P",
+          "chassisRange": "BP8P-100012 ～ BP8P-106622",
+          "generation": "BP"
+        }
+      ],
+      "specialVehicle": false,
+      "url": "https://renrakuda.mlit.go.jp/renrakuda/ris-detail-car.html?selCarTp=1&id=3008896"
+    },
+    {
+      "no": "リ国-4631-2",
+      "baseNo": "リ国-4631",
+      "kind": "リコール",
+      "date": "2019-12-19",
+      "startDate": "2019年11月1日",
+      "device": "コンピュータ(エンジン)",
+      "deviceOriginal": "コンピュータ(エンジ",
+      "situation": "エンジン制御コンピュータにおいて、アイドリングストップ後の再始動制御プログラムが不適切なため、アイドリングストップを判別するためのエンジン停止判定処理が遅れた場合、アイドリングストップ後にエンジンが再始動しなくなるおそれがある。",
+      "measures": "全車両、エンジン制御コンピュータのアイドリングストップ後の再始動制御プログラムを対策プログラムに修正する。",
+      "productionPeriod": "2019年3月 5日 ～ 2019年11月 8日",
+      "units": "17,367台",
+      "generations": [
+        "BP"
+      ],
+      "targets": [
+        {
+          "typeCode": "6BA-BP5P",
+          "chassisRange": "BP5P-100006 ～ BP5P-107167",
+          "generation": "BP"
+        },
+        {
+          "typeCode": "5BA-BPFP",
+          "chassisRange": "BPFP-100008 ～ BPFP-107998",
+          "generation": "BP"
+        }
+      ],
+      "specialVehicle": false,
+      "url": "https://renrakuda.mlit.go.jp/renrakuda/ris-detail-car.html?selCarTp=1&id=3004654"
+    },
+    {
+      "no": "リ国-4631-1",
+      "baseNo": "リ国-4631",
+      "kind": "リコール",
+      "date": "2019-12-19",
+      "startDate": "2019年11月1日",
+      "device": "コンピュータ(エンジン)",
+      "deviceOriginal": "コンピュータ(エンジ",
+      "situation": "エンジン制御コンピュータにおいて、燃料噴射制御プログラムが不適切なため、燃焼室に大量の燃料蒸発ガスが流れ込んだ際に、インジェクタによる燃料噴射量を正しく制御できないことがある。そのため、燃焼に必要な燃料噴射量が不足し、最悪の場合、低車速時にエンストするおそれがある。",
+      "measures": "全車両、エンジン制御コンピュータの燃料噴射制御プログラムを対策プログラムに修正する。",
+      "productionPeriod": "2019年3月 5日 ～ 2019年11月 8日",
+      "units": "17,367台",
+      "generations": [
+        "BP"
+      ],
+      "targets": [
+        {
+          "typeCode": "6BA-BP5P",
+          "chassisRange": "BP5P-100006 ～ BP5P-107167",
+          "generation": "BP"
+        },
+        {
+          "typeCode": "5BA-BPFP",
+          "chassisRange": "BPFP-100008 ～ BPFP-107998",
+          "generation": "BP"
+        }
+      ],
+      "specialVehicle": false,
+      "url": "https://renrakuda.mlit.go.jp/renrakuda/ris-detail-car.html?selCarTp=1&id=3004653"
+    },
+    {
+      "no": "リ国-4543-0",
+      "baseNo": "リ国-4543",
+      "kind": "リコール",
+      "date": "2019-07-25",
+      "startDate": "2019年7月26日",
+      "device": "後写鏡",
+      "situation": "手動防眩ルームミラーにおいて、ホルダと鏡面の接着方法が不適切なため、接着強度が不足しているものがある。そのため、接着が剥がれてホルダから鏡面が浮き上がり、最悪の場合、鏡面が脱落して、後方の交通状況等が確認できなくなるおそれがある。",
+      "measures": "全車両、手動防眩ルームミラーを対策品と交換する。",
+      "productionPeriod": "2019年5月24日 ～ 2019年6月 7日",
+      "units": "115台",
+      "generations": [
+        "BP"
+      ],
+      "targets": [
+        {
+          "typeCode": "6BA-BP5P",
+          "chassisRange": "BP5P-100006 ～ BP5P-100120",
+          "generation": "BP"
+        }
+      ],
+      "specialVehicle": false,
+      "url": "https://renrakuda.mlit.go.jp/renrakuda/ris-detail-car.html?selCarTp=1&id=3004565"
+    }
+  ]
+}

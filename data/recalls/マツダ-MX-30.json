@@ -1,0 +1,143 @@
+{
+  "slug": "マツダ-MX-30",
+  "maker": "マツダ",
+  "model": "MX-30",
+  "source": {
+    "name": "国土交通省 自動車不具合情報ホットライン リコール情報検索",
+    "url": "https://renrakuda.mlit.go.jp/renrakuda/recall-search.html",
+    "credit": "出典：国土交通省 自動車不具合情報ホットライン（https://renrakuda.mlit.go.jp/renrakuda/recall-search.html）を加工して作成",
+    "license": "公共データ利用規約（第1.0版）（PDL1.0）"
+  },
+  "retrievedAt": "2026-11-15",
+  "coveredUntil": "2026-09-30",
+  "generations": [
+    {
+      "id": "DR",
+      "name": "初代（DR系・2020年10月〜）",
+      "launched": "2020年10月",
+      "current": true,
+      "officialSource": {
+        "title": "マツダ ニュースリリース 新型コンパクトSUV「MAZDA MX-30」を発売",
+        "url": "https://newsroom.mazda.com/ja/publicity/release/2020/202010/201008a.html"
+      }
+    }
+  ],
+  "recalls": [
+    {
+      "no": "リ国-5647-0",
+      "baseNo": "リ国-5647",
+      "kind": "リコール",
+      "date": "2025-05-15",
+      "startDate": "2025年5月16日",
+      "device": "アクセル",
+      "situation": "手動運転装置付きの福祉車両において、アクセルリングを戻すためのスプリングの設定荷重が不適切なため、アクセルリングが戻らないことがある。そのため、車両が減速しないおそれがある。",
+      "measures": "全車両、アクセルリングを戻すためのスプリングを対策品に交換する。",
+      "productionPeriod": "2021年10月 4日 ～ 2024年4月 5日",
+      "units": "34台",
+      "generations": [
+        "DR"
+      ],
+      "targets": [
+        {
+          "typeCode": "5AA-DREJ3P",
+          "chassisRange": "DREJ3P-106881 ～ DREJ3P-151725",
+          "generation": "DR"
+        },
+        {
+          "typeCode": "ZAA-DRH3P",
+          "chassisRange": "DRH3P-100219 ～ DRH3P-150010",
+          "generation": "DR"
+        }
+      ],
+      "specialVehicle": false,
+      "url": "https://renrakuda.mlit.go.jp/renrakuda/ris-detail-car.html?selCarTp=1&id=3010090"
+    },
+    {
+      "no": "改国-0682-0",
+      "baseNo": "改国-0682",
+      "kind": "改善対策",
+      "date": "2023-11-30",
+      "startDate": "2023年12月1日",
+      "device": "その他(その他)",
+      "situation": "手動運転装置付き福祉車両の移乗ボード（車椅子から運転席への乗り移りをサポートする機構）において、移乗ボードを使用せず格納状態のまま乗車した場合にボード天板に脚を引っ掛け、押し込まれることで本来回転しない方向に回転し、ボード天板を支えているシリンダーからステーロッドが抜けることがある。そのため、そのまま移乗ボードを展開し、車椅子から運転席に乗り移るためボード天板に座った場合に傾き、乗員が転倒して怪我をするおそれがある。",
+      "measures": "全車両、ボード天板の回転を抑止するためのストッパーを追加した対策品の移乗ボードに交換する。なお、改善措置用部品の準備に時間を要することから、部品が供給できるまでの暫定措置として、シリンダーからの抜けを抑制するため、ステーロッドの長さを延長したステーロッド＆シリンダーに交換する。",
+      "productionPeriod": "2021年10月 4日 ～ 2023年8月 1日",
+      "units": "27台",
+      "generations": [
+        "DR"
+      ],
+      "targets": [
+        {
+          "typeCode": "5AA-DREJ3P",
+          "chassisRange": "DREJ3P-106881 ～ DREJ3P-151109",
+          "generation": "DR"
+        },
+        {
+          "typeCode": "ZAA-DRH3P",
+          "chassisRange": "DRH3P-100219 ～ DRH3P-150010",
+          "generation": "DR"
+        }
+      ],
+      "specialVehicle": false,
+      "url": "https://renrakuda.mlit.go.jp/renrakuda/ris-detail-car.html?selCarTp=1&id=3009533"
+    },
+    {
+      "no": "改国-0656-0",
+      "baseNo": "改国-0656",
+      "kind": "改善対策",
+      "date": "2022-11-25",
+      "startDate": "2022年11月25日",
+      "device": "主ペダル/レバー",
+      "situation": "福祉車両（手動運転装置付車）のレバーブレーキにおいて、ブレーキを保持するためのロック機構を固定するナットの締め付けが不適切なため、緩むことがある。そのため、そのまま使用を続けた場合、レバーブレーキをロックしにくくなり、最悪の場合、ナットが外れてロックできなくなるおそれがある。",
+      "measures": "全車両、締め付けボルトを対策品に交換し、正規トルクで締め付ける。",
+      "productionPeriod": "2022年2月15日 ～ 2022年6月10日",
+      "units": "4台",
+      "generations": [
+        "DR"
+      ],
+      "targets": [
+        {
+          "typeCode": "5AA-DREJ3P",
+          "chassisRange": "DREJ3P-107560 ～ DREJ3P-107978",
+          "generation": "DR"
+        },
+        {
+          "typeCode": "ZAA-DRH3P",
+          "chassisRange": "DRH3P-100219 ～ DRH3P-100223",
+          "generation": "DR"
+        }
+      ],
+      "specialVehicle": false,
+      "url": "https://renrakuda.mlit.go.jp/renrakuda/ris-detail-car.html?selCarTp=1&id=3008938"
+    },
+    {
+      "no": "リ国-4916-0",
+      "baseNo": "リ国-4916",
+      "kind": "リコール",
+      "date": "2021-04-08",
+      "startDate": "2021年4月9日",
+      "device": "エアバッグ",
+      "situation": "助手席エアバッグにおいて、バッグの折り畳み方法が不適切なため、正しく折り畳みできていないものがある。そのため、衝突時にエアバッグが作動した際にバッグの縫製部が裂けて正常に展開せず、乗員保護性能が低下するおそれがある。",
+      "measures": "全車両、助手席エアバッグを良品に交換する。",
+      "productionPeriod": "2020年8月 4日 ～ 2020年11月24日",
+      "units": "2,153台",
+      "generations": [
+        "DR"
+      ],
+      "targets": [
+        {
+          "typeCode": "5AA-DREJ3P",
+          "chassisRange": "DREJ3P-100021 ～ DREJ3P-102479",
+          "generation": "DR"
+        },
+        {
+          "typeCode": "ZAA-DRH3P",
+          "chassisRange": "DRH3P-100005 ～ DRH3P-100013",
+          "generation": "DR"
+        }
+      ],
+      "specialVehicle": false,
+      "url": "https://renrakuda.mlit.go.jp/renrakuda/ris-detail-car.html?selCarTp=1&id=3004924"
+    }
+  ]
+}

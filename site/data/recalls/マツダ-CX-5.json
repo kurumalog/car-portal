@@ -10,19 +10,27 @@
   },
   "retrievedAt": "2026-11-15",
   "coveredUntil": "2026-09-30",
-  "currentGeneration": {
-    "id": "current",
-    "name": "現行型（3代目・2026年5月〜）",
-    "note": "2026年9月30日までの届出には、現行型のリコールはありません。"
-  },
   "generations": [
     {
+      "id": "current",
+      "name": "3代目（2026年5月〜）",
+      "launched": "2026年5月",
+      "current": true,
+      "officialSource": {
+        "title": "マツダ ニュースリリース 新型「MAZDA CX-5」の販売を開始",
+        "url": "https://newsroom.mazda.com/ja/publicity/release/2026/202605/260521a.html"
+      },
+      "note": "2026年9月30日までの届出には、現行型のリコールはありません。"
+    },
+    {
       "id": "KF",
-      "name": "2代目（KF系・2017〜2026年）"
+      "name": "2代目（KF系・2017〜2026年）",
+      "current": false
     },
     {
       "id": "KE",
-      "name": "初代（KE系・2012〜2017年）"
+      "name": "初代（KE系・2012〜2017年）",
+      "current": false
     }
   ],
   "recalls": [
@@ -43,15 +51,18 @@
       "targets": [
         {
           "typeCode": "3DA-KF2P",
-          "chassisRange": "KF2P-601575 ～ KF2P-605621"
+          "chassisRange": "KF2P-601575 ～ KF2P-605621",
+          "generation": "KF"
         },
         {
           "typeCode": "6BA-KF5P",
-          "chassisRange": "KF5P-600255 ～ KF5P-600758"
+          "chassisRange": "KF5P-600255 ～ KF5P-600758",
+          "generation": "KF"
         },
         {
           "typeCode": "6BA-KFEP",
-          "chassisRange": "KFEP-600662 ～ KFEP-602537"
+          "chassisRange": "KFEP-600662 ～ KFEP-602537",
+          "generation": "KF"
         }
       ],
       "specialVehicle": false,
@@ -74,23 +85,28 @@
       "targets": [
         {
           "typeCode": "DBA-KF5P",
-          "chassisRange": "KF5P-103231 ～ KF5P-106383"
+          "chassisRange": "KF5P-103231 ～ KF5P-106383",
+          "generation": "KF"
         },
         {
           "typeCode": "6BA-KF5P",
-          "chassisRange": "KF5P-200003 ～ KF5P-305656"
+          "chassisRange": "KF5P-200003 ～ KF5P-305656",
+          "generation": "KF"
         },
         {
           "typeCode": "5BA-KF5P",
-          "chassisRange": "KF5P-300042 ～ KF5P-305797"
+          "chassisRange": "KF5P-300042 ～ KF5P-305797",
+          "generation": "KF"
         },
         {
           "typeCode": "DBA-KFEP",
-          "chassisRange": "KFEP-102754 ～ KFEP-106651"
+          "chassisRange": "KFEP-102754 ～ KFEP-106651",
+          "generation": "KF"
         },
         {
           "typeCode": "6BA-KFEP",
-          "chassisRange": "KFEP-200003 ～ KFEP-305931"
+          "chassisRange": "KFEP-200003 ～ KFEP-305931",
+          "generation": "KF"
         }
       ],
       "specialVehicle": false,
@@ -113,15 +129,18 @@
       "targets": [
         {
           "typeCode": "5BA-KF5P",
-          "chassisRange": "KF5P-300012 ～ KF5P-300119"
+          "chassisRange": "KF5P-300012 ～ KF5P-300119",
+          "generation": "KF"
         },
         {
           "typeCode": "6BA-KF5P",
-          "chassisRange": "KF5P-201846 ～ KF5P-300353"
+          "chassisRange": "KF5P-201846 ～ KF5P-300353",
+          "generation": "KF"
         },
         {
           "typeCode": "6BA-KFEP",
-          "chassisRange": "KFEP-202069 ～ KFEP-300340"
+          "chassisRange": "KFEP-202069 ～ KFEP-300340",
+          "generation": "KF"
         }
       ],
       "specialVehicle": false,
@@ -133,7 +152,8 @@
       "kind": "リコール",
       "date": "2020-03-19",
       "startDate": "2020年3月20日",
-      "device": "コンピュータ(エンジ",
+      "device": "コンピュータ(エンジン)",
+      "deviceOriginal": "コンピュータ(エンジ",
       "situation": "（１）エンジンの吸気シャッタ・バルブにおいて、制御プログラムが不適切なため、バルブ周辺に付着する煤などにより、バルブ開度が正しく制御されなくなり、エンジン警告灯が点灯した際、フェールセーフが十分に機能せず、バルブが全開しないことがある。そのため、煤などの付着により、バルブが全閉のまま固着した場合、エンジンが停止するおそれがある。 （２）エンジンの排気圧センサにおいて、異常判定プログラムが不適切なため、センサ内部への水分の浸入により、センサの出力値がずれ、排出ガスが基準値を満足しなくなる場合に、異常判定しない。そのため、そのままの状態で使用を続けると、浸入した水分により排気圧センサ内の電子回路が腐食し、断線することでエンジン警告灯が点灯し、フェールセーフ制御によりアイドリングストップが作動しなくなり、変速ショックが大きくなるおそれがある。",
       "measures": "（１）全車両、エンジン制御コンピュータを点検し、吸気シャッタ・バルブ用制御プログラムを対策プログラムに修正する。点検の結果、吸気シャッタ・バルブに異常がある場合は、吸気シャッタ・バルブを新品に交換する。また、プログラム修正後にエンジン警告灯が点灯した場合は、吸気シャッタ・バルブを新品に交換する。 （２）全車両、エンジン制御コンピュータを点検し、排気圧センサ用制御プログラムを対策プログラムに修正する。点検の結果、排気圧センサに異常がある場合は、排気圧センサを現行の新品に交換する。また、プログラム修正後にエンジン警告灯が点灯した場合は、排気圧センサを現行の新品に交換する。",
       "productionPeriod": "2012年2月14日 ～ 2018年7月 2日",
@@ -145,15 +165,18 @@
       "targets": [
         {
           "typeCode": "LDA-KE2AW",
-          "chassisRange": "KE2AW-100035 ～ KE2AW-217444"
+          "chassisRange": "KE2AW-100035 ～ KE2AW-217444",
+          "generation": "KE"
         },
         {
           "typeCode": "LDA-KE2FW",
-          "chassisRange": "KE2FW-100026 ～ KE2FW-221200"
+          "chassisRange": "KE2FW-100026 ～ KE2FW-221200",
+          "generation": "KE"
         },
         {
           "typeCode": "LDA-KF2P",
-          "chassisRange": "KF2P-100035 ～ KF2P-131242"
+          "chassisRange": "KF2P-100035 ～ KF2P-131242",
+          "generation": "KF"
         }
       ],
       "specialVehicle": false,
@@ -165,7 +188,8 @@
       "kind": "リコール",
       "date": "2020-03-19",
       "startDate": "2020年3月20日",
-      "device": "コンピュータ(エンジ",
+      "device": "コンピュータ(エンジン)",
+      "deviceOriginal": "コンピュータ(エンジ",
       "situation": "（１）エンジンの吸気シャッタ・バルブにおいて、制御プログラムが不適切なため、バルブ周辺に付着する煤などにより、バルブ開度が正しく制御されなくなり、エンジン警告灯が点灯した際、フェールセーフが十分に機能せず、バルブが全開しないことがある。そのため、煤などの付着により、バルブが全閉のまま固着した場合、エンジンが停止するおそれがある。 （２）エンジンの排気圧センサにおいて、異常判定プログラムが不適切なため、センサ内部への水分の浸入により、センサの出力値がずれ、排出ガスが基準値を満足しなくなる場合に、異常判定しない。そのため、そのままの状態で使用を続けると、浸入した水分により排気圧センサ内の電子回路が腐食し、断線することでエンジン警告灯が点灯し、フェールセーフ制御によりアイドリングストップが作動しなくなり、変速ショックが大きくなるおそれがある。",
       "measures": "（１）全車両、エンジン制御コンピュータを点検し、吸気シャッタ・バルブ用制御プログラムを対策プログラムに修正する。点検の結果、吸気シャッタ・バルブに異常がある場合は、吸気シャッタ・バルブを新品に交換する。また、プログラム修正後にエンジン警告灯が点灯した場合は、吸気シャッタ・バルブを新品に交換する。 （２）全車両、エンジン制御コンピュータを点検し、排気圧センサ用制御プログラムを対策プログラムに修正する。点検の結果、排気圧センサに異常がある場合は、排気圧センサを現行の新品に交換する。また、プログラム修正後にエンジン警告灯が点灯した場合は、排気圧センサを現行の新品に交換する。",
       "productionPeriod": "2012年2月14日 ～ 2018年7月 2日",
@@ -177,15 +201,18 @@
       "targets": [
         {
           "typeCode": "LDA-KE2AW",
-          "chassisRange": "KE2AW-100035 ～ KE2AW-217444"
+          "chassisRange": "KE2AW-100035 ～ KE2AW-217444",
+          "generation": "KE"
         },
         {
           "typeCode": "LDA-KE2FW",
-          "chassisRange": "KE2FW-100026 ～ KE2FW-221200"
+          "chassisRange": "KE2FW-100026 ～ KE2FW-221200",
+          "generation": "KE"
         },
         {
           "typeCode": "LDA-KF2P",
-          "chassisRange": "KF2P-100035 ～ KF2P-131242"
+          "chassisRange": "KF2P-100035 ～ KF2P-131242",
+          "generation": "KF"
         }
       ],
       "specialVehicle": false,
@@ -208,23 +235,28 @@
       "targets": [
         {
           "typeCode": "LDA-KE2AW",
-          "chassisRange": "KE2AW-200004 ～ KE2AW-209849"
+          "chassisRange": "KE2AW-200004 ～ KE2AW-209849",
+          "generation": "KE"
         },
         {
           "typeCode": "LDA-KE2FW",
-          "chassisRange": "KE2FW-200003 ～ KE2FW-212555"
+          "chassisRange": "KE2FW-200003 ～ KE2FW-212555",
+          "generation": "KE"
         },
         {
           "typeCode": "DBA-KEEFW",
-          "chassisRange": "KEEFW-200003 ～ KEEFW-202918"
+          "chassisRange": "KEEFW-200003 ～ KEEFW-202918",
+          "generation": "KE"
         },
         {
           "typeCode": "DBA-KE5AW",
-          "chassisRange": "KE5AW-200003 ～ KE5AW-201015"
+          "chassisRange": "KE5AW-200003 ～ KE5AW-201015",
+          "generation": "KE"
         },
         {
           "typeCode": "DBA-KE5FW",
-          "chassisRange": "KE5FW-200003 ～ KE5FW-200768"
+          "chassisRange": "KE5FW-200003 ～ KE5FW-200768",
+          "generation": "KE"
         }
       ],
       "specialVehicle": false,
@@ -236,7 +268,8 @@
       "kind": "リコール",
       "date": "2019-06-27",
       "startDate": "2019年6月28日",
-      "device": "コンピュータ(エンジ",
+      "device": "コンピュータ(エンジン)",
+      "deviceOriginal": "コンピュータ(エンジ",
       "situation": "エンジン制御コンピュータにおいて、気筒休止制御プログラムが不適切なため、気筒休止から復帰する際、バルブクリアランス調整機構が誤作動することがある。そのため、ロッカアームが脱落して周辺部品と干渉し、エンジン失火による出力不足が発生して、最悪の場合、エンジンが停止するおそれがある。",
       "measures": "全車両、エンジン制御コンピュータの気筒休止制御プログラムを対策プログラムに修正する。",
       "productionPeriod": "2018年2月 1日 ～ 2019年5月23日",
@@ -247,7 +280,8 @@
       "targets": [
         {
           "typeCode": "6BA-KF5P",
-          "chassisRange": "KF5P-200003 ～ KF5P-304386"
+          "chassisRange": "KF5P-200003 ～ KF5P-304386",
+          "generation": "KF"
         }
       ],
       "specialVehicle": false,
@@ -259,7 +293,8 @@
       "kind": "リコール",
       "date": "2018-11-08",
       "startDate": "2018年11月9日",
-      "device": "コンピュータ(ｶﾞｽ･騒",
+      "device": "コンピュータ(ｶﾞｽ･騒…)",
+      "deviceOriginal": "コンピュータ(ｶﾞｽ･騒",
       "situation": "エンジンの排気圧センサにおいて、異常判定プログラムが不適切なため、センサ内部への水分の浸入により、センサの出力値がずれ、排出ガスが基準値を満足しなくなる場合に、異常判定しない。そのため、そのままの状態で使用を続けると、浸入した水分により排気圧センサ内の電子回路が腐食し、断線することでエンジン警告灯が点灯し、フェールセーフ制御によりアイドリングストップが作動しなくなり、変速ショックが大きくなるおそれがある。",
       "measures": "全車両、エンジン制御コンピュータを点検し、排気圧センサ用制御プログラムを対策プログラムに修正する。点検の結果、排気圧センサに異常がある場合は、排気圧センサを現行の新品に交換する。また、プログラム修正後にエンジン警告灯が点灯した場合は、排気圧センサを現行の新品に交換する。",
       "productionPeriod": "2012年2月13日 ～ 2018年7月 4日",
@@ -271,19 +306,23 @@
       "targets": [
         {
           "typeCode": "LDA-KE2AW",
-          "chassisRange": "KE2AW-100017 ～ KE2AW-217477"
+          "chassisRange": "KE2AW-100017 ～ KE2AW-217477",
+          "generation": "KE"
         },
         {
           "typeCode": "LDA-KE2FW",
-          "chassisRange": "KE2FW-100009 ～ KE2FW-221328"
+          "chassisRange": "KE2FW-100009 ～ KE2FW-221328",
+          "generation": "KE"
         },
         {
           "typeCode": "LDA-KF2P",
-          "chassisRange": "KF2P-100029 ～ KF2P-131275"
+          "chassisRange": "KF2P-100029 ～ KF2P-131275",
+          "generation": "KF"
         },
         {
           "typeCode": "3DA-KF2P",
-          "chassisRange": "KF2P-200005 ～ KF2P-207960"
+          "chassisRange": "KF2P-200005 ～ KF2P-207960",
+          "generation": "KF"
         }
       ],
       "specialVehicle": false,
@@ -295,7 +334,8 @@
       "kind": "リコール",
       "date": "2018-11-08",
       "startDate": "2018年11月9日",
-      "device": "コンピュータ(エンジ",
+      "device": "コンピュータ(エンジン)",
+      "deviceOriginal": "コンピュータ(エンジ",
       "situation": "エンジンの吸気シャッタ・バルブにおいて、制御プログラムが不適切なため、バルブ周辺に付着する煤などにより、バルブ開度が正しく制御されなくなり、エンジン警告灯が点灯した際、フェールセーフが十分に機能せず、バルブが全開しないことがある。そのため、煤などの付着により、バルブが全閉のまま固着した場合、エンジンが停止するおそれがある。",
       "measures": "全車両、エンジン制御コンピュータを点検し、吸気シャッタ・バルブ用制御プログラムを対策プログラムに修正する。点検の結果、吸気シャッタ・バルブに異常がある場合は、吸気シャッタ・バルブを新品に交換する。また、プログラム修正後にエンジン警告灯が点灯した場合は、吸気シャッタ・バルブを新品に交換する。",
       "productionPeriod": "2012年2月13日 ～ 2018年7月 4日",
@@ -307,19 +347,23 @@
       "targets": [
         {
           "typeCode": "LDA-KE2AW",
-          "chassisRange": "KE2AW-100017 ～ KE2AW-217477"
+          "chassisRange": "KE2AW-100017 ～ KE2AW-217477",
+          "generation": "KE"
         },
         {
           "typeCode": "LDA-KE2FW",
-          "chassisRange": "KE2FW-100009 ～ KE2FW-221328"
+          "chassisRange": "KE2FW-100009 ～ KE2FW-221328",
+          "generation": "KE"
         },
         {
           "typeCode": "LDA-KF2P",
-          "chassisRange": "KF2P-100029 ～ KF2P-131275"
+          "chassisRange": "KF2P-100029 ～ KF2P-131275",
+          "generation": "KF"
         },
         {
           "typeCode": "3DA-KF2P",
-          "chassisRange": "KF2P-200005 ～ KF2P-207960"
+          "chassisRange": "KF2P-200005 ～ KF2P-207960",
+          "generation": "KF"
         }
       ],
       "specialVehicle": false,
@@ -343,19 +387,23 @@
       "targets": [
         {
           "typeCode": "LDA-KE2AW",
-          "chassisRange": "KE2AW-100017 ～ KE2AW-217477"
+          "chassisRange": "KE2AW-100017 ～ KE2AW-217477",
+          "generation": "KE"
         },
         {
           "typeCode": "LDA-KE2FW",
-          "chassisRange": "KE2FW-100009 ～ KE2FW-221328"
+          "chassisRange": "KE2FW-100009 ～ KE2FW-221328",
+          "generation": "KE"
         },
         {
           "typeCode": "LDA-KF2P",
-          "chassisRange": "KF2P-100029 ～ KF2P-131275"
+          "chassisRange": "KF2P-100029 ～ KF2P-131275",
+          "generation": "KF"
         },
         {
           "typeCode": "3DA-KF2P",
-          "chassisRange": "KF2P-200005 ～ KF2P-207960"
+          "chassisRange": "KF2P-200005 ～ KF2P-207960",
+          "generation": "KF"
         }
       ],
       "specialVehicle": false,
@@ -378,23 +426,28 @@
       "targets": [
         {
           "typeCode": "LDA-KE2AW",
-          "chassisRange": "KE2AW-100033 ～ KE2AW-123203"
+          "chassisRange": "KE2AW-100033 ～ KE2AW-123203",
+          "generation": "KE"
         },
         {
           "typeCode": "LDA-KE2FW",
-          "chassisRange": "KE2FW-100016 ～ KE2FW-133596"
+          "chassisRange": "KE2FW-100016 ～ KE2FW-133596",
+          "generation": "KE"
         },
         {
           "typeCode": "DBA-KE5AW",
-          "chassisRange": "KE5AW-100009 ～ KE5AW-100009"
+          "chassisRange": "KE5AW-100009 ～ KE5AW-100009",
+          "generation": "KE"
         },
         {
           "typeCode": "DBA-KE5FW",
-          "chassisRange": "KE5FW-100005 ～ KE5FW-100005"
+          "chassisRange": "KE5FW-100005 ～ KE5FW-100005",
+          "generation": "KE"
         },
         {
           "typeCode": "DBA-KEEFW",
-          "chassisRange": "KEEFW-100021 ～ KEEFW-106832"
+          "chassisRange": "KEEFW-100021 ～ KEEFW-106832",
+          "generation": "KE"
         }
       ],
       "specialVehicle": false,
@@ -406,7 +459,8 @@
       "kind": "リコール",
       "date": "2018-06-14",
       "startDate": "2018年6月15日",
-      "device": "コンピュータ(エンジ",
+      "device": "コンピュータ(エンジン)",
+      "deviceOriginal": "コンピュータ(エンジ",
       "situation": "ディーゼルエンジンにおいて、エンジン制御プログラムが不適切なため、エンジンを停止させた際の僅かなエンジン回転を異常と判定し、エンジン制御コンピュータへの電源供給が停止しなくなる。そのため、スタート・ストップ・ユニットがスタータ回路の短絡と判定し、プッシュボタンスタートを押しても、電源ポジションがＯＮに切り替わらず、エンジンが始動できなくなるおそれがある。",
       "measures": "全車両、エンジン制御プログラムを対策プログラムに書き換える。",
       "productionPeriod": "2017年9月29日 ～ 2018年5月 8日",
@@ -417,7 +471,8 @@
       "targets": [
         {
           "typeCode": "3DA-KF2P",
-          "chassisRange": "KF2P-200005 ～ KF2P-207962"
+          "chassisRange": "KF2P-200005 ～ KF2P-207962",
+          "generation": "KF"
         }
       ],
       "specialVehicle": false,
@@ -429,7 +484,8 @@
       "kind": "リコール",
       "date": "2018-06-07",
       "startDate": "2018年6月8日",
-      "device": "コンピュータ(エンジ",
+      "device": "コンピュータ(エンジン)",
+      "deviceOriginal": "コンピュータ(エンジ",
       "situation": "ガソリンエンジン車のエンジン制御コンピュータにおいて、インジェクタ駆動電源回路に使用する電解コンデンサの製造工程が不適切なため、内部が損傷しているものがある。そのため、そのまま使用を続けると損傷が進み、エンジンが停止し、再始動できなくなるおそれがある。さらに、エンジンスイッチをオンの状態で維持していると、インジェクタや高圧燃料ポンプ内部の駆動部が過熱し、樹脂部が溶けて燃料が漏れ出し、最悪の場合、火災に至るおそれがある。",
       "measures": "全車両、エンジン制御コンピュータの状態を点検し良品と交換する。点検の結果、異常がある場合は、インジェクタ、高圧燃料ポンプを新品と交換する。あわせて、ハーネスの状態を確認し、損傷がある場合はハーネスを新品と交換する。",
       "productionPeriod": "2018年5月15日 ～ 2018年5月19日",
@@ -440,11 +496,13 @@
       "targets": [
         {
           "typeCode": "6BA-KFEP",
-          "chassisRange": "KFEP-202544 ～ KFEP-202620"
+          "chassisRange": "KFEP-202544 ～ KFEP-202620",
+          "generation": "KF"
         },
         {
           "typeCode": "6BA-KF5P",
-          "chassisRange": "KF5P-202212 ～ KF5P-202227"
+          "chassisRange": "KF5P-202212 ～ KF5P-202227",
+          "generation": "KF"
         }
       ],
       "specialVehicle": false,
@@ -467,11 +525,13 @@
       "targets": [
         {
           "typeCode": "LDA-KE2AW",
-          "chassisRange": "KE2AW-100017 ～ KE2AW-121613"
+          "chassisRange": "KE2AW-100017 ～ KE2AW-121613",
+          "generation": "KE"
         },
         {
           "typeCode": "LDA-KE2FW",
-          "chassisRange": "KE2FW-100009 ～ KE2FW-126387"
+          "chassisRange": "KE2FW-100009 ～ KE2FW-126387",
+          "generation": "KE"
         }
       ],
       "specialVehicle": false,
@@ -494,11 +554,13 @@
       "targets": [
         {
           "typeCode": "LDA-KE2AW",
-          "chassisRange": "KE2AW-100017 ～ KE2AW-121613"
+          "chassisRange": "KE2AW-100017 ～ KE2AW-121613",
+          "generation": "KE"
         },
         {
           "typeCode": "LDA-KE2FW",
-          "chassisRange": "KE2FW-100009 ～ KE2FW-126387"
+          "chassisRange": "KE2FW-100009 ～ KE2FW-126387",
+          "generation": "KE"
         }
       ],
       "specialVehicle": false,
@@ -521,11 +583,13 @@
       "targets": [
         {
           "typeCode": "LDA-KE2AW",
-          "chassisRange": "KE2AW-100017 ～ KE2AW-121613"
+          "chassisRange": "KE2AW-100017 ～ KE2AW-121613",
+          "generation": "KE"
         },
         {
           "typeCode": "LDA-KE2FW",
-          "chassisRange": "KE2FW-100009 ～ KE2FW-126387"
+          "chassisRange": "KE2FW-100009 ～ KE2FW-126387",
+          "generation": "KE"
         }
       ],
       "specialVehicle": false,
@@ -548,23 +612,28 @@
       "targets": [
         {
           "typeCode": "LDA-KE2FW",
-          "chassisRange": "KE2FW-211889 ～ KE2FW-219738"
+          "chassisRange": "KE2FW-211889 ～ KE2FW-219738",
+          "generation": "KE"
         },
         {
           "typeCode": "LDA-KE2AW",
-          "chassisRange": "KE2AW-209237 ～ KE2AW-216200"
+          "chassisRange": "KE2AW-209237 ～ KE2AW-216200",
+          "generation": "KE"
         },
         {
           "typeCode": "DBA-KE5FW",
-          "chassisRange": "KE5FW-200706 ～ KE5FW-201548"
+          "chassisRange": "KE5FW-200706 ～ KE5FW-201548",
+          "generation": "KE"
         },
         {
           "typeCode": "DBA-KE5AW",
-          "chassisRange": "KE5AW-200959 ～ KE5AW-201820"
+          "chassisRange": "KE5AW-200959 ～ KE5AW-201820",
+          "generation": "KE"
         },
         {
           "typeCode": "DBA-KEEFW",
-          "chassisRange": "KEEFW-202733 ～ KEEFW-205308"
+          "chassisRange": "KEEFW-202733 ～ KEEFW-205308",
+          "generation": "KE"
         }
       ],
       "specialVehicle": false,
@@ -587,15 +656,18 @@
       "targets": [
         {
           "typeCode": "LDA-KF2P",
-          "chassisRange": "KF2P-100030 ～ KF2P-104772"
+          "chassisRange": "KF2P-100030 ～ KF2P-104772",
+          "generation": "KF"
         },
         {
           "typeCode": "DBA-KF5P",
-          "chassisRange": "KF5P-100004 ～ KF5P-101115"
+          "chassisRange": "KF5P-100004 ～ KF5P-101115",
+          "generation": "KF"
         },
         {
           "typeCode": "DBA-KFEP",
-          "chassisRange": "KFEP-100003 ～ KFEP-100705"
+          "chassisRange": "KFEP-100003 ～ KFEP-100705",
+          "generation": "KF"
         }
       ],
       "specialVehicle": false,
@@ -607,7 +679,8 @@
       "kind": "リコール",
       "date": "2017-02-23",
       "startDate": "2017年2月24日",
-      "device": "コンピュータ(エンジ",
+      "device": "コンピュータ(エンジン)",
+      "deviceOriginal": "コンピュータ(エンジ",
       "situation": "⑤ディーゼルエンジンにおいて、過回転制御が不適切なため、アクセル全開等の際、吸気経路内のブローバイガスに含まれるオイルが燃焼室内で燃焼し、エンジン回転が上昇することがある。そのため、エンジンの潤滑が不足して焼き付き、最悪の場合、エンジンが破損するおそれがある。",
       "measures": "全車両、制御プログラムを対策プログラムに修正する。",
       "productionPeriod": "2012年2月13日 ～ 2017年2月 2日",
@@ -618,11 +691,13 @@
       "targets": [
         {
           "typeCode": "LDA-KE2AW",
-          "chassisRange": "KE2AW-100017 ～ KE2AW-217477"
+          "chassisRange": "KE2AW-100017 ～ KE2AW-217477",
+          "generation": "KE"
         },
         {
           "typeCode": "LDA-KE2FW",
-          "chassisRange": "KE2FW-100009 ～ KE2FW-221328"
+          "chassisRange": "KE2FW-100009 ～ KE2FW-221328",
+          "generation": "KE"
         }
       ],
       "specialVehicle": false,
@@ -634,7 +709,8 @@
       "kind": "リコール",
       "date": "2017-02-23",
       "startDate": "2017年2月24日",
-      "device": "コンピュータ(燃料装",
+      "device": "コンピュータ(燃料装…)",
+      "deviceOriginal": "コンピュータ(燃料装",
       "situation": "④ディーゼルエンジンにおいて、インジェクタ制御回路の電圧変化によるノイズ対策が不適切なため、当該回路に許容を超える電流が流れることがある。そのため、回路が損傷し短絡することでヒューズが切れ、燃料噴射が停止しエンストに至るおそれがある。",
       "measures": "全車両、制御プログラムを対策プログラムに修正する。",
       "productionPeriod": "2012年2月13日 ～ 2017年2月 2日",
@@ -645,11 +721,13 @@
       "targets": [
         {
           "typeCode": "LDA-KE2AW",
-          "chassisRange": "KE2AW-100017 ～ KE2AW-217477"
+          "chassisRange": "KE2AW-100017 ～ KE2AW-217477",
+          "generation": "KE"
         },
         {
           "typeCode": "LDA-KE2FW",
-          "chassisRange": "KE2FW-100009 ～ KE2FW-221328"
+          "chassisRange": "KE2FW-100009 ～ KE2FW-221328",
+          "generation": "KE"
         }
       ],
       "specialVehicle": false,
@@ -672,11 +750,13 @@
       "targets": [
         {
           "typeCode": "LDA-KE2AW",
-          "chassisRange": "KE2AW-100017 ～ KE2AW-217477"
+          "chassisRange": "KE2AW-100017 ～ KE2AW-217477",
+          "generation": "KE"
         },
         {
           "typeCode": "LDA-KE2FW",
-          "chassisRange": "KE2FW-100009 ～ KE2FW-221328"
+          "chassisRange": "KE2FW-100009 ～ KE2FW-221328",
+          "generation": "KE"
         }
       ],
       "specialVehicle": false,
@@ -699,11 +779,13 @@
       "targets": [
         {
           "typeCode": "LDA-KE2AW",
-          "chassisRange": "KE2AW-100017 ～ KE2AW-217477"
+          "chassisRange": "KE2AW-100017 ～ KE2AW-217477",
+          "generation": "KE"
         },
         {
           "typeCode": "LDA-KE2FW",
-          "chassisRange": "KE2FW-100009 ～ KE2FW-221328"
+          "chassisRange": "KE2FW-100009 ～ KE2FW-221328",
+          "generation": "KE"
         }
       ],
       "specialVehicle": false,
@@ -726,11 +808,13 @@
       "targets": [
         {
           "typeCode": "LDA-KE2AW",
-          "chassisRange": "KE2AW-100017 ～ KE2AW-217477"
+          "chassisRange": "KE2AW-100017 ～ KE2AW-217477",
+          "generation": "KE"
         },
         {
           "typeCode": "LDA-KE2FW",
-          "chassisRange": "KE2FW-100009 ～ KE2FW-221328"
+          "chassisRange": "KE2FW-100009 ～ KE2FW-221328",
+          "generation": "KE"
         }
       ],
       "specialVehicle": false,
@@ -753,27 +837,33 @@
       "targets": [
         {
           "typeCode": "LDA-KE2AW",
-          "chassisRange": "KE2AW-100017 ～ KE2AW-128150"
+          "chassisRange": "KE2AW-100017 ～ KE2AW-128150",
+          "generation": "KE"
         },
         {
           "typeCode": "LDA-KE2FW",
-          "chassisRange": "KE2FW-100009 ～ KE2FW-135555"
+          "chassisRange": "KE2FW-100009 ～ KE2FW-135555",
+          "generation": "KE"
         },
         {
           "typeCode": "DBA-KE5AW",
-          "chassisRange": "KE5AW-100002 ～ KE5AW-100849"
+          "chassisRange": "KE5AW-100002 ～ KE5AW-100849",
+          "generation": "KE"
         },
         {
           "typeCode": "DBA-KE5FW",
-          "chassisRange": "KE5FW-100002 ～ KE5FW-100581"
+          "chassisRange": "KE5FW-100002 ～ KE5FW-100581",
+          "generation": "KE"
         },
         {
           "typeCode": "DBA-KEEAW",
-          "chassisRange": "KEEAW-100008 ～ KEEAW-103376"
+          "chassisRange": "KEEAW-100008 ～ KEEAW-103376",
+          "generation": "KE"
         },
         {
           "typeCode": "DBA-KEEFW",
-          "chassisRange": "KEEFW-100010 ～ KEEFW-115202"
+          "chassisRange": "KEEFW-100010 ～ KEEFW-115202",
+          "generation": "KE"
         }
       ],
       "specialVehicle": false,
@@ -796,27 +886,33 @@
       "targets": [
         {
           "typeCode": "LDA-KE2AW",
-          "chassisRange": "KE2AW-100017 ～ KE2AW-210255"
+          "chassisRange": "KE2AW-100017 ～ KE2AW-210255",
+          "generation": "KE"
         },
         {
           "typeCode": "LDA-KE2FW",
-          "chassisRange": "KE2FW-100009 ～ KE2FW-213076"
+          "chassisRange": "KE2FW-100009 ～ KE2FW-213076",
+          "generation": "KE"
         },
         {
           "typeCode": "DBA-KE5AW",
-          "chassisRange": "KE5AW-100002 ～ KE5AW-201056"
+          "chassisRange": "KE5AW-100002 ～ KE5AW-201056",
+          "generation": "KE"
         },
         {
           "typeCode": "DBA-KE5FW",
-          "chassisRange": "KE5FW-100002 ～ KE5FW-200803"
+          "chassisRange": "KE5FW-100002 ～ KE5FW-200803",
+          "generation": "KE"
         },
         {
           "typeCode": "DBA-KEEAW",
-          "chassisRange": "KEEAW-100008 ～ KEEAW-103377"
+          "chassisRange": "KEEAW-100008 ～ KEEAW-103377",
+          "generation": "KE"
         },
         {
           "typeCode": "DBA-KEEFW",
-          "chassisRange": "KEEFW-100010 ～ KEEFW-203052"
+          "chassisRange": "KEEFW-100010 ～ KEEFW-203052",
+          "generation": "KE"
         }
       ],
       "specialVehicle": false,
@@ -839,19 +935,23 @@
       "targets": [
         {
           "typeCode": "DBA-KEEAW",
-          "chassisRange": "KEEAW-100008 ～ KEEAW-101908"
+          "chassisRange": "KEEAW-100008 ～ KEEAW-101908",
+          "generation": "KE"
         },
         {
           "typeCode": "DBA-KEEFW",
-          "chassisRange": "KEEFW-100010 ～ KEEFW-106972"
+          "chassisRange": "KEEFW-100010 ～ KEEFW-106972",
+          "generation": "KE"
         },
         {
           "typeCode": "LDA-KE2AW",
-          "chassisRange": "KE2AW-100017 ～ KE2AW-112564"
+          "chassisRange": "KE2AW-100017 ～ KE2AW-112564",
+          "generation": "KE"
         },
         {
           "typeCode": "LDA-KE2FW",
-          "chassisRange": "KE2FW-100009 ～ KE2FW-115034"
+          "chassisRange": "KE2FW-100009 ～ KE2FW-115034",
+          "generation": "KE"
         }
       ],
       "specialVehicle": false,
@@ -874,23 +974,28 @@
       "targets": [
         {
           "typeCode": "DBA-KEEFW",
-          "chassisRange": "KEEFW-200003 ～ KEEFW-202249"
+          "chassisRange": "KEEFW-200003 ～ KEEFW-202249",
+          "generation": "KE"
         },
         {
           "typeCode": "DBA-KE5AW",
-          "chassisRange": "KE5AW-200003 ～ KE5AW-200813"
+          "chassisRange": "KE5AW-200003 ～ KE5AW-200813",
+          "generation": "KE"
         },
         {
           "typeCode": "DBA-KE5FW",
-          "chassisRange": "KE5FW-200003 ～ KE5FW-200588"
+          "chassisRange": "KE5FW-200003 ～ KE5FW-200588",
+          "generation": "KE"
         },
         {
           "typeCode": "LDA-KE2AW",
-          "chassisRange": "KE2AW-200004 ～ KE2AW-207725"
+          "chassisRange": "KE2AW-200004 ～ KE2AW-207725",
+          "generation": "KE"
         },
         {
           "typeCode": "LDA-KE2FW",
-          "chassisRange": "KE2FW-200003 ～ KE2FW-209827"
+          "chassisRange": "KE2FW-200003 ～ KE2FW-209827",
+          "generation": "KE"
         }
       ],
       "specialVehicle": false,
@@ -913,11 +1018,13 @@
       "targets": [
         {
           "typeCode": "LDA-KE2AW",
-          "chassisRange": "KE2AW-100017 ～ KE2AW-121532"
+          "chassisRange": "KE2AW-100017 ～ KE2AW-121532",
+          "generation": "KE"
         },
         {
           "typeCode": "LDA-KE2FW",
-          "chassisRange": "KE2FW-100013 ～ KE2FW-126340"
+          "chassisRange": "KE2FW-100013 ～ KE2FW-126340",
+          "generation": "KE"
         }
       ],
       "specialVehicle": false,
@@ -940,7 +1047,8 @@
       "targets": [
         {
           "typeCode": "DBA-KEEFW",
-          "chassisRange": "0 ～ 0"
+          "chassisRange": "0 ～ 0",
+          "generation": "KE"
         }
       ],
       "specialVehicle": true,
@@ -964,7 +1072,8 @@
       "targets": [
         {
           "typeCode": "LDA-KE2AW",
-          "chassisRange": "KE2AW-109815 ～ KE2AW-109815"
+          "chassisRange": "KE2AW-109815 ～ KE2AW-109815",
+          "generation": "KE"
         }
       ],
       "specialVehicle": true,
