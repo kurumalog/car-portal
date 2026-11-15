@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-07T14:54:00.287Z",
+  "generatedAt": "2026-11-15T07:09:04.890Z",
   "modelCount": 47,
   "gradeCount": 339,
   "models": [
@@ -10,7 +10,7 @@
       "grades": [
         {
           "grade": "S",
-          "typeCode": "要確認",
+          "typeCode": "5AA-KMYSDP",
           "drive": "FWD",
           "engine": "ガソリン",
           "displacementCc": "2488",
@@ -18,11 +18,11 @@
           "priceYen": "3300000",
           "releaseDate": "2026-05",
           "fuelEconomyWltc": "14.2/15.2",
-          "note": "燃費は国交省審査値(左:サンルーフ無/右:有)。型式は精査保留(全車種一括で後日裏取り予定)"
+          "note": "燃費は国交省審査値(左:サンルーフ無/右:有)。型式の根拠：data/typecode-evidence.csv"
         },
         {
           "grade": "S 4WD",
-          "typeCode": "要確認",
+          "typeCode": "5AA-KMYSDP",
           "drive": "4WD",
           "engine": "ガソリン",
           "displacementCc": "2488",
@@ -34,7 +34,7 @@
         },
         {
           "grade": "G",
-          "typeCode": "要確認",
+          "typeCode": "5AA-KMYSDP",
           "drive": "FWD",
           "engine": "ガソリン",
           "displacementCc": "2488",
@@ -46,7 +46,7 @@
         },
         {
           "grade": "G 4WD",
-          "typeCode": "要確認",
+          "typeCode": "5AA-KMYSDP",
           "drive": "4WD",
           "engine": "ガソリン",
           "displacementCc": "2488",
@@ -58,7 +58,7 @@
         },
         {
           "grade": "L",
-          "typeCode": "要確認",
+          "typeCode": "5AA-KMYSDP",
           "drive": "FWD",
           "engine": "ガソリン",
           "displacementCc": "2488",
@@ -70,7 +70,7 @@
         },
         {
           "grade": "L 4WD",
-          "typeCode": "要確認",
+          "typeCode": "5AA-KMYSDP",
           "drive": "4WD",
           "engine": "ガソリン",
           "displacementCc": "2488",
