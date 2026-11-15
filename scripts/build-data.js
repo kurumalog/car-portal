@@ -63,6 +63,25 @@ function main() {
 
   fs.writeFileSync(OUT_PATH, JSON.stringify(output, null, 2), 'utf-8');
   console.log(`✔ ${models.length}車種 / ${rows.length}グレード を ${OUT_PATH} に書き出した`);
+
+  copyRecalls();
+}
+
+// data/recalls/*.json（車種ごとのリコール情報）を site/data/recalls/ にコピーする
+// ファイル名は車種の slug（例: マツダ-CX-5.json）
+function copyRecalls() {
+  const srcDir = path.join(__dirname, '..', 'data', 'recalls');
+  const outDir = path.join(__dirname, '..', 'site', 'data', 'recalls');
+  if (!fs.existsSync(srcDir)) return;
+
+  fs.mkdirSync(outDir, { recursive: true });
+  const files = fs.readdirSync(srcDir).filter(f => f.endsWith('.json'));
+  for (const f of files) {
+    // 壊れたJSONをサイトに出さないよう、読み込めるか確認してからコピー
+    JSON.parse(fs.readFileSync(path.join(srcDir, f), 'utf-8'));
+    fs.copyFileSync(path.join(srcDir, f), path.join(outDir, f));
+  }
+  console.log(`✔ リコール情報 ${files.length}車種分 を ${outDir} にコピーした`);
 }
 
 function slugify(s) {

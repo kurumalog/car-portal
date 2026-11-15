@@ -1,0 +1,975 @@
+{
+  "slug": "マツダ-CX-5",
+  "maker": "マツダ",
+  "model": "CX-5",
+  "source": {
+    "name": "国土交通省 自動車不具合情報ホットライン リコール情報検索",
+    "url": "https://renrakuda.mlit.go.jp/renrakuda/recall-search.html",
+    "credit": "出典：国土交通省 自動車不具合情報ホットライン（https://renrakuda.mlit.go.jp/renrakuda/recall-search.html）を加工して作成",
+    "license": "公共データ利用規約（第1.0版）（PDL1.0）"
+  },
+  "retrievedAt": "2026-11-15",
+  "coveredUntil": "2026-09-30",
+  "currentGeneration": {
+    "id": "current",
+    "name": "現行型（3代目・2026年5月〜）",
+    "note": "2026年9月30日までの届出には、現行型のリコールはありません。"
+  },
+  "generations": [
+    {
+      "id": "KF",
+      "name": "2代目（KF系・2017〜2026年）"
+    },
+    {
+      "id": "KE",
+      "name": "初代（KE系・2012〜2017年）"
+    }
+  ],
+  "recalls": [
+    {
+      "no": "リ国-5529-0",
+      "baseNo": "リ国-5529",
+      "kind": "リコール",
+      "date": "2024-09-05",
+      "startDate": "2024年9月6日",
+      "device": "その他(その他)",
+      "situation": "センターディスプレイ（１０．２５インチタイプ）において、画面表示を補正するプログラムが不適切なため、テレビへの画面切り替えやテレビからナビ等の別画面への切り替え操作をした際、映像信号が乱れて補正できないことがある。そのため、乱れた映像信号により、画面に縞模様が表示され、カメラの映像を表示できないおそれがある。",
+      "measures": "全車両、センターディスプレイの品番を点検し、該当品番の場合は対策品と交換する。",
+      "productionPeriod": "2023年10月 6日 ～ 2024年1月10日",
+      "units": "9,972台",
+      "generations": [
+        "KF"
+      ],
+      "targets": [
+        {
+          "typeCode": "3DA-KF2P",
+          "chassisRange": "KF2P-601575 ～ KF2P-605621"
+        },
+        {
+          "typeCode": "6BA-KF5P",
+          "chassisRange": "KF5P-600255 ～ KF5P-600758"
+        },
+        {
+          "typeCode": "6BA-KFEP",
+          "chassisRange": "KFEP-600662 ～ KFEP-602537"
+        }
+      ],
+      "specialVehicle": false,
+      "url": "https://renrakuda.mlit.go.jp/renrakuda/ris-detail-car.html?selCarTp=1&id=3009830"
+    },
+    {
+      "no": "リ国-5436-0",
+      "baseNo": "リ国-5436",
+      "kind": "リコール",
+      "date": "2024-01-26",
+      "startDate": "2024年2月9日",
+      "device": "燃料ポンプ",
+      "situation": "ガソリンエンジン車の低圧燃料ポンプのインペラ（樹脂製羽根車）において、成形条件が不適切なため、樹脂密度が低くなって、燃料により膨潤して変形することがある。そのため、インペラがポンプケースと接触して低圧燃料ポンプが作動不良となり、最悪の場合、走行中エンストに至るおそれがある。",
+      "measures": "全車両、低圧燃料ポンプを対策品に交換する。なお、修理部品の準備に時間を要することから、部品の準備ができ次第、改めて案内する。",
+      "productionPeriod": "2017年6月19日 ～ 2020年5月26日",
+      "units": "146,777台",
+      "generations": [
+        "KF"
+      ],
+      "targets": [
+        {
+          "typeCode": "DBA-KF5P",
+          "chassisRange": "KF5P-103231 ～ KF5P-106383"
+        },
+        {
+          "typeCode": "6BA-KF5P",
+          "chassisRange": "KF5P-200003 ～ KF5P-305656"
+        },
+        {
+          "typeCode": "5BA-KF5P",
+          "chassisRange": "KF5P-300042 ～ KF5P-305797"
+        },
+        {
+          "typeCode": "DBA-KFEP",
+          "chassisRange": "KFEP-102754 ～ KFEP-106651"
+        },
+        {
+          "typeCode": "6BA-KFEP",
+          "chassisRange": "KFEP-200003 ～ KFEP-305931"
+        }
+      ],
+      "specialVehicle": false,
+      "url": "https://renrakuda.mlit.go.jp/renrakuda/ris-detail-car.html?selCarTp=1&id=3009605"
+    },
+    {
+      "no": "リ国-5043-0",
+      "baseNo": "リ国-5043",
+      "kind": "リコール",
+      "date": "2021-11-12",
+      "startDate": "2021年11月12日",
+      "device": "燃料ポンプ",
+      "situation": "ガソリンエンジン車の低圧燃料ポンプのインペラ（樹脂製羽根車）において、成形条件が不適切なため、樹脂密度が低くなって、燃料により膨潤して変形することがある。そのため、インペラがポンプケースと接触して低圧燃料ポンプが作動不良となり、最悪の場合、走行中エンストに至るおそれがある。",
+      "measures": "全車両、低圧燃料ポンプを対策品に交換する。なお、修理部品の準備に時間を要するため、部品の準備ができ次第、使用者に改めて修理入庫を通知する。",
+      "productionPeriod": "2018年4月 3日 ～ 2019年8月15日",
+      "units": "42,505台",
+      "generations": [
+        "KF"
+      ],
+      "targets": [
+        {
+          "typeCode": "5BA-KF5P",
+          "chassisRange": "KF5P-300012 ～ KF5P-300119"
+        },
+        {
+          "typeCode": "6BA-KF5P",
+          "chassisRange": "KF5P-201846 ～ KF5P-300353"
+        },
+        {
+          "typeCode": "6BA-KFEP",
+          "chassisRange": "KFEP-202069 ～ KFEP-300340"
+        }
+      ],
+      "specialVehicle": false,
+      "url": "https://renrakuda.mlit.go.jp/renrakuda/ris-detail-car.html?selCarTp=1&id=3005069"
+    },
+    {
+      "no": "リ国-4689-2",
+      "baseNo": "リ国-4689",
+      "kind": "リコール",
+      "date": "2020-03-19",
+      "startDate": "2020年3月20日",
+      "device": "コンピュータ(エンジ",
+      "situation": "（１）エンジンの吸気シャッタ・バルブにおいて、制御プログラムが不適切なため、バルブ周辺に付着する煤などにより、バルブ開度が正しく制御されなくなり、エンジン警告灯が点灯した際、フェールセーフが十分に機能せず、バルブが全開しないことがある。そのため、煤などの付着により、バルブが全閉のまま固着した場合、エンジンが停止するおそれがある。 （２）エンジンの排気圧センサにおいて、異常判定プログラムが不適切なため、センサ内部への水分の浸入により、センサの出力値がずれ、排出ガスが基準値を満足しなくなる場合に、異常判定しない。そのため、そのままの状態で使用を続けると、浸入した水分により排気圧センサ内の電子回路が腐食し、断線することでエンジン警告灯が点灯し、フェールセーフ制御によりアイドリングストップが作動しなくなり、変速ショックが大きくなるおそれがある。",
+      "measures": "（１）全車両、エンジン制御コンピュータを点検し、吸気シャッタ・バルブ用制御プログラムを対策プログラムに修正する。点検の結果、吸気シャッタ・バルブに異常がある場合は、吸気シャッタ・バルブを新品に交換する。また、プログラム修正後にエンジン警告灯が点灯した場合は、吸気シャッタ・バルブを新品に交換する。 （２）全車両、エンジン制御コンピュータを点検し、排気圧センサ用制御プログラムを対策プログラムに修正する。点検の結果、排気圧センサに異常がある場合は、排気圧センサを現行の新品に交換する。また、プログラム修正後にエンジン警告灯が点灯した場合は、排気圧センサを現行の新品に交換する。",
+      "productionPeriod": "2012年2月14日 ～ 2018年7月 2日",
+      "units": "3,836台",
+      "generations": [
+        "KF",
+        "KE"
+      ],
+      "targets": [
+        {
+          "typeCode": "LDA-KE2AW",
+          "chassisRange": "KE2AW-100035 ～ KE2AW-217444"
+        },
+        {
+          "typeCode": "LDA-KE2FW",
+          "chassisRange": "KE2FW-100026 ～ KE2FW-221200"
+        },
+        {
+          "typeCode": "LDA-KF2P",
+          "chassisRange": "KF2P-100035 ～ KF2P-131242"
+        }
+      ],
+      "specialVehicle": false,
+      "url": "https://renrakuda.mlit.go.jp/renrakuda/ris-detail-car.html?selCarTp=1&id=3004715"
+    },
+    {
+      "no": "リ国-4689-1",
+      "baseNo": "リ国-4689",
+      "kind": "リコール",
+      "date": "2020-03-19",
+      "startDate": "2020年3月20日",
+      "device": "コンピュータ(エンジ",
+      "situation": "（１）エンジンの吸気シャッタ・バルブにおいて、制御プログラムが不適切なため、バルブ周辺に付着する煤などにより、バルブ開度が正しく制御されなくなり、エンジン警告灯が点灯した際、フェールセーフが十分に機能せず、バルブが全開しないことがある。そのため、煤などの付着により、バルブが全閉のまま固着した場合、エンジンが停止するおそれがある。 （２）エンジンの排気圧センサにおいて、異常判定プログラムが不適切なため、センサ内部への水分の浸入により、センサの出力値がずれ、排出ガスが基準値を満足しなくなる場合に、異常判定しない。そのため、そのままの状態で使用を続けると、浸入した水分により排気圧センサ内の電子回路が腐食し、断線することでエンジン警告灯が点灯し、フェールセーフ制御によりアイドリングストップが作動しなくなり、変速ショックが大きくなるおそれがある。",
+      "measures": "（１）全車両、エンジン制御コンピュータを点検し、吸気シャッタ・バルブ用制御プログラムを対策プログラムに修正する。点検の結果、吸気シャッタ・バルブに異常がある場合は、吸気シャッタ・バルブを新品に交換する。また、プログラム修正後にエンジン警告灯が点灯した場合は、吸気シャッタ・バルブを新品に交換する。 （２）全車両、エンジン制御コンピュータを点検し、排気圧センサ用制御プログラムを対策プログラムに修正する。点検の結果、排気圧センサに異常がある場合は、排気圧センサを現行の新品に交換する。また、プログラム修正後にエンジン警告灯が点灯した場合は、排気圧センサを現行の新品に交換する。",
+      "productionPeriod": "2012年2月14日 ～ 2018年7月 2日",
+      "units": "3,836台",
+      "generations": [
+        "KF",
+        "KE"
+      ],
+      "targets": [
+        {
+          "typeCode": "LDA-KE2AW",
+          "chassisRange": "KE2AW-100035 ～ KE2AW-217444"
+        },
+        {
+          "typeCode": "LDA-KE2FW",
+          "chassisRange": "KE2FW-100026 ～ KE2FW-221200"
+        },
+        {
+          "typeCode": "LDA-KF2P",
+          "chassisRange": "KF2P-100035 ～ KF2P-131242"
+        }
+      ],
+      "specialVehicle": false,
+      "url": "https://renrakuda.mlit.go.jp/renrakuda/ris-detail-car.html?selCarTp=1&id=3004714"
+    },
+    {
+      "no": "リ国-4652-0",
+      "baseNo": "リ国-4652",
+      "kind": "リコール",
+      "date": "2020-02-06",
+      "startDate": "2020年2月7日",
+      "device": "その他(保安灯火)",
+      "situation": "ＬＥＤヘッドランプにおいて、配線コネクタ用ガスケットの材質が不適切なため、ガスケットから発生する硫黄成分によりＬＥＤ回路が腐食することがある。そのため、腐食が進行して回路が断線すると、車幅灯、補助灯が点灯しなくなるおそれがある。",
+      "measures": "全車両、ヘッドランプを点検し、異常がある場合は、ヘッドランプを対策品に交換する。点検の結果、異常が無い場合は、ガスケットを対策品に交換するとともにヘッドランプ内に脱硫材を張り付ける。",
+      "productionPeriod": "2014年11月27日 ～ 2015年12月 7日",
+      "units": "26,818台",
+      "generations": [
+        "KE"
+      ],
+      "targets": [
+        {
+          "typeCode": "LDA-KE2AW",
+          "chassisRange": "KE2AW-200004 ～ KE2AW-209849"
+        },
+        {
+          "typeCode": "LDA-KE2FW",
+          "chassisRange": "KE2FW-200003 ～ KE2FW-212555"
+        },
+        {
+          "typeCode": "DBA-KEEFW",
+          "chassisRange": "KEEFW-200003 ～ KEEFW-202918"
+        },
+        {
+          "typeCode": "DBA-KE5AW",
+          "chassisRange": "KE5AW-200003 ～ KE5AW-201015"
+        },
+        {
+          "typeCode": "DBA-KE5FW",
+          "chassisRange": "KE5FW-200003 ～ KE5FW-200768"
+        }
+      ],
+      "specialVehicle": false,
+      "url": "https://renrakuda.mlit.go.jp/renrakuda/ris-detail-car.html?selCarTp=1&id=3004676"
+    },
+    {
+      "no": "リ国-4515-0",
+      "baseNo": "リ国-4515",
+      "kind": "リコール",
+      "date": "2019-06-27",
+      "startDate": "2019年6月28日",
+      "device": "コンピュータ(エンジ",
+      "situation": "エンジン制御コンピュータにおいて、気筒休止制御プログラムが不適切なため、気筒休止から復帰する際、バルブクリアランス調整機構が誤作動することがある。そのため、ロッカアームが脱落して周辺部品と干渉し、エンジン失火による出力不足が発生して、最悪の場合、エンジンが停止するおそれがある。",
+      "measures": "全車両、エンジン制御コンピュータの気筒休止制御プログラムを対策プログラムに修正する。",
+      "productionPeriod": "2018年2月 1日 ～ 2019年5月23日",
+      "units": "9,000台",
+      "generations": [
+        "KF"
+      ],
+      "targets": [
+        {
+          "typeCode": "6BA-KF5P",
+          "chassisRange": "KF5P-200003 ～ KF5P-304386"
+        }
+      ],
+      "specialVehicle": false,
+      "url": "https://renrakuda.mlit.go.jp/renrakuda/ris-detail-car.html?selCarTp=1&id=3004538"
+    },
+    {
+      "no": "リ国-4351-3",
+      "baseNo": "リ国-4351",
+      "kind": "リコール",
+      "date": "2018-11-08",
+      "startDate": "2018年11月9日",
+      "device": "コンピュータ(ｶﾞｽ･騒",
+      "situation": "エンジンの排気圧センサにおいて、異常判定プログラムが不適切なため、センサ内部への水分の浸入により、センサの出力値がずれ、排出ガスが基準値を満足しなくなる場合に、異常判定しない。そのため、そのままの状態で使用を続けると、浸入した水分により排気圧センサ内の電子回路が腐食し、断線することでエンジン警告灯が点灯し、フェールセーフ制御によりアイドリングストップが作動しなくなり、変速ショックが大きくなるおそれがある。",
+      "measures": "全車両、エンジン制御コンピュータを点検し、排気圧センサ用制御プログラムを対策プログラムに修正する。点検の結果、排気圧センサに異常がある場合は、排気圧センサを現行の新品に交換する。また、プログラム修正後にエンジン警告灯が点灯した場合は、排気圧センサを現行の新品に交換する。",
+      "productionPeriod": "2012年2月13日 ～ 2018年7月 4日",
+      "units": "235,293台",
+      "generations": [
+        "KF",
+        "KE"
+      ],
+      "targets": [
+        {
+          "typeCode": "LDA-KE2AW",
+          "chassisRange": "KE2AW-100017 ～ KE2AW-217477"
+        },
+        {
+          "typeCode": "LDA-KE2FW",
+          "chassisRange": "KE2FW-100009 ～ KE2FW-221328"
+        },
+        {
+          "typeCode": "LDA-KF2P",
+          "chassisRange": "KF2P-100029 ～ KF2P-131275"
+        },
+        {
+          "typeCode": "3DA-KF2P",
+          "chassisRange": "KF2P-200005 ～ KF2P-207960"
+        }
+      ],
+      "specialVehicle": false,
+      "url": "https://renrakuda.mlit.go.jp/renrakuda/ris-detail-car.html?selCarTp=1&id=3004361"
+    },
+    {
+      "no": "リ国-4351-2",
+      "baseNo": "リ国-4351",
+      "kind": "リコール",
+      "date": "2018-11-08",
+      "startDate": "2018年11月9日",
+      "device": "コンピュータ(エンジ",
+      "situation": "エンジンの吸気シャッタ・バルブにおいて、制御プログラムが不適切なため、バルブ周辺に付着する煤などにより、バルブ開度が正しく制御されなくなり、エンジン警告灯が点灯した際、フェールセーフが十分に機能せず、バルブが全開しないことがある。そのため、煤などの付着により、バルブが全閉のまま固着した場合、エンジンが停止するおそれがある。",
+      "measures": "全車両、エンジン制御コンピュータを点検し、吸気シャッタ・バルブ用制御プログラムを対策プログラムに修正する。点検の結果、吸気シャッタ・バルブに異常がある場合は、吸気シャッタ・バルブを新品に交換する。また、プログラム修正後にエンジン警告灯が点灯した場合は、吸気シャッタ・バルブを新品に交換する。",
+      "productionPeriod": "2012年2月13日 ～ 2018年7月 4日",
+      "units": "235,293台",
+      "generations": [
+        "KF",
+        "KE"
+      ],
+      "targets": [
+        {
+          "typeCode": "LDA-KE2AW",
+          "chassisRange": "KE2AW-100017 ～ KE2AW-217477"
+        },
+        {
+          "typeCode": "LDA-KE2FW",
+          "chassisRange": "KE2FW-100009 ～ KE2FW-221328"
+        },
+        {
+          "typeCode": "LDA-KF2P",
+          "chassisRange": "KF2P-100029 ～ KF2P-131275"
+        },
+        {
+          "typeCode": "3DA-KF2P",
+          "chassisRange": "KF2P-200005 ～ KF2P-207960"
+        }
+      ],
+      "specialVehicle": false,
+      "url": "https://renrakuda.mlit.go.jp/renrakuda/ris-detail-car.html?selCarTp=1&id=3004360"
+    },
+    {
+      "no": "リ国-4351-1",
+      "baseNo": "リ国-4351",
+      "kind": "リコール",
+      "date": "2018-11-08",
+      "startDate": "2018年11月9日",
+      "device": "その他(エンジン)",
+      "situation": "エンジンの吸気側バルブスプリングにおいて、スプリング荷重の設定が不適切なため、吸気バルブの閉じ力が弱く、吸気バルブとバルブシート間に挟まる煤を押し潰すことができず、圧縮不良となることがある。そのため、エンジン回転が不安定になり、最悪の場合、エンジンが停止するおそれがある。",
+      "measures": "全車両、吸気側バルブスプリングを対策品と交換する。なお、交換に時間を要すため、年式の古い車両から順次交換する。",
+      "productionPeriod": "2012年2月13日 ～ 2018年7月 4日",
+      "units": "235,293台",
+      "generations": [
+        "KF",
+        "KE"
+      ],
+      "targets": [
+        {
+          "typeCode": "LDA-KE2AW",
+          "chassisRange": "KE2AW-100017 ～ KE2AW-217477"
+        },
+        {
+          "typeCode": "LDA-KE2FW",
+          "chassisRange": "KE2FW-100009 ～ KE2FW-221328"
+        },
+        {
+          "typeCode": "LDA-KF2P",
+          "chassisRange": "KF2P-100029 ～ KF2P-131275"
+        },
+        {
+          "typeCode": "3DA-KF2P",
+          "chassisRange": "KF2P-200005 ～ KF2P-207960"
+        }
+      ],
+      "specialVehicle": false,
+      "url": "https://renrakuda.mlit.go.jp/renrakuda/ris-detail-car.html?selCarTp=1&id=3004359"
+    },
+    {
+      "no": "リ国-4298-0",
+      "baseNo": "リ国-4298",
+      "kind": "リコール",
+      "date": "2018-07-12",
+      "startDate": "2018年7月13日",
+      "device": "後写鏡",
+      "situation": "車両の直前および直左の周辺状況を確認するカメラにおいて、レンズ表面のコーティングが不適切なものがある。そのため、洗浄剤や雨水などに含まれる酸でコーティング剤が浸食され、そのまま使用を続けると、レンズ本体も浸食して白濁化し、サイドカメラの映像が徐々に鮮明に映らなくなり、最悪の場合、車両の直前および直左の周辺状況を確認できなくなるおそれがある。",
+      "measures": "全使用者へ当該不具合について周知し、レンズの白濁が発生している場合には、サイドカメラを対策品に交換する。",
+      "productionPeriod": "2012年1月11日 ～ 2014年2月 7日",
+      "units": "20台",
+      "generations": [
+        "KE"
+      ],
+      "targets": [
+        {
+          "typeCode": "LDA-KE2AW",
+          "chassisRange": "KE2AW-100033 ～ KE2AW-123203"
+        },
+        {
+          "typeCode": "LDA-KE2FW",
+          "chassisRange": "KE2FW-100016 ～ KE2FW-133596"
+        },
+        {
+          "typeCode": "DBA-KE5AW",
+          "chassisRange": "KE5AW-100009 ～ KE5AW-100009"
+        },
+        {
+          "typeCode": "DBA-KE5FW",
+          "chassisRange": "KE5FW-100005 ～ KE5FW-100005"
+        },
+        {
+          "typeCode": "DBA-KEEFW",
+          "chassisRange": "KEEFW-100021 ～ KEEFW-106832"
+        }
+      ],
+      "specialVehicle": false,
+      "url": "https://renrakuda.mlit.go.jp/renrakuda/ris-detail-car.html?selCarTp=1&id=3004302"
+    },
+    {
+      "no": "リ国-4279-0",
+      "baseNo": "リ国-4279",
+      "kind": "リコール",
+      "date": "2018-06-14",
+      "startDate": "2018年6月15日",
+      "device": "コンピュータ(エンジ",
+      "situation": "ディーゼルエンジンにおいて、エンジン制御プログラムが不適切なため、エンジンを停止させた際の僅かなエンジン回転を異常と判定し、エンジン制御コンピュータへの電源供給が停止しなくなる。そのため、スタート・ストップ・ユニットがスタータ回路の短絡と判定し、プッシュボタンスタートを押しても、電源ポジションがＯＮに切り替わらず、エンジンが始動できなくなるおそれがある。",
+      "measures": "全車両、エンジン制御プログラムを対策プログラムに書き換える。",
+      "productionPeriod": "2017年9月29日 ～ 2018年5月 8日",
+      "units": "23,208台",
+      "generations": [
+        "KF"
+      ],
+      "targets": [
+        {
+          "typeCode": "3DA-KF2P",
+          "chassisRange": "KF2P-200005 ～ KF2P-207962"
+        }
+      ],
+      "specialVehicle": false,
+      "url": "https://renrakuda.mlit.go.jp/renrakuda/ris-detail-car.html?selCarTp=1&id=3004280"
+    },
+    {
+      "no": "リ国-4281-0",
+      "baseNo": "リ国-4281",
+      "kind": "リコール",
+      "date": "2018-06-07",
+      "startDate": "2018年6月8日",
+      "device": "コンピュータ(エンジ",
+      "situation": "ガソリンエンジン車のエンジン制御コンピュータにおいて、インジェクタ駆動電源回路に使用する電解コンデンサの製造工程が不適切なため、内部が損傷しているものがある。そのため、そのまま使用を続けると損傷が進み、エンジンが停止し、再始動できなくなるおそれがある。さらに、エンジンスイッチをオンの状態で維持していると、インジェクタや高圧燃料ポンプ内部の駆動部が過熱し、樹脂部が溶けて燃料が漏れ出し、最悪の場合、火災に至るおそれがある。",
+      "measures": "全車両、エンジン制御コンピュータの状態を点検し良品と交換する。点検の結果、異常がある場合は、インジェクタ、高圧燃料ポンプを新品と交換する。あわせて、ハーネスの状態を確認し、損傷がある場合はハーネスを新品と交換する。",
+      "productionPeriod": "2018年5月15日 ～ 2018年5月19日",
+      "units": "12台",
+      "generations": [
+        "KF"
+      ],
+      "targets": [
+        {
+          "typeCode": "6BA-KFEP",
+          "chassisRange": "KFEP-202544 ～ KFEP-202620"
+        },
+        {
+          "typeCode": "6BA-KF5P",
+          "chassisRange": "KF5P-202212 ～ KF5P-202227"
+        }
+      ],
+      "specialVehicle": false,
+      "url": "https://renrakuda.mlit.go.jp/renrakuda/ris-detail-car.html?selCarTp=1&id=3004282"
+    },
+    {
+      "no": "リ国-4242-3",
+      "baseNo": "リ国-4242",
+      "kind": "リコール",
+      "date": "2018-04-13",
+      "startDate": "2018年4月13日",
+      "device": "潤滑装置",
+      "situation": "ディーゼルエンジン車用のオイルフィルターの使用において、使用者への周知が十分行われていないため、リリーフバルブの開弁圧が不適切なオイルフィルターを使用した場合、エンジン内部で発生する金属粉が十分に捕捉されないことがある。そのため、①及び②の不具合が発生するおそれがある。",
+      "measures": "全車両、オイルフィルターを点検し、不適切なものは対策品に交換する。また、使用者に注意喚起するとともに、エンジンフードに純正外のオイルフィルターを使用しない旨の注意ラベルを貼り付ける。",
+      "productionPeriod": "2012年2月13日 ～ 2013年9月27日",
+      "units": "1,561台",
+      "generations": [
+        "KE"
+      ],
+      "targets": [
+        {
+          "typeCode": "LDA-KE2AW",
+          "chassisRange": "KE2AW-100017 ～ KE2AW-121613"
+        },
+        {
+          "typeCode": "LDA-KE2FW",
+          "chassisRange": "KE2FW-100009 ～ KE2FW-126387"
+        }
+      ],
+      "specialVehicle": false,
+      "url": "https://renrakuda.mlit.go.jp/renrakuda/ris-detail-car.html?selCarTp=1&id=3004237"
+    },
+    {
+      "no": "リ国-4242-2",
+      "baseNo": "リ国-4242",
+      "kind": "リコール",
+      "date": "2018-04-13",
+      "startDate": "2018年4月13日",
+      "device": "過給機",
+      "situation": "ディーゼルエンジン車のターボチャージャーにおいて、エンジン内部で発生する金属粉で軸が摩耗することがある。そのため、加速力の低下及び異音が発生し、最悪の場合、軸が折れて排気経路が閉塞し、エンジンが停止するおそれがある。",
+      "measures": "全車両、ターボチャージャーを点検し、異常なものはターボチャージャーを新品に交換する。",
+      "productionPeriod": "2012年2月13日 ～ 2013年9月27日",
+      "units": "63,208台",
+      "generations": [
+        "KE"
+      ],
+      "targets": [
+        {
+          "typeCode": "LDA-KE2AW",
+          "chassisRange": "KE2AW-100017 ～ KE2AW-121613"
+        },
+        {
+          "typeCode": "LDA-KE2FW",
+          "chassisRange": "KE2FW-100009 ～ KE2FW-126387"
+        }
+      ],
+      "specialVehicle": false,
+      "url": "https://renrakuda.mlit.go.jp/renrakuda/ris-detail-car.html?selCarTp=1&id=3004236"
+    },
+    {
+      "no": "リ国-4242-1",
+      "baseNo": "リ国-4242",
+      "kind": "リコール",
+      "date": "2018-04-13",
+      "startDate": "2018年4月13日",
+      "device": "その他(制御装置)",
+      "situation": "ディーゼルエンジン車のバキュームポンプにおいて、耐摩耗性が不十分なため、エンジン内部で発生する金属粉でポンプ軸が摩耗することがある。そのため、負圧生成能力が低下し、エンジン低回転時にブレーキペダルを短時間に複数回踏むと、一時的にブレーキアシスト力が低下するおそれがある。",
+      "measures": "全車両、バキュームポンプを対策品に交換する。",
+      "productionPeriod": "2012年2月13日 ～ 2013年9月27日",
+      "units": "63,208台",
+      "generations": [
+        "KE"
+      ],
+      "targets": [
+        {
+          "typeCode": "LDA-KE2AW",
+          "chassisRange": "KE2AW-100017 ～ KE2AW-121613"
+        },
+        {
+          "typeCode": "LDA-KE2FW",
+          "chassisRange": "KE2FW-100009 ～ KE2FW-126387"
+        }
+      ],
+      "specialVehicle": false,
+      "url": "https://renrakuda.mlit.go.jp/renrakuda/ris-detail-car.html?selCarTp=1&id=3004235"
+    },
+    {
+      "no": "リ国-4022-0",
+      "baseNo": "リ国-4022",
+      "kind": "リコール",
+      "date": "2017-04-06",
+      "startDate": "2017年4月7日",
+      "device": "前照灯",
+      "situation": "配光可変型前照灯装着車において、前照灯の光軸を調整するヘッドライト・レベリング・アクチュエータの樹脂成型工程が不適切なため、強度が不足しているものがある。そのため、そのまま使用を続けると、ヘッドライト・レベリング・アクチュエータが損傷し、前照灯の光軸が下向きのままになり、前方を照射できなくなるおそれがある。",
+      "measures": "全車両、前照灯及びヘッドライト・レベリング・アクチュエータの製造ロット番号を点検し、該当するものは当該ヘッドライト・レベリング・アクチュエータを対策品と交換する。",
+      "productionPeriod": "2015年11月 7日 ～ 2016年8月31日",
+      "units": "16,265台",
+      "generations": [
+        "KE"
+      ],
+      "targets": [
+        {
+          "typeCode": "LDA-KE2FW",
+          "chassisRange": "KE2FW-211889 ～ KE2FW-219738"
+        },
+        {
+          "typeCode": "LDA-KE2AW",
+          "chassisRange": "KE2AW-209237 ～ KE2AW-216200"
+        },
+        {
+          "typeCode": "DBA-KE5FW",
+          "chassisRange": "KE5FW-200706 ～ KE5FW-201548"
+        },
+        {
+          "typeCode": "DBA-KE5AW",
+          "chassisRange": "KE5AW-200959 ～ KE5AW-201820"
+        },
+        {
+          "typeCode": "DBA-KEEFW",
+          "chassisRange": "KEEFW-202733 ～ KEEFW-205308"
+        }
+      ],
+      "specialVehicle": false,
+      "url": "https://renrakuda.mlit.go.jp/renrakuda/ris-detail-car.html?selCarTp=1&id=3003999"
+    },
+    {
+      "no": "リ国-4013-0",
+      "baseNo": "リ国-4013",
+      "kind": "リコール",
+      "date": "2017-03-16",
+      "startDate": "2017年3月17日",
+      "device": "前照灯",
+      "situation": "前照灯において、車両姿勢が変化しても前照灯の光軸を自動調整するオートレべリング制御コンピュータのプログラムが不適切なため、全ての座席に乗員が着席する等により車両が後ろに傾いた際に、光軸が正しく調整できないことがある。そのため、光軸が上方向にずれて、対向の運転者が眩惑するおそれがある。",
+      "measures": "全車両、オートレベリング制御コンピュータを対策品と交換し、車両姿勢角の初期設定と前照灯の光軸を調整する。",
+      "productionPeriod": "2016年11月28日 ～ 2017年2月20日",
+      "units": "3,773台",
+      "generations": [
+        "KF"
+      ],
+      "targets": [
+        {
+          "typeCode": "LDA-KF2P",
+          "chassisRange": "KF2P-100030 ～ KF2P-104772"
+        },
+        {
+          "typeCode": "DBA-KF5P",
+          "chassisRange": "KF5P-100004 ～ KF5P-101115"
+        },
+        {
+          "typeCode": "DBA-KFEP",
+          "chassisRange": "KFEP-100003 ～ KFEP-100705"
+        }
+      ],
+      "specialVehicle": false,
+      "url": "https://renrakuda.mlit.go.jp/renrakuda/ris-detail-car.html?selCarTp=1&id=3003990"
+    },
+    {
+      "no": "リ国-3997-5",
+      "baseNo": "リ国-3997",
+      "kind": "リコール",
+      "date": "2017-02-23",
+      "startDate": "2017年2月24日",
+      "device": "コンピュータ(エンジ",
+      "situation": "⑤ディーゼルエンジンにおいて、過回転制御が不適切なため、アクセル全開等の際、吸気経路内のブローバイガスに含まれるオイルが燃焼室内で燃焼し、エンジン回転が上昇することがある。そのため、エンジンの潤滑が不足して焼き付き、最悪の場合、エンジンが破損するおそれがある。",
+      "measures": "全車両、制御プログラムを対策プログラムに修正する。",
+      "productionPeriod": "2012年2月13日 ～ 2017年2月 2日",
+      "units": "172,095台",
+      "generations": [
+        "KE"
+      ],
+      "targets": [
+        {
+          "typeCode": "LDA-KE2AW",
+          "chassisRange": "KE2AW-100017 ～ KE2AW-217477"
+        },
+        {
+          "typeCode": "LDA-KE2FW",
+          "chassisRange": "KE2FW-100009 ～ KE2FW-221328"
+        }
+      ],
+      "specialVehicle": false,
+      "url": "https://renrakuda.mlit.go.jp/renrakuda/ris-detail-car.html?selCarTp=1&id=3003974"
+    },
+    {
+      "no": "リ国-3997-4",
+      "baseNo": "リ国-3997",
+      "kind": "リコール",
+      "date": "2017-02-23",
+      "startDate": "2017年2月24日",
+      "device": "コンピュータ(燃料装",
+      "situation": "④ディーゼルエンジンにおいて、インジェクタ制御回路の電圧変化によるノイズ対策が不適切なため、当該回路に許容を超える電流が流れることがある。そのため、回路が損傷し短絡することでヒューズが切れ、燃料噴射が停止しエンストに至るおそれがある。",
+      "measures": "全車両、制御プログラムを対策プログラムに修正する。",
+      "productionPeriod": "2012年2月13日 ～ 2017年2月 2日",
+      "units": "146,702台",
+      "generations": [
+        "KE"
+      ],
+      "targets": [
+        {
+          "typeCode": "LDA-KE2AW",
+          "chassisRange": "KE2AW-100017 ～ KE2AW-217477"
+        },
+        {
+          "typeCode": "LDA-KE2FW",
+          "chassisRange": "KE2FW-100009 ～ KE2FW-221328"
+        }
+      ],
+      "specialVehicle": false,
+      "url": "https://renrakuda.mlit.go.jp/renrakuda/ris-detail-car.html?selCarTp=1&id=3003973"
+    },
+    {
+      "no": "リ国-3997-3",
+      "baseNo": "リ国-3997",
+      "kind": "リコール",
+      "date": "2017-02-23",
+      "startDate": "2017年2月24日",
+      "device": "エンジン本体",
+      "situation": "③ディーゼルエンジンにおいて、減速時のエンジン制御が不適切なため、気筒内圧力が低下し、吸気バルブの閉じ力が低くなることがある。そのため、吸気バルブとバルブシート間に煤が挟まり圧縮不良となって、エンジン回転が不安定になるほか、最悪の場合、エンストに至るおそれがある。",
+      "measures": "全車両、制御プログラムを対策プログラムに修正する。",
+      "productionPeriod": "2012年2月13日 ～ 2017年2月 2日",
+      "units": "172,095台",
+      "generations": [
+        "KE"
+      ],
+      "targets": [
+        {
+          "typeCode": "LDA-KE2AW",
+          "chassisRange": "KE2AW-100017 ～ KE2AW-217477"
+        },
+        {
+          "typeCode": "LDA-KE2FW",
+          "chassisRange": "KE2FW-100009 ～ KE2FW-221328"
+        }
+      ],
+      "specialVehicle": false,
+      "url": "https://renrakuda.mlit.go.jp/renrakuda/ris-detail-car.html?selCarTp=1&id=3003972"
+    },
+    {
+      "no": "リ国-3997-2",
+      "baseNo": "リ国-3997",
+      "kind": "リコール",
+      "date": "2017-02-23",
+      "startDate": "2017年2月24日",
+      "device": "燃料ホース/パイプ",
+      "situation": "②ディーゼルエンジンにおいて、整備作業時の燃料リターンホースの取扱いが不明確なため、当該ホースに係わる作業時に交換されなかった場合、ホース取付部のシール性低下やホース内部に亀裂が入ることがある。そのため、そのまま使用を続けると、ホース取付部や亀裂部から燃料が漏れるおそれがある。",
+      "measures": "全車両、燃料リターンホースを改良品と交換する。",
+      "productionPeriod": "2012年2月13日 ～ 2017年2月 2日",
+      "units": "159,900台",
+      "generations": [
+        "KE"
+      ],
+      "targets": [
+        {
+          "typeCode": "LDA-KE2AW",
+          "chassisRange": "KE2AW-100017 ～ KE2AW-217477"
+        },
+        {
+          "typeCode": "LDA-KE2FW",
+          "chassisRange": "KE2FW-100009 ～ KE2FW-221328"
+        }
+      ],
+      "specialVehicle": false,
+      "url": "https://renrakuda.mlit.go.jp/renrakuda/ris-detail-car.html?selCarTp=1&id=3003971"
+    },
+    {
+      "no": "リ国-3997-1",
+      "baseNo": "リ国-3997",
+      "kind": "リコール",
+      "date": "2017-02-23",
+      "startDate": "2017年2月24日",
+      "device": "燃料噴射装置",
+      "situation": "①ディーゼルエンジンにおいて、インジェクタ取付ナットの締結力が不適切なため、インジェクタガスケットの面圧が低下することがある。そのため、燃焼ガスがシリンダーヘッドに吹き抜け、エンジンオイルが炭化し、炭化したエンジンオイルがオイルストレーナを詰まらせ、油圧低下により警告灯が点灯し、そのまま使用を続けると、エンジンが焼き付き、最悪の場合、エンストに至るおそれがある。",
+      "measures": "全車両、インジェクタ取付ナットを増し締めする。また、油圧を点検し、油圧に異常が確認された場合は、エンジン内部を洗浄し、オイルストレーナとエンジンオイルを交換する。",
+      "productionPeriod": "2012年2月13日 ～ 2017年2月 2日",
+      "units": "60,617台",
+      "generations": [
+        "KE"
+      ],
+      "targets": [
+        {
+          "typeCode": "LDA-KE2AW",
+          "chassisRange": "KE2AW-100017 ～ KE2AW-217477"
+        },
+        {
+          "typeCode": "LDA-KE2FW",
+          "chassisRange": "KE2FW-100009 ～ KE2FW-221328"
+        }
+      ],
+      "specialVehicle": false,
+      "url": "https://renrakuda.mlit.go.jp/renrakuda/ris-detail-car.html?selCarTp=1&id=3003970"
+    },
+    {
+      "no": "リ国-3993-0",
+      "baseNo": "リ国-3993",
+      "kind": "リコール",
+      "date": "2017-02-16",
+      "startDate": "2017年2月17日",
+      "device": "後写鏡",
+      "situation": "車両の直前および直左の周辺状況を確認するカメラにおいて、レンズ表面のコーティングが不適切なものがある。そのため、洗浄剤や雨水などに含まれる酸でコーティング剤が浸食され、そのまま使用を続けると、レンズ本体も浸食して白濁化し、サイドカメラの映像が徐々に鮮明に映らなくなり、最悪の場合、車両の直前および直左の周辺状況を確認できなくなるおそれがある。",
+      "measures": "全使用者へ当該不具合について周知し、レンズの白濁が発生している場合には、サイドカメラを対策品に交換する。",
+      "productionPeriod": "2012年1月10日 ～ 2014年3月12日",
+      "units": "67,413台",
+      "generations": [
+        "KE"
+      ],
+      "targets": [
+        {
+          "typeCode": "LDA-KE2AW",
+          "chassisRange": "KE2AW-100017 ～ KE2AW-128150"
+        },
+        {
+          "typeCode": "LDA-KE2FW",
+          "chassisRange": "KE2FW-100009 ～ KE2FW-135555"
+        },
+        {
+          "typeCode": "DBA-KE5AW",
+          "chassisRange": "KE5AW-100002 ～ KE5AW-100849"
+        },
+        {
+          "typeCode": "DBA-KE5FW",
+          "chassisRange": "KE5FW-100002 ～ KE5FW-100581"
+        },
+        {
+          "typeCode": "DBA-KEEAW",
+          "chassisRange": "KEEAW-100008 ～ KEEAW-103376"
+        },
+        {
+          "typeCode": "DBA-KEEFW",
+          "chassisRange": "KEEFW-100010 ～ KEEFW-115202"
+        }
+      ],
+      "specialVehicle": false,
+      "url": "https://renrakuda.mlit.go.jp/renrakuda/ris-detail-car.html?selCarTp=1&id=3003966"
+    },
+    {
+      "no": "リ国-3877-0",
+      "baseNo": "リ国-3877",
+      "kind": "リコール",
+      "date": "2016-09-01",
+      "startDate": "2016年9月2日",
+      "device": "その他(車枠車体)",
+      "situation": "リヤゲートのガス封入式ダンパーステーにおいて、外筒のエンドキャップ部の塗装が不適切なため、塩害地域の塩分の影響で腐食することがある。そのため、そのままの状態で使用を続けると、腐食が進行し、外筒が膨らみ、エンドキャップが割れ、リヤゲートを開く際に外筒が破裂し、最悪の場合、周囲の人が負傷するおそれがある。",
+      "measures": "全車両、当該ダンパーステーを対策品と交換する。なお、交換部品の準備に時間を要することから、年式の古いものから対策品と順次交換する。ただし、２０１０年以前の生産車については、当該ダンパーステーを点検し、エンドキャップに亀裂が確認された場合は、暫定措置としてリヤゲートを使用できないようにする。",
+      "productionPeriod": "2007年12月12日 ～ 2015年12月26日",
+      "units": "394,941台",
+      "generations": [
+        "KE"
+      ],
+      "targets": [
+        {
+          "typeCode": "LDA-KE2AW",
+          "chassisRange": "KE2AW-100017 ～ KE2AW-210255"
+        },
+        {
+          "typeCode": "LDA-KE2FW",
+          "chassisRange": "KE2FW-100009 ～ KE2FW-213076"
+        },
+        {
+          "typeCode": "DBA-KE5AW",
+          "chassisRange": "KE5AW-100002 ～ KE5AW-201056"
+        },
+        {
+          "typeCode": "DBA-KE5FW",
+          "chassisRange": "KE5FW-100002 ～ KE5FW-200803"
+        },
+        {
+          "typeCode": "DBA-KEEAW",
+          "chassisRange": "KEEAW-100008 ～ KEEAW-103377"
+        },
+        {
+          "typeCode": "DBA-KEEFW",
+          "chassisRange": "KEEFW-100010 ～ KEEFW-203052"
+        }
+      ],
+      "specialVehicle": false,
+      "url": "https://renrakuda.mlit.go.jp/renrakuda/ris-detail-car.html?selCarTp=1&id=3003842"
+    },
+    {
+      "no": "改国-0484-0",
+      "baseNo": "改国-0484",
+      "kind": "改善対策",
+      "date": "2015-12-03",
+      "startDate": "2015年12月4日",
+      "device": "ハンドル",
+      "situation": "本革仕様のステアリングホイールにおいて、操舵後に手を緩め、ステアリングホイールを滑らせて直進位置に復元させるような操作を行うと、当該ステアリングホイール裏側にあるコアカバー端部に手が触れ、切創するおそれがある。",
+      "measures": "全車両、コアカバー端部の形状を修正する。",
+      "productionPeriod": "2012年1月10日 ～ 2012年12月30日",
+      "units": "35,812台",
+      "generations": [
+        "KE"
+      ],
+      "targets": [
+        {
+          "typeCode": "DBA-KEEAW",
+          "chassisRange": "KEEAW-100008 ～ KEEAW-101908"
+        },
+        {
+          "typeCode": "DBA-KEEFW",
+          "chassisRange": "KEEFW-100010 ～ KEEFW-106972"
+        },
+        {
+          "typeCode": "LDA-KE2AW",
+          "chassisRange": "KE2AW-100017 ～ KE2AW-112564"
+        },
+        {
+          "typeCode": "LDA-KE2FW",
+          "chassisRange": "KE2FW-100009 ～ KE2FW-115034"
+        }
+      ],
+      "specialVehicle": false,
+      "url": "https://renrakuda.mlit.go.jp/renrakuda/ris-detail-car.html?selCarTp=1&id=3008819"
+    },
+    {
+      "no": "リ国-3649-0",
+      "baseNo": "リ国-3649",
+      "kind": "リコール",
+      "date": "2015-10-08",
+      "startDate": "2015年10月9日",
+      "device": "その他(保安灯火)",
+      "situation": "急制動及び事故発生時に緊急点滅表示灯及び非常点滅表示灯により後続車に注意をうながすシステムにおいて、制御プログラムが不適切なため、当該システムの作動時に非常点滅表示灯の点滅回数が保安基準に適合しない。",
+      "measures": "全車両、制御プログラムを対策プログラムに修正する。若しくは、当該制御用コンピュータを対策品に交換する。",
+      "productionPeriod": "2014年11月 3日 ～ 2015年9月 9日",
+      "units": "40,836台",
+      "generations": [
+        "KE"
+      ],
+      "targets": [
+        {
+          "typeCode": "DBA-KEEFW",
+          "chassisRange": "KEEFW-200003 ～ KEEFW-202249"
+        },
+        {
+          "typeCode": "DBA-KE5AW",
+          "chassisRange": "KE5AW-200003 ～ KE5AW-200813"
+        },
+        {
+          "typeCode": "DBA-KE5FW",
+          "chassisRange": "KE5FW-200003 ～ KE5FW-200588"
+        },
+        {
+          "typeCode": "LDA-KE2AW",
+          "chassisRange": "KE2AW-200004 ～ KE2AW-207725"
+        },
+        {
+          "typeCode": "LDA-KE2FW",
+          "chassisRange": "KE2FW-200003 ～ KE2FW-209827"
+        }
+      ],
+      "specialVehicle": false,
+      "url": "https://renrakuda.mlit.go.jp/renrakuda/ris-detail-car.html?selCarTp=1&id=3003614"
+    },
+    {
+      "no": "改国-0453-0",
+      "baseNo": "改国-0453",
+      "kind": "改善対策",
+      "date": "2014-12-04",
+      "startDate": "2014年12月5日",
+      "device": "潤滑装置",
+      "situation": "ディーゼルエンジン用のオイルフィルターにおいて、リリーフバルブの開弁圧が不適切なため、エンジン内部で発生する金属粉がオイルフィルターで捕捉されないことがある。そのため、バキュームポンプに金属粉が侵入し軸が摩耗した場合、負圧生成能力が低下し、エンジン低回転時にブレーキペダルを短時間に複数回踏むと、一時的にブレーキアシスト力が低下するおそれがある。また、ターボチャージャーに金属粉が侵入し軸が摩耗した場合、加速力の低下及び異音が発生するおそれがある。",
+      "measures": "（１） 全車両、エンジンオイルをフラッシングし、オイルフィルターを対策品に交換するとともにエンジンフードに純正外のオイルフィルターを使用しない旨の注意ラベルを貼る。 （２） エンジン内部での金属粉の発生を抑制するため、燃焼改善プログラムが入っていない車両は、エンジン制御コンピュータのプログラムを書き換える。 （３） 全車両、バキュームポンプを点検し、負圧生成能力の低下が認められるものは、バキュームポンプを新品に交換する。但し、部品の準備に時間を要すため、負圧生成能力の低下が軽微なものは、部品の準備が整い次第、後日、交換する。 （４） 全車両、ターボチャージャーを点検し、加速不良及びターボチャージャーからの異音等の異常が認められるものは、ターボチャージャーを新品に交換する。",
+      "productionPeriod": "2012年2月13日 ～ 2013年9月27日",
+      "units": "61,647台",
+      "generations": [
+        "KE"
+      ],
+      "targets": [
+        {
+          "typeCode": "LDA-KE2AW",
+          "chassisRange": "KE2AW-100017 ～ KE2AW-121532"
+        },
+        {
+          "typeCode": "LDA-KE2FW",
+          "chassisRange": "KE2FW-100013 ～ KE2FW-126340"
+        }
+      ],
+      "specialVehicle": false,
+      "url": "https://renrakuda.mlit.go.jp/renrakuda/ris-detail-car.html?selCarTp=1&id=3008798"
+    },
+    {
+      "no": "リ国-3379-0",
+      "baseNo": "リ国-3379",
+      "kind": "リコール",
+      "date": "2014-07-02",
+      "startDate": "2014年7月2日",
+      "device": "その他(制御装置)",
+      "situation": "教習車の助手席補助ブレーキにおいて、ブレーキペダルのクレビスピン抜け防止用スナップピンの構造が不適切なため、使用条件によってはスナップピンが外れる場合がある。そのため、そのままの状態で使用を続けると、クレビスピンがペダルアーム部より抜け落ち、助手席補助ブレーキが効かなくなるおそれがある。",
+      "measures": "全車両、スナップピンを対策品に交換する。",
+      "productionPeriod": "2009年5月 1日 ～ 2014年3月31日",
+      "units": "466台",
+      "generations": [
+        "KE"
+      ],
+      "targets": [
+        {
+          "typeCode": "DBA-KEEFW",
+          "chassisRange": "0 ～ 0"
+        }
+      ],
+      "specialVehicle": true,
+      "note": "特装車（警察車両・教習車など）向けの届出。一般のCX-5は対象外の可能性が高い",
+      "url": "https://renrakuda.mlit.go.jp/renrakuda/ris-detail-car.html?selCarTp=1&id=3003298"
+    },
+    {
+      "no": "リ国-3096-0",
+      "baseNo": "リ国-3096",
+      "kind": "リコール",
+      "date": "2013-02-15",
+      "startDate": "2013年2月15日",
+      "device": "装置その他",
+      "situation": "車両に架装した警光灯（社外品）の上下カバーの外周締結部（計１６ヶ所）において、下側カバーの埋込ナット部に応力集中が発生しており、そこに走行振動や日射熱等の外的要因が加わることで亀裂が発生することがある。そのため、そのままの状態で使用を続けると、締結部が損傷し、最悪の場合、上側カバーが脱落するおそれがある。",
+      "measures": "全車両、警光灯を対策品と交換する。",
+      "productionPeriod": "2011年3月 2日 ～ 2011年10月23日",
+      "units": "3台",
+      "generations": [
+        "KE"
+      ],
+      "targets": [
+        {
+          "typeCode": "LDA-KE2AW",
+          "chassisRange": "KE2AW-109815 ～ KE2AW-109815"
+        }
+      ],
+      "specialVehicle": true,
+      "note": "特装車（警察車両・教習車など）向けの届出。一般のCX-5は対象外の可能性が高い",
+      "url": "https://renrakuda.mlit.go.jp/renrakuda/ris-detail-car.html?selCarTp=1&id=3002962"
+    }
+  ]
+}

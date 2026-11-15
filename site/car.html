@@ -22,7 +22,36 @@
   th { color: var(--sub); font-weight:600; font-size:12px; }
   .note { color: var(--sub); font-size: 11px; max-width: 260px; }
   .needcheck { color: var(--warn); font-weight:600; }
+  .axis .status small { display:block; color: var(--sub); font-weight:400; margin-top:2px; }
+
+  /* リコール履歴 */
+  #recallSection { margin-top: 36px; }
+  #recallSection h2 { font-size: 18px; margin: 0 0 6px; }
+  #recallSection h3 { font-size: 15px; margin: 22px 0 8px; }
+  .lead { color: var(--sub); font-size: 12px; margin: 0 0 12px; line-height: 1.7; }
+  .current { background: var(--panel); border:1px solid var(--line); border-left: 4px solid var(--accent); border-radius: 8px; padding: 12px 14px; font-size: 13px; }
+  .gen-note { color: var(--sub); font-size: 12px; margin: 0 0 8px; }
+  details.recall { background: var(--panel); border:1px solid var(--line); border-radius: 8px; margin-bottom: 8px; }
+  details.recall > summary { cursor: pointer; padding: 10px 14px; font-size: 13px; display:flex; flex-wrap:wrap; gap: 4px 14px; align-items: baseline; }
+  details.recall > summary .date { color: var(--sub); font-variant-numeric: tabular-nums; }
+  details.recall > summary .no { font-weight: 600; }
+  details.recall > summary .kind { font-size: 11px; border:1px solid var(--line); border-radius: 4px; padding: 0 6px; color: var(--sub); }
+  details.recall > summary .kind.recall-k { color: var(--warn); border-color: var(--warn); }
+  details.recall > summary .units { margin-left:auto; color: var(--sub); }
+  .recall-body { padding: 0 14px 12px; font-size: 13px; line-height: 1.7; }
+  .branch + .branch { border-top: 1px dashed var(--line); margin-top: 10px; padding-top: 10px; }
+  .branch h4 { margin: 6px 0 4px; font-size: 12px; color: var(--sub); font-weight: 600; }
+  .recall-body dl { display:grid; grid-template-columns: 6em 1fr; gap: 4px 10px; margin: 0; }
+  .recall-body dt { color: var(--sub); font-size: 12px; }
+  .recall-body dd { margin: 0; }
+  .recall-body a { color: var(--accent); }
+  .special { color: var(--sub); font-size: 11px; }
+  .toggle-special { background: none; border:1px solid var(--line); color: var(--sub); border-radius: 6px; padding: 6px 10px; font-size: 12px; cursor: pointer; margin-top: 8px; }
+  .credit { color: var(--sub); font-size: 11px; margin-top: 18px; line-height: 1.7; }
+  .credit a { color: var(--sub); }
   @media (max-width: 700px) {
+    .recall-body dl { grid-template-columns: 1fr; }
+    .recall-body dt { margin-top: 4px; }
     .axes { grid-template-columns: repeat(2,1fr); }
     table, thead, tbody, th, td, tr { display:block; }
     thead { display:none; }
@@ -40,7 +69,7 @@
 </header>
 <main>
   <div class="axes">
-    <div class="axis"><span class="label">リコール履歴</span><span class="status">未実装</span></div>
+    <div class="axis"><span class="label">リコール履歴</span><span class="status" id="recallStatus">未実装</span></div>
     <div class="axis"><span class="label">安全性能評価(JNCAP)</span><span class="status">未実装</span></div>
     <div class="axis"><span class="label">維持費試算</span><span class="status">未実装</span></div>
     <div class="axis"><span class="label">中古相場</span><span class="status">未実装</span></div>
@@ -53,6 +82,7 @@
     </thead>
     <tbody id="tbody"></tbody>
   </table>
+  <section id="recallSection" hidden></section>
 </main>
 <script>
 const params = new URLSearchParams(location.search);
@@ -85,7 +115,129 @@ fetch('data/cars.json').then(r => r.json()).then(d => {
     `;
     tbody.appendChild(tr);
   }
+
+  loadRecalls(m.slug);
 });
+
+// ===== リコール履歴 =====
+// site/data/recalls/<slug>.json があれば表示する（無い車種は「未実装」のまま）
+function loadRecalls(slug) {
+  fetch('data/recalls/' + encodeURIComponent(slug) + '.json')
+    .then(r => r.ok ? r.json() : null)
+    .then(d => { if (d) renderRecalls(d); })
+    .catch(() => {});
+}
+
+function renderRecalls(d) {
+  const normal = d.recalls.filter(r => !r.specialVehicle);
+  const special = d.recalls.filter(r => r.specialVehicle);
+  const uniq = list => new Set(list.map(r => r.baseNo)).size;
+  // 現行型の届出（generations に "current" を含むもの）
+  const currentList = normal.filter(r => r.generations.includes('current'));
+  const oldCount = uniq(normal.filter(r => !r.generations.includes('current')));
+
+  document.getElementById('recallStatus').innerHTML =
+    `現行型 ${uniq(currentList)}件<small>旧型 ${oldCount}件</small>`;
+
+  let html = `
+    <h2>リコール履歴</h2>
+    <p class="lead">国土交通省に届け出られたリコール・改善対策の情報です（${esc(d.coveredUntil)}までの届出、${esc(d.retrievedAt)}取得）。
+    同じ車名でも、世代（モデルチェンジ前の型）が違えば対象になりません。お持ちの車が対象かどうかは、車検証の型式・車台番号と照らし合わせるか、販売店でご確認ください。</p>
+    <div class="current"><strong>${esc(d.currentGeneration.name)}</strong><br>
+      ${currentList.length ? `${uniq(currentList)}件の届出があります。` : esc(d.currentGeneration.note)}</div>`;
+
+  if (currentList.length) html += renderGeneration(d.currentGeneration.name, currentList, 'current');
+
+  for (const g of d.generations) {
+    const list = normal.filter(r => r.generations.includes(g.id));
+    if (!list.length) continue;
+    html += renderGeneration(`${g.name}（参考・旧型）`, list, g.id);
+  }
+
+  if (special.length) {
+    html += `<div id="specialBox" hidden>
+      <h3>特装車向けの届出（参考）</h3>
+      <p class="gen-note">警察車両・教習車など、後から装備を取り付けた特別な車両だけが対象の届出です。一般のCX-5は対象外の可能性が高いです。</p>
+      ${groupByBase(special).map(grp => renderGroup(grp, null)).join('')}
+    </div>
+    <button type="button" class="toggle-special" id="toggleSpecial">特装車向けの届出（${uniq(special)}件）も表示</button>`;
+  }
+
+  html += `<p class="credit">${esc(d.source.credit)}<br>
+    利用条件：${esc(d.source.license)}。届出内容を項目ごとに整理して掲載しています。
+    <a href="${esc(d.source.url)}" target="_blank" rel="noopener">国土交通省ウェブサイト（新しいウインドウで開きます）</a></p>`;
+
+  const sec = document.getElementById('recallSection');
+  sec.innerHTML = html;
+  sec.hidden = false;
+
+  const btn = document.getElementById('toggleSpecial');
+  if (btn) btn.addEventListener('click', () => {
+    const box = document.getElementById('specialBox');
+    box.hidden = !box.hidden;
+    btn.textContent = box.hidden ? `特装車向けの届出（${uniq(special)}件）も表示` : '特装車向けの届出を隠す';
+  });
+}
+
+// 世代ごとの見出しと一覧
+function renderGeneration(title, list, genId) {
+  const groups = groupByBase(list);
+  return `<h3>${esc(title)}：${groups.length}件</h3>` +
+    groups.map(grp => renderGroup(grp, genId)).join('');
+}
+
+// 枝番（-1, -2 …）を同じ届出としてまとめる。新しい順
+function groupByBase(list) {
+  const map = new Map();
+  for (const r of list) {
+    if (!map.has(r.baseNo)) map.set(r.baseNo, []);
+    map.get(r.baseNo).push(r);
+  }
+  return [...map.values()]
+    .map(g => g.sort((a, b) => a.no.localeCompare(b.no)))
+    .sort((a, b) => b[0].date.localeCompare(a[0].date));
+}
+
+// 届出1件分（クリックで詳細が開く）
+function renderGroup(grp, genId) {
+  const head = grp[0];
+  const devices = [...new Set(grp.map(r => r.device))].join('・');
+  const units = grp.length === 1 ? head.units : `${grp.length}件に分けて届出`;
+  const kindCls = head.kind === 'リコール' ? 'kind recall-k' : 'kind';
+  const branches = grp.map(r => {
+    // この世代の型式だけを表示（旧型と新型をまたぐ届出もあるため）
+    const targets = r.targets.filter(t => !genId || genOf(t.typeCode) === genId || genId === 'current');
+    return `<div class="branch">
+      ${grp.length > 1 ? `<h4>${esc(r.no)}（${esc(r.device)}）</h4>` : ''}
+      <dl>
+        <dt>状況</dt><dd>${esc(r.situation)}</dd>
+        <dt>対策</dt><dd>${esc(r.measures)}</dd>
+        <dt>対象台数</dt><dd>${esc(r.units)}（他車種を含む届出全体の台数）</dd>
+        <dt>製作期間</dt><dd>${esc(r.productionPeriod)}</dd>
+        <dt>対象の型式</dt><dd>${targets.map(t => `${esc(t.typeCode)}：${esc(t.chassisRange)}`).join('<br>')}</dd>
+        <dt>詳細</dt><dd><a href="${esc(r.url)}" target="_blank" rel="noopener">国土交通省の届出ページ（新しいウインドウ）</a></dd>
+      </dl>
+    </div>`;
+  }).join('');
+
+  return `<details class="recall">
+    <summary>
+      <span class="date">${esc(head.date.replace(/-/g, '/'))}</span>
+      <span class="no">${esc(head.baseNo)}</span>
+      <span class="${kindCls}">${esc(head.kind)}</span>
+      <span>${esc(devices)}</span>
+      <span class="units">${esc(units)}</span>
+    </summary>
+    <div class="recall-body">${branches}</div>
+  </details>`;
+}
+
+// 型式から世代を判定（CX-5: KE系=初代、KF系=2代目）
+function genOf(typeCode) {
+  if (/-KE/.test(typeCode)) return 'KE';
+  if (/-KF/.test(typeCode)) return 'KF';
+  return '';
+}
 
 function formatYen(v) {
   const n = Number(v);
