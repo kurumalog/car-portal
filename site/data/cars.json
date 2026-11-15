@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-15T07:09:04.890Z",
+  "generatedAt": "2026-11-15T07:25:01.570Z",
   "modelCount": 47,
   "gradeCount": 339,
   "models": [
@@ -451,7 +451,7 @@
       "grades": [
         {
           "grade": "15S(HB)",
-          "typeCode": "要確認",
+          "typeCode": "6BA-BP5R",
           "drive": "FWD",
           "engine": "ガソリン",
           "displacementCc": "1496",
@@ -621,7 +621,7 @@
       "grades": [
         {
           "grade": "25S",
-          "typeCode": "要確認",
+          "typeCode": "5BA-KH5P",
           "drive": "FWD",
           "engine": "ガソリン",
           "displacementCc": "2488",
@@ -629,11 +629,11 @@
           "priceYen": "要確認",
           "releaseDate": "2026-03",
           "fuelEconomyWltc": "14.1",
-          "note": "価格は当該PDFに記載なし。別資料で要確認"
+          "note": "価格は当該PDFに記載なし。別資料で要確認。型式の根拠：data/typecode-evidence.csv"
         },
         {
           "grade": "25S 4WD",
-          "typeCode": "要確認",
+          "typeCode": "5BA-KH5P",
           "drive": "4WD",
           "engine": "ガソリン",
           "displacementCc": "2488",
@@ -645,7 +645,7 @@
         },
         {
           "grade": "25S L Package",
-          "typeCode": "要確認",
+          "typeCode": "5BA-KH5P",
           "drive": "FWD",
           "engine": "ガソリン",
           "displacementCc": "2488",
@@ -657,7 +657,7 @@
         },
         {
           "grade": "25S L Package 4WD",
-          "typeCode": "要確認",
+          "typeCode": "5BA-KH5P",
           "drive": "4WD",
           "engine": "ガソリン",
           "displacementCc": "2488",
@@ -669,7 +669,7 @@
         },
         {
           "grade": "XD",
-          "typeCode": "要確認",
+          "typeCode": "3DA-KH3P",
           "drive": "FWD",
           "engine": "ディーゼル",
           "displacementCc": "3283",
@@ -681,7 +681,7 @@
         },
         {
           "grade": "XD 4WD",
-          "typeCode": "要確認",
+          "typeCode": "3DA-KH3P",
           "drive": "4WD",
           "engine": "ディーゼル",
           "displacementCc": "3283",
@@ -693,7 +693,7 @@
         },
         {
           "grade": "XD-HYBRID 4WD",
-          "typeCode": "要確認",
+          "typeCode": "3CA-KH3R3P",
           "drive": "4WD",
           "engine": "ディーゼルハイブリッド",
           "displacementCc": "3283",
@@ -705,7 +705,7 @@
         },
         {
           "grade": "PHEV 4WD",
-          "typeCode": "要確認",
+          "typeCode": "5LA-KH5S3P",
           "drive": "4WD",
           "engine": "PHEV",
           "displacementCc": "2488",
@@ -918,7 +918,7 @@
       "grades": [
         {
           "grade": "A-NR",
-          "typeCode": "要確認",
+          "typeCode": "5BA-ND5RE",
           "drive": "FR",
           "engine": "ガソリン",
           "displacementCc": "1496",
@@ -930,7 +930,7 @@
         },
         {
           "grade": "Selection V",
-          "typeCode": "要確認",
+          "typeCode": "5BA-ND5RE",
           "drive": "FR",
           "engine": "ガソリン",
           "displacementCc": "1496",
@@ -942,7 +942,7 @@
         },
         {
           "grade": "Package Special S",
-          "typeCode": "要確認",
+          "typeCode": "5BA-ND5RE",
           "drive": "FR",
           "engine": "ガソリン",
           "displacementCc": "1496",
@@ -954,7 +954,7 @@
         },
         {
           "grade": "Package Leather S",
-          "typeCode": "要確認",
+          "typeCode": "5BA-ND5RE",
           "drive": "FR",
           "engine": "ガソリン",
           "displacementCc": "1496",
@@ -966,7 +966,7 @@
         },
         {
           "grade": "S",
-          "typeCode": "要確認",
+          "typeCode": "5BA-ND5RE",
           "drive": "FR",
           "engine": "ガソリン",
           "displacementCc": "1496",
@@ -997,7 +997,7 @@
       "grades": [
         {
           "grade": "S",
-          "typeCode": "要確認",
+          "typeCode": "5BA-NDERE",
           "drive": "FR",
           "engine": "ガソリン",
           "displacementCc": "1997",
@@ -1005,11 +1005,11 @@
           "priceYen": "3850000",
           "releaseDate": "2026-06",
           "fuelEconomyWltc": "12.0",
-          "note": "RFクーペ。カタログ2026年6月版"
+          "note": "RFクーペ。カタログ2026年6月版。型式の根拠：data/typecode-evidence.csv"
         },
         {
           "grade": "VS",
-          "typeCode": "要確認",
+          "typeCode": "5BA-NDERE",
           "drive": "FR",
           "engine": "ガソリン",
           "displacementCc": "1997",
@@ -1021,7 +1021,7 @@
         },
         {
           "grade": "RS",
-          "typeCode": "要確認",
+          "typeCode": "5BA-NDERE",
           "drive": "FR",
           "engine": "ガソリン",
           "displacementCc": "1997",
